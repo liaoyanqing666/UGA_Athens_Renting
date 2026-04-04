@@ -1,0 +1,228 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UGA Athens 租房信息</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <button class="theme-toggle" type="button" data-theme-toggle>黑夜模式</button>
+
+      <section class="star-banner">
+        <div class="star-banner__body">
+          <p class="star-banner__eyebrow">Support This Project</p>
+          <h2 class="star-banner__title">这份 Athens 租房整理如果帮你省下了选房时间，给项目点个 Star。</h2>
+          <p class="star-banner__text">项目地址在 <a href="https://github.com/liaoyanqing666/UGA_Athens_Renting" target="_blank" rel="noreferrer">github.com/liaoyanqing666/UGA_Athens_Renting</a>。如果有疑问可以提 <a href="https://github.com/liaoyanqing666/UGA_Athens_Renting/issues" target="_blank" rel="noreferrer">Issue</a>，如果想自己更新租房数据，请看 <a href="./update.html">更新数据说明</a>。</p>
+        </div>
+        <a class="star-banner__action" href="https://github.com/liaoyanqing666/UGA_Athens_Renting" target="_blank" rel="noreferrer">去 GitHub 点 Star</a>
+      </section>
+
+      <header class="hero">
+        <div class="hero__copy">
+          <p class="eyebrow">UGA Athens Renting</p>
+          <h1 class="hero__title">2026 Fall Athens 公寓筛选</h1>
+          <p class="hero__text">基于原始 Excel 数据整理的选房页面。支持按区域、预算、评分、家具情况和通勤条件快速筛选，右侧列表会根据屏幕宽度自动调整列数。</p>
+          <div class="hero__actions">
+            <a class="hero-action hero-action--primary" href="./table.html">在数据表格中查看</a>
+            <a class="hero-action" href="https://www.google.com/maps/d/edit?mid=1ooMiqrCHx2RVI0O97TrKhHmKrmN72_Y&usp=sharing" target="_blank" rel="noreferrer">打开谷歌地图</a>
+            <a class="hero-action" href="./update.html">更新数据</a>
+          </div>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__label">总公寓数</span>
+            <strong id="stat-total">-</strong>
+          </div>
+          <div class="stat">
+            <span class="stat__label">当前结果</span>
+            <strong id="stat-visible">-</strong>
+          </div>
+          <div class="stat">
+            <span class="stat__label">作者</span>
+            <strong><a class="stat__link" href="https://github.com/liaoyanqing666" target="_blank" rel="noreferrer">Siyuan Li</a></strong>
+          </div>
+        </div>
+      </header>
+
+      <details class="panel panel--map map-panel">
+        <summary class="map-panel__summary">
+          <div>
+            <p class="panel__eyebrow">Map</p>
+            <h2>公寓地图</h2>
+          </div>
+          <span class="map-panel__toggle">展开 / 收起</span>
+        </summary>
+
+        <div class="map-panel__content">
+          <div class="section-head">
+            <p class="panel__hint">地图可直接浏览，或在新窗口中打开完整 Google My Maps。</p>
+            <a class="ghost-button ghost-button--link" href="https://www.google.com/maps/d/edit?mid=1ooMiqrCHx2RVI0O97TrKhHmKrmN72_Y&usp=sharing" target="_blank" rel="noreferrer">新窗口打开</a>
+          </div>
+          <div class="map-frame">
+            <iframe title="UGA Athens Apartments Map" src="https://www.google.com/maps/d/embed?mid=1ooMiqrCHx2RVI0O97TrKhHmKrmN72_Y&usp=sharing" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </details>
+
+      <details class="panel panel--muted panel--notes notes-panel">
+        <summary class="notes-panel__summary">
+          <div>
+            <p class="panel__eyebrow">Notes</p>
+            <h2 class="panel__title">数据口径</h2>
+          </div>
+          <span class="notes-panel__toggle">展开 / 收起</span>
+        </summary>
+        <div class="notes-panel__content">
+          <p class="panel__hint">保留几个最关键字段，方便快速理解表格含义。</p>
+          <ul id="column-notes" class="notes-list"></ul>
+        </div>
+      </details>
+
+      <main class="layout">
+        <aside class="filters">
+          <div class="panel panel--filters">
+            <div class="panel__header">
+              <div>
+                <p class="panel__eyebrow">Filters</p>
+                <h2 class="panel__title">筛选条件</h2>
+              </div>
+              <button id="reset-filters" class="ghost-button" type="button">重置</button>
+            </div>
+
+            <div class="field-grid">
+              <label class="field field--search">
+                <span>关键词</span>
+                <input id="filter-search" type="search" placeholder="公寓名、备注、设施" />
+              </label>
+
+              <label class="field">
+                <span>家具</span>
+                <select id="filter-furnished">
+                  <option value="">全部</option>
+                  <option value="含家具">含家具</option>
+                  <option value="不含家具">不含家具</option>
+                  <option value="含 / 不含混合">含 / 不含混合</option>
+                </select>
+              </label>
+
+              <label class="field">
+                <span>最高人均最低价 (USD)</span>
+                <input id="filter-max-price" type="number" min="0" step="1" placeholder="如 1000" />
+              </label>
+
+              <label class="field">
+                <span>最低 Google 评分</span>
+                <input id="filter-min-rating" type="number" min="0" max="5" step="0.1" placeholder="如 4.0" />
+              </label>
+
+              <label class="field">
+                <span>开车最多分钟</span>
+                <input id="filter-max-drive" type="number" min="0" step="1" placeholder="如 15" />
+              </label>
+
+              <label class="field">
+                <span>公交最多分钟</span>
+                <input id="filter-max-bus" type="number" min="0" step="1" placeholder="如 30" />
+              </label>
+
+              <label class="field">
+                <span>排序方式</span>
+                <select id="sort-by">
+                  <option value="region-asc">按地区排序</option>
+                  <option value="price-asc">价格从低到高</option>
+                  <option value="rating-desc">评分从高到低</option>
+                  <option value="drive-asc">开车时间从短到长</option>
+                  <option value="bus-asc">公交时间从短到长</option>
+                  <option value="name-asc">名称 A-Z</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="check-grid">
+              <details class="check-dropdown">
+                <summary>区域多选</summary>
+                <div id="filter-region-group" class="check-list"></div>
+              </details>
+
+              <details class="check-dropdown">
+                <summary>具体房型多选</summary>
+                <div id="filter-layout-group" class="check-list"></div>
+              </details>
+            </div>
+          </div>
+        </aside>
+
+        <section class="results">
+          <div class="results-head">
+            <div>
+              <p class="results-head__eyebrow">Listings</p>
+              <h2 class="panel__title">公寓结果</h2>
+            </div>
+            <div id="results-meta" class="results-meta"></div>
+          </div>
+          <div id="cards" class="cards"></div>
+        </section>
+      </main>
+    </div>
+
+    <template id="card-template">
+      <article class="card">
+        <div class="card__top">
+          <div class="card__heading">
+            <p class="card__region"></p>
+            <h3 class="card__title"></h3>
+          </div>
+          <a class="card__link" target="_blank" rel="noreferrer">官网</a>
+        </div>
+
+        <div class="metric-grid">
+          <div class="metric">
+            <span class="metric__label">人均最低价</span>
+            <strong class="metric__value metric__price"></strong>
+          </div>
+          <div class="metric">
+            <span class="metric__label">Google 评分</span>
+            <strong class="metric__value metric__rating"></strong>
+          </div>
+          <div class="metric">
+            <span class="metric__label">开车</span>
+            <strong class="metric__value metric__drive"></strong>
+          </div>
+          <div class="metric">
+            <span class="metric__label">公交</span>
+            <strong class="metric__value metric__bus"></strong>
+          </div>
+        </div>
+
+        <div class="tags card__tags"></div>
+
+        <div class="card__section">
+          <h4>可用房型</h4>
+          <div class="unit-list"></div>
+        </div>
+
+        <div class="card__section">
+          <h4>评价与费用</h4>
+          <p class="card__reviews"></p>
+          <p class="card__fees"></p>
+        </div>
+
+        <details class="details">
+          <summary>更多信息</summary>
+          <div class="details__content">
+            <p><strong>位置：</strong><span class="card__location"></span></p>
+            <p><strong>设施：</strong><span class="card__amenities"></span></p>
+            <p><strong>备注：</strong><span class="card__notes"></span></p>
+            <p><strong>原始通勤：</strong><span class="card__raw-commute"></span></p>
+          </div>
+        </details>
+      </article>
+    </template>
+
+    <script src="./theme.js" type="module"></script>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>

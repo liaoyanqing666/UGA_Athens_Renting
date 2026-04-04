@@ -1,0 +1,6125 @@
+{
+  "generatedAt": "2026-04-04T04:42:52.958923+00:00",
+  "sourceFile": "26fall renting.xlsx",
+  "sheetName": "Sheet1",
+  "columns": [
+    "名称",
+    "地理位置",
+    "位置",
+    "房型",
+    "大小",
+    "人均价格(最低)",
+    "家具",
+    "距离Boyd开车(mile/min)",
+    "骑车(mile/min)",
+    "公交/shuttle bus",
+    "谷歌评分",
+    "谷歌评价",
+    "各种费用(如有写明)(不含申请费)",
+    "社区设施(运动)",
+    "注意事项/备注",
+    "网址"
+  ],
+  "columnNotes": {
+    "名称": "并非都为学生公寓，住户不保证都为学生。如果有26fall-27fall专属提前报价则以其为准，否则采用当前价格。原始表格中绿色代表谷歌地图标记为“学生住宿中心”",
+    "地理位置": null,
+    "位置": null,
+    "房型": "2b2.5b按照2b2b考虑计算，仅考虑可用的房型",
+    "大小": "最低价房型大小",
+    "人均价格(最低)": "按卧室数量平均",
+    "家具": "是否包含卧室内家具",
+    "距离Boyd开车(mile/min)": "按照半夜未堵车情况计算",
+    "骑车(mile/min)": null,
+    "公交/shuttle bus": "不考虑等车时间，以周一8am查看公交线路",
+    "谷歌评分": null,
+    "谷歌评价": "人工总结，问题需一年内至少两条评论提及",
+    "各种费用(如有写明)(不含申请费)": "仅包含公开写明的免费或收费项，不含入住一次性费用",
+    "社区设施(运动)": "根据公寓说明和照片查看，可能有疏漏，尤其是打印机",
+    "注意事项/备注": null,
+    "网址": null
+  },
+  "recordCount": 76,
+  "apartments": [
+    {
+      "id": "uncommon-athens",
+      "rowNumber": 3,
+      "name": "uncommon athens",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 4.3,
+      "googleReviewSummary": "4.3分，近期无差评",
+      "fees": "停车50/70，无水费，无垃圾费，无网费，管理费10",
+      "amenitiesText": "健身房，乒乓球桌，打印机",
+      "amenities": [
+        "健身房",
+        "乒乓球桌",
+        "打印机"
+      ],
+      "notes": "",
+      "website": "https://www.uncommonathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "1.5/6",
+          "miles": 1.5,
+          "minutes": 6.0
+        },
+        "bike": {
+          "raw": "1.7/11",
+          "miles": 1.7,
+          "minutes": 11.0
+        },
+        "bus": {
+          "raw": "18，无shuttle",
+          "minutes": 18.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 472.0,
+          "min_price_per_person": 1689.0,
+          "raw_size": "472",
+          "raw_price": "1689"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 902.0,
+          "min_price_per_person": 1249.0,
+          "raw_size": "902",
+          "raw_price": "1249"
+        },
+        {
+          "layout": "4b2b",
+          "bedrooms": 4.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1156.0,
+          "min_price_per_person": 1089.0,
+          "raw_size": "1156",
+          "raw_price": "1089"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1353.0,
+          "min_price_per_person": 1169.0,
+          "raw_size": "1353",
+          "raw_price": "1169"
+        }
+      ],
+      "summary": {
+        "unitCount": 4,
+        "minPricePerPerson": 1089.0,
+        "maxPricePerPerson": 1689.0,
+        "minSizeSqft": 472.0,
+        "maxSizeSqft": 1353.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 4b2b 4b4b",
+        "sizes": "472 902 1156 1353",
+        "prices": "1689 1249 1089 1169",
+        "drive": "1.5/6",
+        "bike": "1.7/11",
+        "bus": "18，无shuttle"
+      }
+    },
+    {
+      "id": "the-mark-athens",
+      "rowNumber": 4,
+      "name": "The Mark Athens",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 3.5,
+      "googleReviewSummary": "3.5分，维修维护、管理人员态度问题、收费问题",
+      "fees": "无垃圾费，无网费，停车55-115，具体收费见https://themarkathens.landmark-properties.com/price-calculator/",
+      "amenitiesText": "游泳池，健身房，台球桌，室内篮球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "台球桌",
+        "室内篮球场"
+      ],
+      "notes": "",
+      "website": "https://themarkathens.landmark-properties.com/",
+      "commute": {
+        "drive": {
+          "raw": "1.6/6",
+          "miles": 1.6,
+          "minutes": 6.0
+        },
+        "bike": {
+          "raw": "1.7/12",
+          "miles": 1.7,
+          "minutes": 12.0
+        },
+        "bus": {
+          "raw": "21，无shuttle",
+          "minutes": 21.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "studio",
+          "bedrooms": 0.0,
+          "bathrooms": 1.0,
+          "size_sqft": 452.0,
+          "min_price_per_person": 1775.0,
+          "raw_size": "452",
+          "raw_price": "1775"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 896.0,
+          "min_price_per_person": 1399.0,
+          "raw_size": "896",
+          "raw_price": "1399"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1211.0,
+          "min_price_per_person": 1315.0,
+          "raw_size": "1211",
+          "raw_price": "1315"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1442.0,
+          "min_price_per_person": 999.0,
+          "raw_size": "1442",
+          "raw_price": "999"
+        },
+        {
+          "layout": "5b5b",
+          "bedrooms": 5.0,
+          "bathrooms": 5.0,
+          "size_sqft": 1769.0,
+          "min_price_per_person": 1190.0,
+          "raw_size": "1769",
+          "raw_price": "1190"
+        }
+      ],
+      "summary": {
+        "unitCount": 5,
+        "minPricePerPerson": 999.0,
+        "maxPricePerPerson": 1775.0,
+        "minSizeSqft": 452.0,
+        "maxSizeSqft": 1769.0
+      },
+      "raw": {
+        "layouts": "studio 2b2b 3b3b 4b4b 5b5b",
+        "sizes": "452 896 1211 1442 1769",
+        "prices": "1775 1399 1315 999 1190",
+        "drive": "1.6/6",
+        "bike": "1.7/12",
+        "bus": "21，无shuttle"
+      }
+    },
+    {
+      "id": "accolade-athens",
+      "rowNumber": 5,
+      "name": "Accolade Athens",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 4.2,
+      "googleReviewSummary": "4.2分，火警警报问题，维护问题",
+      "fees": "租金仅含账单处理费，停车40/70",
+      "amenitiesText": "游泳池，健身房，台球桌，打印机",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "台球桌",
+        "打印机"
+      ],
+      "notes": "",
+      "website": "https://www.accoladeathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "1.6/6",
+          "miles": 1.6,
+          "minutes": 6.0
+        },
+        "bike": {
+          "raw": "1.5/11",
+          "miles": 1.5,
+          "minutes": 11.0
+        },
+        "bus": {
+          "raw": "22，无shuttle",
+          "minutes": 22.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "studio",
+          "bedrooms": 0.0,
+          "bathrooms": 1.0,
+          "size_sqft": 477.0,
+          "min_price_per_person": 1842.0,
+          "raw_size": "477",
+          "raw_price": "1842"
+        },
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 628.0,
+          "min_price_per_person": 1942.0,
+          "raw_size": "628",
+          "raw_price": "1942"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 859.0,
+          "min_price_per_person": 1277.0,
+          "raw_size": "859",
+          "raw_price": "1277"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1161.0,
+          "min_price_per_person": 1147.0,
+          "raw_size": "1161",
+          "raw_price": "1147"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1318.0,
+          "min_price_per_person": 972.0,
+          "raw_size": "1318",
+          "raw_price": "972"
+        },
+        {
+          "layout": "5b5b",
+          "bedrooms": 5.0,
+          "bathrooms": 5.0,
+          "size_sqft": 1668.0,
+          "min_price_per_person": 1057.0,
+          "raw_size": "1668",
+          "raw_price": "1057"
+        }
+      ],
+      "summary": {
+        "unitCount": 6,
+        "minPricePerPerson": 972.0,
+        "maxPricePerPerson": 1942.0,
+        "minSizeSqft": 477.0,
+        "maxSizeSqft": 1668.0
+      },
+      "raw": {
+        "layouts": "studio 1b1b 2b2b 3b3b 4b4b 5b5b",
+        "sizes": "477 628 859 1161 1318 1668",
+        "prices": "1842 1942 1277 1147 972 1057",
+        "drive": "1.6/6",
+        "bike": "1.5/11",
+        "bus": "22，无shuttle"
+      }
+    },
+    {
+      "id": "the-view-at-noda",
+      "rowNumber": 6,
+      "name": "The View at NoDA",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 2.1,
+      "googleReviewSummary": "2.1分（12条评价），联系不上问题",
+      "fees": "无停车费（第三方数据）",
+      "amenitiesText": "健身房，打印机",
+      "amenities": [
+        "健身房",
+        "打印机"
+      ],
+      "notes": "线下探访后：此公寓为面向社会的affordable apart，要求收入在某个范围内。不接受预订26fall，最多提前一个月打电话订房。",
+      "website": "https://www.theviewatnoda.com/",
+      "commute": {
+        "drive": {
+          "raw": "1.8/7",
+          "miles": 1.8,
+          "minutes": 7.0
+        },
+        "bike": {
+          "raw": "2.0/14",
+          "miles": 2.0,
+          "minutes": 14.0
+        },
+        "bus": {
+          "raw": "29，无shuttle",
+          "minutes": 29.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 753.0,
+          "min_price_per_person": 1100.0,
+          "raw_size": "753",
+          "raw_price": "1100"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1099.0,
+          "min_price_per_person": 650.0,
+          "raw_size": "1099",
+          "raw_price": "650"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1416.0,
+          "min_price_per_person": 500.0,
+          "raw_size": "1416",
+          "raw_price": "500"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 500.0,
+        "maxPricePerPerson": 1100.0,
+        "minSizeSqft": 753.0,
+        "maxSizeSqft": 1416.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b",
+        "sizes": "753 1099 1416",
+        "prices": "1100 650 500",
+        "drive": "1.8/7",
+        "bike": "2.0/14",
+        "bus": "29，无shuttle"
+      }
+    },
+    {
+      "id": "newberry-apartments",
+      "rowNumber": 7,
+      "name": "Newberry Apartments",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 3.9,
+      "googleReviewSummary": "3.9分，近期无差评",
+      "fees": "停车费45起",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "包含三个子公寓：The rive, newberry north, newberry central，位置略有差别",
+      "website": "https://www.livenewberry.com/",
+      "commute": {
+        "drive": {
+          "raw": "2.0/6",
+          "miles": 2.0,
+          "minutes": 6.0
+        },
+        "bike": {
+          "raw": "1.7/13",
+          "miles": 1.7,
+          "minutes": 13.0
+        },
+        "bus": {
+          "raw": "23，无shuttle",
+          "minutes": 23.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": null,
+          "min_price_per_person": 985.0,
+          "raw_size": null,
+          "raw_price": "985"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": null,
+          "min_price_per_person": 915.0,
+          "raw_size": null,
+          "raw_price": "915"
+        },
+        {
+          "layout": "4b3b",
+          "bedrooms": 4.0,
+          "bathrooms": 3.0,
+          "size_sqft": null,
+          "min_price_per_person": 889.0,
+          "raw_size": null,
+          "raw_price": "889"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": null,
+          "min_price_per_person": 785.0,
+          "raw_size": null,
+          "raw_price": "785"
+        }
+      ],
+      "summary": {
+        "unitCount": 4,
+        "minPricePerPerson": 785.0,
+        "maxPricePerPerson": 985.0,
+        "minSizeSqft": null,
+        "maxSizeSqft": null
+      },
+      "raw": {
+        "layouts": "2b2b 3b3b 4b3b 4b4b",
+        "sizes": "未知",
+        "prices": "985 915 889 785",
+        "drive": "2.0/6",
+        "bike": "1.7/13",
+        "bus": "23，无shuttle"
+      }
+    },
+    {
+      "id": "755-broad-apartments",
+      "rowNumber": 8,
+      "name": "755 Broad Apartments",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.4,
+      "googleReviewSummary": "4.4分，近期无差评",
+      "fees": "水垃圾40-60/apt，停车费50",
+      "amenitiesText": "小游泳池，健身房",
+      "amenities": [
+        "小游泳池",
+        "健身房"
+      ],
+      "notes": "apply online似乎有问题，价格来自apartments.com",
+      "website": "https://755broad.com/",
+      "commute": {
+        "drive": {
+          "raw": "1.4/7",
+          "miles": 1.4,
+          "minutes": 7.0
+        },
+        "bike": {
+          "raw": "1.5/11",
+          "miles": 1.5,
+          "minutes": 11.0
+        },
+        "bus": {
+          "raw": "18，无shuttle",
+          "minutes": 18.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 597.0,
+          "min_price_per_person": 1570.0,
+          "raw_size": "597",
+          "raw_price": "1570"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 741.0,
+          "min_price_per_person": 993.0,
+          "raw_size": "741",
+          "raw_price": "993"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1627.0,
+          "min_price_per_person": 1317.0,
+          "raw_size": "1627",
+          "raw_price": "1317"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1456.0,
+          "min_price_per_person": 1307.0,
+          "raw_size": "1456",
+          "raw_price": "1307"
+        }
+      ],
+      "summary": {
+        "unitCount": 4,
+        "minPricePerPerson": 993.0,
+        "maxPricePerPerson": 1570.0,
+        "minSizeSqft": 597.0,
+        "maxSizeSqft": 1627.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b 3b3b",
+        "sizes": "597 741 1627 1456",
+        "prices": "1570 993 1317 1307",
+        "drive": "1.4/7",
+        "bike": "1.5/11",
+        "bus": "18，无shuttle"
+      }
+    },
+    {
+      "id": "eclipse-on-broad",
+      "rowNumber": 9,
+      "name": "Eclipse on Broad",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 3.5,
+      "googleReviewSummary": "3.5分，虫害问题，管理问题",
+      "fees": "有停车费，价格未知",
+      "amenitiesText": "健身房",
+      "amenities": [
+        "健身房"
+      ],
+      "notes": "价格来自apartments.com",
+      "website": "https://eclipseonbroad.com/",
+      "commute": {
+        "drive": {
+          "raw": "1.5/7",
+          "miles": 1.5,
+          "minutes": 7.0
+        },
+        "bike": {
+          "raw": "1.5/12",
+          "miles": 1.5,
+          "minutes": 12.0
+        },
+        "bus": {
+          "raw": "19，无shuttle",
+          "minutes": 19.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1582.0,
+          "min_price_per_person": 859.0,
+          "raw_size": "1582",
+          "raw_price": "859"
+        }
+      ],
+      "summary": {
+        "unitCount": 1,
+        "minPricePerPerson": 859.0,
+        "maxPricePerPerson": 859.0,
+        "minSizeSqft": 1582.0,
+        "maxSizeSqft": 1582.0
+      },
+      "raw": {
+        "layouts": "4b4b",
+        "sizes": "1582",
+        "prices": "859",
+        "drive": "1.5/7",
+        "bike": "1.5/12",
+        "bus": "19，无shuttle"
+      }
+    },
+    {
+      "id": "lark-athens",
+      "rowNumber": 10,
+      "name": "Lark Athens",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.6,
+      "googleReviewSummary": "3.6分，近期差评极多，维护问题，管理问题，虫害问题，卫生问题",
+      "fees": "无停车费",
+      "amenitiesText": "游泳池，健身房，台球桌",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "台球桌"
+      ],
+      "notes": "华人群里避雷较多",
+      "website": "https://larkathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "1.5/7",
+          "miles": 1.5,
+          "minutes": 7.0
+        },
+        "bike": {
+          "raw": "1.5/12",
+          "miles": 1.5,
+          "minutes": 12.0
+        },
+        "bus": {
+          "raw": "20，无shuttle",
+          "minutes": 20.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "studio",
+          "bedrooms": 0.0,
+          "bathrooms": 1.0,
+          "size_sqft": 585.0,
+          "min_price_per_person": 1299.0,
+          "raw_size": "585",
+          "raw_price": "1299"
+        },
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 881.0,
+          "min_price_per_person": 1399.0,
+          "raw_size": "881",
+          "raw_price": "1399"
+        },
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 1030.0,
+          "min_price_per_person": 919.0,
+          "raw_size": "1030",
+          "raw_price": "919"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1098.0,
+          "min_price_per_person": 999.0,
+          "raw_size": "1098",
+          "raw_price": "999"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1337.0,
+          "min_price_per_person": 849.0,
+          "raw_size": "1337",
+          "raw_price": "849"
+        },
+        {
+          "layout": "4b3b",
+          "bedrooms": 4.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1782.0,
+          "min_price_per_person": 899.0,
+          "raw_size": "1782",
+          "raw_price": "899"
+        }
+      ],
+      "summary": {
+        "unitCount": 6,
+        "minPricePerPerson": 849.0,
+        "maxPricePerPerson": 1399.0,
+        "minSizeSqft": 585.0,
+        "maxSizeSqft": 1782.0
+      },
+      "raw": {
+        "layouts": "studio 1b1b 2b1b 2b2b 3b2b 4b3b",
+        "sizes": "585 881 1030 1098 1337 1782",
+        "prices": "1299 1399 919 999 849 899",
+        "drive": "1.5/7",
+        "bike": "1.5/12",
+        "bus": "20，无shuttle"
+      }
+    },
+    {
+      "id": "1785-club",
+      "rowNumber": 11,
+      "name": "1785 Club",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.9,
+      "googleReviewSummary": "3.9分（19条评价），安保问题",
+      "fees": "有停车费，价格未知",
+      "amenitiesText": "健身房，乒乓球桌",
+      "amenities": [
+        "健身房",
+        "乒乓球桌"
+      ],
+      "notes": "",
+      "website": "https://www.the1785club.com/",
+      "commute": {
+        "drive": {
+          "raw": "1.3/6",
+          "miles": 1.3,
+          "minutes": 6.0
+        },
+        "bike": {
+          "raw": "1.3/11",
+          "miles": 1.3,
+          "minutes": 11.0
+        },
+        "bus": {
+          "raw": "24，无shuttle",
+          "minutes": 24.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "studio",
+          "bedrooms": 0.0,
+          "bathrooms": 1.0,
+          "size_sqft": 354.0,
+          "min_price_per_person": 1525.0,
+          "raw_size": "354",
+          "raw_price": "1525"
+        },
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 617.0,
+          "min_price_per_person": 1775.0,
+          "raw_size": "617",
+          "raw_price": "1775"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 765.0,
+          "min_price_per_person": 1425.0,
+          "raw_size": "765",
+          "raw_price": "1425"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 1425.0,
+        "maxPricePerPerson": 1775.0,
+        "minSizeSqft": 354.0,
+        "maxSizeSqft": 765.0
+      },
+      "raw": {
+        "layouts": "studio 1b1b 2b2b",
+        "sizes": "354 617 765",
+        "prices": "1525 1775 1425",
+        "drive": "1.3/6",
+        "bike": "1.3/11",
+        "bus": "24，无shuttle"
+      }
+    },
+    {
+      "id": "the-flats-at-carrs-hill",
+      "rowNumber": 12,
+      "name": "The Flats At Carrs Hill",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 4.1,
+      "googleReviewSummary": "4.1分，近期评价尚可，搬出费用问题",
+      "fees": "有停车费，价格未知（第三方数据45）",
+      "amenitiesText": "游泳池，健身房，台球桌，乒乓球桌",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "台球桌",
+        "乒乓球桌"
+      ],
+      "notes": "",
+      "website": "https://www.theflatsatcarrshill.com/",
+      "commute": {
+        "drive": {
+          "raw": "1.9/9",
+          "miles": 1.9,
+          "minutes": 9.0
+        },
+        "bike": {
+          "raw": "1.7/14",
+          "miles": 1.7,
+          "minutes": 14.0
+        },
+        "bus": {
+          "raw": "29，无shuttle",
+          "minutes": 29.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 904.0,
+          "min_price_per_person": 1354.0,
+          "raw_size": "904",
+          "raw_price": "1354"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1184.0,
+          "min_price_per_person": 1329.0,
+          "raw_size": "1184",
+          "raw_price": "1329"
+        }
+      ],
+      "summary": {
+        "unitCount": 2,
+        "minPricePerPerson": 1329.0,
+        "maxPricePerPerson": 1354.0,
+        "minSizeSqft": 904.0,
+        "maxSizeSqft": 1184.0
+      },
+      "raw": {
+        "layouts": "2b2b 3b3b",
+        "sizes": "904 1184",
+        "prices": "1354 1329",
+        "drive": "1.9/9",
+        "bike": "1.7/14",
+        "bus": "29，无shuttle"
+      }
+    },
+    {
+      "id": "the-maxxen-athens",
+      "rowNumber": 13,
+      "name": "The Maxxen Athens",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 4.4,
+      "googleReviewSummary": "4.4分，近期无差评",
+      "fees": "无水费，无垃圾费，无网费，有停车费，价格未知（谷歌评价说75）",
+      "amenitiesText": "小游泳池，健身房，台球桌，乒乓球桌",
+      "amenities": [
+        "小游泳池",
+        "健身房",
+        "台球桌",
+        "乒乓球桌"
+      ],
+      "notes": "",
+      "website": "https://www.themaxxenathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "1.6/7",
+          "miles": 1.6,
+          "minutes": 7.0
+        },
+        "bike": {
+          "raw": "1.4/9",
+          "miles": 1.4,
+          "minutes": 9.0
+        },
+        "bus": {
+          "raw": "29，无shuttle",
+          "minutes": 29.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "studio",
+          "bedrooms": 0.0,
+          "bathrooms": 1.0,
+          "size_sqft": 384.0,
+          "min_price_per_person": 1660.0,
+          "raw_size": "384",
+          "raw_price": "1660"
+        },
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 446.0,
+          "min_price_per_person": 1799.0,
+          "raw_size": "446",
+          "raw_price": "1799"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 669.0,
+          "min_price_per_person": 1099.0,
+          "raw_size": "669",
+          "raw_price": "1099"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1060.0,
+          "min_price_per_person": 1425.0,
+          "raw_size": "1060",
+          "raw_price": "1425"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1210.0,
+          "min_price_per_person": 999.0,
+          "raw_size": "1210",
+          "raw_price": "999"
+        }
+      ],
+      "summary": {
+        "unitCount": 5,
+        "minPricePerPerson": 999.0,
+        "maxPricePerPerson": 1799.0,
+        "minSizeSqft": 384.0,
+        "maxSizeSqft": 1210.0
+      },
+      "raw": {
+        "layouts": "studio 1b1b 2b2b 3b3b 4b4b",
+        "sizes": "384 446 669 1060 1210",
+        "prices": "1660 1799 1099 1425 999",
+        "drive": "1.6/7",
+        "bike": "1.4/9",
+        "bus": "29，无shuttle"
+      }
+    },
+    {
+      "id": "rambler-athens",
+      "rowNumber": 14,
+      "name": "Rambler Athens",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 4.4,
+      "googleReviewSummary": "4.4分，垃圾问题，停车位紧张问题，火警警报问题",
+      "fees": "垃圾费5，停车费75/95",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "",
+      "website": "https://ramblerathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "1.4/6",
+          "miles": 1.4,
+          "minutes": 6.0
+        },
+        "bike": {
+          "raw": "1.2/7",
+          "miles": 1.2,
+          "minutes": 7.0
+        },
+        "bus": {
+          "raw": "25，无shuttle",
+          "minutes": 25.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "studio",
+          "bedrooms": 0.0,
+          "bathrooms": 1.0,
+          "size_sqft": 400.0,
+          "min_price_per_person": 1609.0,
+          "raw_size": "400",
+          "raw_price": "1609"
+        },
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 512.0,
+          "min_price_per_person": 1819.0,
+          "raw_size": "512",
+          "raw_price": "1819"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 746.0,
+          "min_price_per_person": 1499.0,
+          "raw_size": "746",
+          "raw_price": "1499"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1018.0,
+          "min_price_per_person": 1439.0,
+          "raw_size": "1018",
+          "raw_price": "1439"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1245.0,
+          "min_price_per_person": 1289.0,
+          "raw_size": "1245",
+          "raw_price": "1289"
+        },
+        {
+          "layout": "5b5b",
+          "bedrooms": 5.0,
+          "bathrooms": 5.0,
+          "size_sqft": 1480.0,
+          "min_price_per_person": 1329.0,
+          "raw_size": "1480",
+          "raw_price": "1329"
+        }
+      ],
+      "summary": {
+        "unitCount": 6,
+        "minPricePerPerson": 1289.0,
+        "maxPricePerPerson": 1819.0,
+        "minSizeSqft": 400.0,
+        "maxSizeSqft": 1480.0
+      },
+      "raw": {
+        "layouts": "studio 1b1b 2b2b 3b3b 4b4b 5b5b",
+        "sizes": "400 512 746 1018 1245 1480",
+        "prices": "1609 1819 1499 1439 1289 1329",
+        "drive": "1.4/6",
+        "bike": "1.2/7",
+        "bus": "25，无shuttle"
+      }
+    },
+    {
+      "id": "hub-athens-apartments",
+      "rowNumber": 15,
+      "name": "Hub Athens Apartments",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 4.6,
+      "googleReviewSummary": "4.6分，火警警报问题",
+      "fees": "技术费5，停车费175起",
+      "amenitiesText": "游泳池，健身房，乒乓球桌",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "乒乓球桌"
+      ],
+      "notes": "按床位计价，1b有两个床位",
+      "website": "https://www.hubathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "1.6/8",
+          "miles": 1.6,
+          "minutes": 8.0
+        },
+        "bike": {
+          "raw": "1.2/9",
+          "miles": 1.2,
+          "minutes": 9.0
+        },
+        "bus": {
+          "raw": "21，无shuttle",
+          "minutes": 21.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "studio",
+          "bedrooms": 0.0,
+          "bathrooms": 1.0,
+          "size_sqft": 450.0,
+          "min_price_per_person": 849.0,
+          "raw_size": "450",
+          "raw_price": "849"
+        },
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 515.0,
+          "min_price_per_person": 1049.0,
+          "raw_size": "515",
+          "raw_price": "1049"
+        },
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 543.0,
+          "min_price_per_person": 1205.0,
+          "raw_size": "543",
+          "raw_price": "1205"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 847.0,
+          "min_price_per_person": 1349.0,
+          "raw_size": "847",
+          "raw_price": "1349"
+        },
+        {
+          "layout": "4b2b",
+          "bedrooms": 4.0,
+          "bathrooms": 2.0,
+          "size_sqft": 983.0,
+          "min_price_per_person": 1165.0,
+          "raw_size": "983",
+          "raw_price": "1165"
+        },
+        {
+          "layout": "5b4b",
+          "bedrooms": 5.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1342.0,
+          "min_price_per_person": 1225.0,
+          "raw_size": "1342",
+          "raw_price": "1225"
+        }
+      ],
+      "summary": {
+        "unitCount": 6,
+        "minPricePerPerson": 849.0,
+        "maxPricePerPerson": 1349.0,
+        "minSizeSqft": 450.0,
+        "maxSizeSqft": 1342.0
+      },
+      "raw": {
+        "layouts": "studio 1b1b 2b1b 3b2b 4b2b 5b4b",
+        "sizes": "450 515 543 847 983 1342",
+        "prices": "849 1049 1205 1349 1165 1225",
+        "drive": "1.6/8",
+        "bike": "1.2/9",
+        "bus": "21，无shuttle"
+      }
+    },
+    {
+      "id": "georgia-heights",
+      "rowNumber": 16,
+      "name": "Georgia Heights",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 4.3,
+      "googleReviewSummary": "4.3分，管理问题，收费问题",
+      "fees": "off-Site无停车费",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "",
+      "website": "https://www.americancampus.com/student-apartments/ga/athens/georgia-heights",
+      "commute": {
+        "drive": {
+          "raw": "1.1/6",
+          "miles": 1.1,
+          "minutes": 6.0
+        },
+        "bike": {
+          "raw": "1.1/7",
+          "miles": 1.1,
+          "minutes": 7.0
+        },
+        "bus": {
+          "raw": "13，无shuttle",
+          "minutes": 13.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 475.0,
+          "min_price_per_person": 1659.0,
+          "raw_size": "475",
+          "raw_price": "1659"
+        },
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 744.0,
+          "min_price_per_person": 1289.0,
+          "raw_size": "744",
+          "raw_price": "1289"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 784.0,
+          "min_price_per_person": 1389.0,
+          "raw_size": "784",
+          "raw_price": "1389"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 1289.0,
+        "maxPricePerPerson": 1659.0,
+        "minSizeSqft": 475.0,
+        "maxSizeSqft": 784.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b1b 2b2b",
+        "sizes": "475 744 784",
+        "prices": "1659 1289 1389",
+        "drive": "1.1/6",
+        "bike": "1.1/7",
+        "bus": "13，无shuttle"
+      }
+    },
+    {
+      "id": "100-prince-apartments",
+      "rowNumber": 17,
+      "name": "100 Prince Apartments",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.3,
+      "googleReviewSummary": "4.3分，近期无差评",
+      "fees": "电视网费82，水账单费7.25，垃圾费7，害虫费5",
+      "amenitiesText": "无",
+      "amenities": [
+        "无"
+      ],
+      "notes": "商住一体楼，一楼为超市等商业",
+      "website": "https://www.100princeathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "1.6/7",
+          "miles": 1.6,
+          "minutes": 7.0
+        },
+        "bike": {
+          "raw": "1.5/10",
+          "miles": 1.5,
+          "minutes": 10.0
+        },
+        "bus": {
+          "raw": "33，无shuttle",
+          "minutes": 33.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 728.0,
+          "min_price_per_person": 1710.0,
+          "raw_size": "728",
+          "raw_price": "1710"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1167.0,
+          "min_price_per_person": 1083.0,
+          "raw_size": "1167",
+          "raw_price": "1083"
+        }
+      ],
+      "summary": {
+        "unitCount": 2,
+        "minPricePerPerson": 1083.0,
+        "maxPricePerPerson": 1710.0,
+        "minSizeSqft": 728.0,
+        "maxSizeSqft": 1167.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b",
+        "sizes": "728 1167",
+        "prices": "1710 1083",
+        "drive": "1.6/7",
+        "bike": "1.5/10",
+        "bus": "33，无shuttle"
+      }
+    },
+    {
+      "id": "farmer-s-exchange-athens",
+      "rowNumber": 18,
+      "name": "Farmer's Exchange Athens",
+      "region": "downtown",
+      "location": "Athens, GA",
+      "furnished": "含/不含",
+      "googleRating": 3.5,
+      "googleReviewSummary": "3.5分（18条），老旧问题",
+      "fees": "费用均未写明",
+      "amenitiesText": "台球桌",
+      "amenities": [
+        "台球桌"
+      ],
+      "notes": "官网信息极少，样板图都是由AI生成的，右下角有gemini的logo",
+      "website": "https://farmersathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "1.3/5",
+          "miles": 1.3,
+          "minutes": 5.0
+        },
+        "bike": {
+          "raw": "1.3/9",
+          "miles": 1.3,
+          "minutes": 9.0
+        },
+        "bus": {
+          "raw": "17，无shuttle",
+          "minutes": 17.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 600.0,
+          "min_price_per_person": 1295.0,
+          "raw_size": "600",
+          "raw_price": "1295"
+        },
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 510.0,
+          "min_price_per_person": 845.0,
+          "raw_size": "510",
+          "raw_price": "845"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 801.0,
+          "min_price_per_person": 895.0,
+          "raw_size": "801",
+          "raw_price": "895"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 827.0,
+          "min_price_per_person": 895.0,
+          "raw_size": "827",
+          "raw_price": "895"
+        },
+        {
+          "layout": "4b2b",
+          "bedrooms": 4.0,
+          "bathrooms": 2.0,
+          "size_sqft": 881.0,
+          "min_price_per_person": 745.0,
+          "raw_size": "881",
+          "raw_price": "745"
+        },
+        {
+          "layout": "6b2b",
+          "bedrooms": 6.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1383.0,
+          "min_price_per_person": 595.0,
+          "raw_size": "1383",
+          "raw_price": "595"
+        },
+        {
+          "layout": "6b3b",
+          "bedrooms": 6.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1247.0,
+          "min_price_per_person": 645.0,
+          "raw_size": "1247",
+          "raw_price": "645"
+        }
+      ],
+      "summary": {
+        "unitCount": 7,
+        "minPricePerPerson": 595.0,
+        "maxPricePerPerson": 1295.0,
+        "minSizeSqft": 510.0,
+        "maxSizeSqft": 1383.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b1b 2b2b 3b2b 4b2b 6b2b 6b3b",
+        "sizes": "600 510 801 827 881 1383 1247",
+        "prices": "1295 845 895 895 745 595 645",
+        "drive": "1.3/5",
+        "bike": "1.3/9",
+        "bus": "17，无shuttle"
+      }
+    },
+    {
+      "id": "ikon-at-athens",
+      "rowNumber": 19,
+      "name": "Ikon at Athens",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "含/不含",
+      "googleRating": 3.8,
+      "googleReviewSummary": "3.8分，收费问题，维修问题",
+      "fees": "无停车费",
+      "amenitiesText": "游泳池，健身房，打印机",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "打印机"
+      ],
+      "notes": "包含含家具和不含家具两种floor plan，价格相差一点",
+      "website": "https://ikonathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "3.2/8",
+          "miles": 3.2,
+          "minutes": 8.0
+        },
+        "bike": {
+          "raw": "3.2/20",
+          "miles": 3.2,
+          "minutes": 20.0
+        },
+        "bus": {
+          "raw": "44，有shuttle（7.30am-5.30pm）",
+          "minutes": 44.0,
+          "hasShuttle": true
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1357.0,
+          "min_price_per_person": 1079.0,
+          "raw_size": "1357",
+          "raw_price": "1079"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1641.0,
+          "min_price_per_person": 879.0,
+          "raw_size": "1641",
+          "raw_price": "879"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 2150.0,
+          "min_price_per_person": 859.0,
+          "raw_size": "2150",
+          "raw_price": "859"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 859.0,
+        "maxPricePerPerson": 1079.0,
+        "minSizeSqft": 1357.0,
+        "maxSizeSqft": 2150.0
+      },
+      "raw": {
+        "layouts": "2b2b 3b3b 4b4b",
+        "sizes": "1357 1641 2150",
+        "prices": "1079 879 859",
+        "drive": "3.2/8",
+        "bike": "3.2/20",
+        "bus": "44，有shuttle（7.30am-5.30pm）"
+      }
+    },
+    {
+      "id": "the-haven-of-athens",
+      "rowNumber": 20,
+      "name": "The Haven of Athens",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.6,
+      "googleReviewSummary": "4.6分，近期无差评",
+      "fees": "房租含垃圾费，停车费40（也可能为0）",
+      "amenitiesText": "游泳池，健身房，台球桌，乒乓球桌",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "台球桌",
+        "乒乓球桌"
+      ],
+      "notes": "账单中提到有两个停车场要收费40/month，不确定是否只有这两个停车场",
+      "website": "https://www.thehavenathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "3.5/8",
+          "miles": 3.5,
+          "minutes": 8.0
+        },
+        "bike": {
+          "raw": "3.6/22",
+          "miles": 3.6,
+          "minutes": 22.0
+        },
+        "bus": {
+          "raw": "45，无shuttle",
+          "minutes": 45.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1046.0,
+          "min_price_per_person": 995.0,
+          "raw_size": "1046",
+          "raw_price": "995"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1416.0,
+          "min_price_per_person": 900.0,
+          "raw_size": "1416",
+          "raw_price": "900"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1626.0,
+          "min_price_per_person": 875.0,
+          "raw_size": "1626",
+          "raw_price": "875"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 875.0,
+        "maxPricePerPerson": 995.0,
+        "minSizeSqft": 1046.0,
+        "maxSizeSqft": 1626.0
+      },
+      "raw": {
+        "layouts": "2b2b 3b3b 4b4b",
+        "sizes": "1046 1416 1626",
+        "prices": "995 900 875",
+        "drive": "3.5/8",
+        "bike": "3.6/22",
+        "bus": "45，无shuttle"
+      }
+    },
+    {
+      "id": "atlas-athens",
+      "rowNumber": 21,
+      "name": "Atlas Athens",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 4.0,
+      "googleReviewSummary": "4.0分，网络问题，班车可靠性问题，管理问题",
+      "fees": "停车费10/25",
+      "amenitiesText": "游泳池，健身房，台球桌，篮球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "台球桌",
+        "篮球场"
+      ],
+      "notes": "似乎对没有美国担保人的学生要额外收大几十刀每月的担保费",
+      "website": "https://www.liveatlasathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "4.0/10",
+          "miles": 4.0,
+          "minutes": 10.0
+        },
+        "bike": {
+          "raw": "4.3/28",
+          "miles": 4.3,
+          "minutes": 28.0
+        },
+        "bus": {
+          "raw": "46，有shuttle（时间未知）",
+          "minutes": 46.0,
+          "hasShuttle": true
+        }
+      },
+      "units": [
+        {
+          "layout": "studio",
+          "bedrooms": 0.0,
+          "bathrooms": 1.0,
+          "size_sqft": 444.0,
+          "min_price_per_person": 1400.0,
+          "raw_size": "444",
+          "raw_price": "1400"
+        },
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 538.0,
+          "min_price_per_person": 1500.0,
+          "raw_size": "538",
+          "raw_price": "1500"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 814.0,
+          "min_price_per_person": 875.0,
+          "raw_size": "814",
+          "raw_price": "875"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1084.0,
+          "min_price_per_person": 955.0,
+          "raw_size": "1084",
+          "raw_price": "955"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1450.0,
+          "min_price_per_person": 905.0,
+          "raw_size": "1450",
+          "raw_price": "905"
+        },
+        {
+          "layout": "5b5b",
+          "bedrooms": 5.0,
+          "bathrooms": 5.0,
+          "size_sqft": 1800.0,
+          "min_price_per_person": 990.0,
+          "raw_size": "1800",
+          "raw_price": "990"
+        }
+      ],
+      "summary": {
+        "unitCount": 6,
+        "minPricePerPerson": 875.0,
+        "maxPricePerPerson": 1500.0,
+        "minSizeSqft": 444.0,
+        "maxSizeSqft": 1800.0
+      },
+      "raw": {
+        "layouts": "studio 1b1b 2b2b 3b3b 4b4b 5b5b",
+        "sizes": "444 538 814 1084 1450 1800",
+        "prices": "1400 1500 875 955 905 990",
+        "drive": "4.0/10",
+        "bike": "4.3/28",
+        "bus": "46，有shuttle（时间未知）"
+      }
+    },
+    {
+      "id": "willow-mist-condos",
+      "rowNumber": 22,
+      "name": "Willow Mist Condos",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.4,
+      "googleReviewSummary": "3.4分，虫害问题，霉菌问题",
+      "fees": "无停车费",
+      "amenitiesText": "游泳池，网球场，篮球场",
+      "amenities": [
+        "游泳池",
+        "网球场",
+        "篮球场"
+      ],
+      "notes": "",
+      "website": "https://www.willowmistathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "4.6/10",
+          "miles": 4.6,
+          "minutes": 10.0
+        },
+        "bike": {
+          "raw": "5.5/32",
+          "miles": 5.5,
+          "minutes": 32.0
+        },
+        "bus": {
+          "raw": "48，无shuttle",
+          "minutes": 48.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 1100.0,
+          "min_price_per_person": 725.0,
+          "raw_size": "1100",
+          "raw_price": "725"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1300.0,
+          "min_price_per_person": 550.0,
+          "raw_size": "1300",
+          "raw_price": "550"
+        }
+      ],
+      "summary": {
+        "unitCount": 2,
+        "minPricePerPerson": 550.0,
+        "maxPricePerPerson": 725.0,
+        "minSizeSqft": 1100.0,
+        "maxSizeSqft": 1300.0
+      },
+      "raw": {
+        "layouts": "2b1b 3b2b",
+        "sizes": "1100 1300",
+        "prices": "725 550",
+        "drive": "4.6/10",
+        "bike": "5.5/32",
+        "bus": "48，无shuttle"
+      }
+    },
+    {
+      "id": "ascent-athens",
+      "rowNumber": 23,
+      "name": "Ascent Athens",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.2,
+      "googleReviewSummary": "4.2分，近期无差评",
+      "fees": "无停车费",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "",
+      "website": "https://ascentathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "3.9/10",
+          "miles": 3.9,
+          "minutes": 10.0
+        },
+        "bike": {
+          "raw": "2.9/19",
+          "miles": 2.9,
+          "minutes": 19.0
+        },
+        "bus": {
+          "raw": "47，无shuttle",
+          "minutes": 47.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 735.0,
+          "min_price_per_person": 1382.0,
+          "raw_size": "735",
+          "raw_price": "1382"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1082.0,
+          "min_price_per_person": 837.0,
+          "raw_size": "1082",
+          "raw_price": "837"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1418.0,
+          "min_price_per_person": 612.0,
+          "raw_size": "1418",
+          "raw_price": "612"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1374.0,
+          "min_price_per_person": 642.0,
+          "raw_size": "1374",
+          "raw_price": "642"
+        }
+      ],
+      "summary": {
+        "unitCount": 4,
+        "minPricePerPerson": 612.0,
+        "maxPricePerPerson": 1382.0,
+        "minSizeSqft": 735.0,
+        "maxSizeSqft": 1418.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b 3b3b",
+        "sizes": "735 1082 1418 1374",
+        "prices": "1382 837 612 642",
+        "drive": "3.9/10",
+        "bike": "2.9/19",
+        "bus": "47，无shuttle"
+      }
+    },
+    {
+      "id": "summit-of-athens",
+      "rowNumber": 24,
+      "name": "Summit of Athens",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.0,
+      "googleReviewSummary": "4.0分，无近期评价",
+      "fees": "无停车费",
+      "amenitiesText": "游泳池，小健身房，网球场，篮球场，台球桌，打印机",
+      "amenities": [
+        "游泳池",
+        "小健身房",
+        "网球场",
+        "篮球场",
+        "台球桌",
+        "打印机"
+      ],
+      "notes": "与Woodlands of Athens同一公司和网站，价格来自apartmenthomeliving.com",
+      "website": "https://summitofathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "3.6/9",
+          "miles": 3.6,
+          "minutes": 9.0
+        },
+        "bike": {
+          "raw": "3.4/21",
+          "miles": 3.4,
+          "minutes": 21.0
+        },
+        "bus": {
+          "raw": "50，无shuttle",
+          "minutes": 50.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1120.0,
+          "min_price_per_person": 800.0,
+          "raw_size": "1120",
+          "raw_price": "800"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1406.0,
+          "min_price_per_person": 700.0,
+          "raw_size": "1406",
+          "raw_price": "700"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1848.0,
+          "min_price_per_person": 800.0,
+          "raw_size": "1848",
+          "raw_price": "800"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 700.0,
+        "maxPricePerPerson": 800.0,
+        "minSizeSqft": 1120.0,
+        "maxSizeSqft": 1848.0
+      },
+      "raw": {
+        "layouts": "2b2b 3b3b 4b4b",
+        "sizes": "1120 1406 1848",
+        "prices": "800 700 800",
+        "drive": "3.6/9",
+        "bike": "3.4/21",
+        "bus": "50，无shuttle"
+      }
+    },
+    {
+      "id": "woodlands-of-athens",
+      "rowNumber": 25,
+      "name": "Woodlands of Athens",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.9,
+      "googleReviewSummary": "3.9分，近期无差评",
+      "fees": "无停车费",
+      "amenitiesText": "游泳池，小健身房，网球场，篮球场，台球桌，打印机",
+      "amenities": [
+        "游泳池",
+        "小健身房",
+        "网球场",
+        "篮球场",
+        "台球桌",
+        "打印机"
+      ],
+      "notes": "与Woodlands of Athens同一公司和网站，价格来自apartmentfinder.com",
+      "website": "https://summitofathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "3.6/9",
+          "miles": 3.6,
+          "minutes": 9.0
+        },
+        "bike": {
+          "raw": "2.6/16",
+          "miles": 2.6,
+          "minutes": 16.0
+        },
+        "bus": {
+          "raw": "49，无shuttle",
+          "minutes": 49.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 640.0,
+          "min_price_per_person": 1400.0,
+          "raw_size": "640",
+          "raw_price": "1400"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1041.0,
+          "min_price_per_person": 800.0,
+          "raw_size": "1041",
+          "raw_price": "800"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1148.0,
+          "min_price_per_person": 700.0,
+          "raw_size": "1148",
+          "raw_price": "700"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1736.0,
+          "min_price_per_person": 800.0,
+          "raw_size": "1736",
+          "raw_price": "800"
+        }
+      ],
+      "summary": {
+        "unitCount": 4,
+        "minPricePerPerson": 700.0,
+        "maxPricePerPerson": 1400.0,
+        "minSizeSqft": 640.0,
+        "maxSizeSqft": 1736.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b3b 4b4b",
+        "sizes": "640 1041 1148 1736",
+        "prices": "1400 800 700 800",
+        "drive": "3.6/9",
+        "bike": "2.6/16",
+        "bus": "49，无shuttle"
+      }
+    },
+    {
+      "id": "woodsong-village",
+      "rowNumber": 26,
+      "name": "Woodsong Village",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.9,
+      "googleReviewSummary": "3.9分（9条评价），近期无差评",
+      "fees": "无停车费",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "1b1b显示comming soon，但有价格",
+      "website": "https://www.livewoodsongvillage.com/",
+      "commute": {
+        "drive": {
+          "raw": "3.5/8",
+          "miles": 3.5,
+          "minutes": 8.0
+        },
+        "bike": {
+          "raw": "3.3/20",
+          "miles": 3.3,
+          "minutes": 20.0
+        },
+        "bus": {
+          "raw": "49，无shuttle",
+          "minutes": 49.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 650.0,
+          "min_price_per_person": 1343.0,
+          "raw_size": "650",
+          "raw_price": "1343"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1442.0,
+          "min_price_per_person": 768.0,
+          "raw_size": "1442",
+          "raw_price": "768"
+        },
+        {
+          "layout": "4b3b",
+          "bedrooms": 4.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1600.0,
+          "min_price_per_person": 643.0,
+          "raw_size": "1600",
+          "raw_price": "643"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1533.0,
+          "min_price_per_person": 703.0,
+          "raw_size": "1533",
+          "raw_price": "703"
+        }
+      ],
+      "summary": {
+        "unitCount": 4,
+        "minPricePerPerson": 643.0,
+        "maxPricePerPerson": 1343.0,
+        "minSizeSqft": 650.0,
+        "maxSizeSqft": 1600.0
+      },
+      "raw": {
+        "layouts": "1b1b 3b3b 4b3b 4b4b",
+        "sizes": "650 1442 1600 1533",
+        "prices": "1343 768 643 703",
+        "drive": "3.5/8",
+        "bike": "3.3/20",
+        "bus": "49，无shuttle"
+      }
+    },
+    {
+      "id": "the-pointe-apartments",
+      "rowNumber": 27,
+      "name": "The Pointe Apartments",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.0,
+      "googleReviewSummary": "4.0分，近期无差评",
+      "fees": "无停车费，垃圾费5，责任险18，害虫费2",
+      "amenitiesText": "游泳池，健身房，网球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "网球场"
+      ],
+      "notes": "",
+      "website": "https://www.liveatthepointe.com/",
+      "commute": {
+        "drive": {
+          "raw": "4.3/9",
+          "miles": 4.3,
+          "minutes": 9.0
+        },
+        "bike": {
+          "raw": "4.1/24",
+          "miles": 4.1,
+          "minutes": 24.0
+        },
+        "bus": {
+          "raw": "55，无shuttle",
+          "minutes": 55.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 800.0,
+          "min_price_per_person": 975.0,
+          "raw_size": "800",
+          "raw_price": "975"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1200.0,
+          "min_price_per_person": 575.0,
+          "raw_size": "1200",
+          "raw_price": "575"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1470.0,
+          "min_price_per_person": 438.0,
+          "raw_size": "1470",
+          "raw_price": "438"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 438.0,
+        "maxPricePerPerson": 975.0,
+        "minSizeSqft": 800.0,
+        "maxSizeSqft": 1470.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b",
+        "sizes": "800 1200 1470",
+        "prices": "975 575 438",
+        "drive": "4.3/9",
+        "bike": "4.1/24",
+        "bus": "55，无shuttle"
+      }
+    },
+    {
+      "id": "cambridge-apartments",
+      "rowNumber": 28,
+      "name": "Cambridge Apartments",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.4,
+      "googleReviewSummary": "3.4分，蟑螂问题，维护问题，管理问题",
+      "fees": "锁具租赁费30，害虫费5，垃圾费12",
+      "amenitiesText": "游泳池，小健身房，网球场，篮球场",
+      "amenities": [
+        "游泳池",
+        "小健身房",
+        "网球场",
+        "篮球场"
+      ],
+      "notes": "",
+      "website": "https://www.cambridgeapthomes.com/",
+      "commute": {
+        "drive": {
+          "raw": "3.4/8",
+          "miles": 3.4,
+          "minutes": 8.0
+        },
+        "bike": {
+          "raw": "3.2/20",
+          "miles": 3.2,
+          "minutes": 20.0
+        },
+        "bus": {
+          "raw": "50，无shuttle",
+          "minutes": 50.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 670.0,
+          "min_price_per_person": 895.0,
+          "raw_size": "670",
+          "raw_price": "895"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1025.0,
+          "min_price_per_person": 546.0,
+          "raw_size": "1025",
+          "raw_price": "546"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1150.0,
+          "min_price_per_person": 434.0,
+          "raw_size": "1150",
+          "raw_price": "434"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 434.0,
+        "maxPricePerPerson": 895.0,
+        "minSizeSqft": 670.0,
+        "maxSizeSqft": 1150.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b",
+        "sizes": "670 1025 1150",
+        "prices": "895 546 434",
+        "drive": "3.4/8",
+        "bike": "3.2/20",
+        "bus": "50，无shuttle"
+      }
+    },
+    {
+      "id": "polo-club-athens-apartments",
+      "rowNumber": 29,
+      "name": "Polo Club Athens Apartments",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 4.2,
+      "googleReviewSummary": "4.2分，近期无差评",
+      "fees": "无停车费",
+      "amenitiesText": "游泳池，健身房，台球桌，网球场，匹克球场，篮球场，打印机",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "台球桌",
+        "网球场",
+        "匹克球场",
+        "篮球场",
+        "打印机"
+      ],
+      "notes": "",
+      "website": "https://www.poloclubuga.com/",
+      "commute": {
+        "drive": {
+          "raw": "3.4/8",
+          "miles": 3.4,
+          "minutes": 8.0
+        },
+        "bike": {
+          "raw": "3.2/19",
+          "miles": 3.2,
+          "minutes": 19.0
+        },
+        "bus": {
+          "raw": "21，无shuttle",
+          "minutes": 21.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 780.0,
+          "min_price_per_person": 899.0,
+          "raw_size": "780",
+          "raw_price": "899"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1220.0,
+          "min_price_per_person": 715.0,
+          "raw_size": "1220",
+          "raw_price": "715"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1440.0,
+          "min_price_per_person": 575.0,
+          "raw_size": "1440",
+          "raw_price": "575"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 575.0,
+        "maxPricePerPerson": 899.0,
+        "minSizeSqft": 780.0,
+        "maxSizeSqft": 1440.0
+      },
+      "raw": {
+        "layouts": "2b2b 3b3b 4b4b",
+        "sizes": "780 1220 1440",
+        "prices": "899 715 575",
+        "drive": "3.4/8",
+        "bike": "3.2/19",
+        "bus": "21，无shuttle"
+      }
+    },
+    {
+      "id": "joiner-management-arbor-creek",
+      "rowNumber": 30,
+      "name": "Joiner Management (Arbor Creek)",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.8,
+      "googleReviewSummary": "4.8分，近期无差评",
+      "fees": "无停车费",
+      "amenitiesText": "游泳池",
+      "amenities": [
+        "游泳池"
+      ],
+      "notes": "",
+      "website": "https://joinermanagement.com/arbor-creek-apartments/",
+      "commute": {
+        "drive": {
+          "raw": "3.2/8",
+          "miles": 3.2,
+          "minutes": 8.0
+        },
+        "bike": {
+          "raw": "3.1/19",
+          "miles": 3.1,
+          "minutes": 19.0
+        },
+        "bus": {
+          "raw": "21，无shuttle",
+          "minutes": 21.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1050.0,
+          "min_price_per_person": 700.0,
+          "raw_size": "1050",
+          "raw_price": "700"
+        }
+      ],
+      "summary": {
+        "unitCount": 1,
+        "minPricePerPerson": 700.0,
+        "maxPricePerPerson": 700.0,
+        "minSizeSqft": 1050.0,
+        "maxSizeSqft": 1050.0
+      },
+      "raw": {
+        "layouts": "2b2b",
+        "sizes": "1050",
+        "prices": "700",
+        "drive": "3.2/8",
+        "bike": "3.1/19",
+        "bus": "21，无shuttle"
+      }
+    },
+    {
+      "id": "1287-shoals-apartments",
+      "rowNumber": 31,
+      "name": "1287 Shoals Apartments",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.4,
+      "googleReviewSummary": "4.4分，管理问题，蟑螂问题",
+      "fees": "无停车费，害虫费7，垃圾费25，水费40/60/80，包裹接收费7",
+      "amenitiesText": "游泳池，健身房，网球场，匹克球场，打印机",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "网球场",
+        "匹克球场",
+        "打印机"
+      ],
+      "notes": "价格为当前价格，且价格对应入住时间可能不为12个月",
+      "website": "https://www.1287shoals.com/",
+      "commute": {
+        "drive": {
+          "raw": "4.2/10",
+          "miles": 4.2,
+          "minutes": 10.0
+        },
+        "bike": {
+          "raw": "4.1/25",
+          "miles": 4.1,
+          "minutes": 25.0
+        },
+        "bus": {
+          "raw": "51，无shuttle",
+          "minutes": 51.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 815.0,
+          "min_price_per_person": 1244.0,
+          "raw_size": "815",
+          "raw_price": "1244"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1150.0,
+          "min_price_per_person": 666.0,
+          "raw_size": "1150",
+          "raw_price": "666"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1362.0,
+          "min_price_per_person": 549.0,
+          "raw_size": "1362",
+          "raw_price": "549"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 549.0,
+        "maxPricePerPerson": 1244.0,
+        "minSizeSqft": 815.0,
+        "maxSizeSqft": 1362.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b3b",
+        "sizes": "815 1150 1362",
+        "prices": "1244 666 549",
+        "drive": "4.2/10",
+        "bike": "4.1/25",
+        "bus": "51，无shuttle"
+      }
+    },
+    {
+      "id": "legacy-of-athens-apartments",
+      "rowNumber": 32,
+      "name": "Legacy of Athens Apartments",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.5,
+      "googleReviewSummary": "3.5分，虫害问题，管理问题",
+      "fees": "无停车费",
+      "amenitiesText": "游泳池，健身房，网球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "网球场"
+      ],
+      "notes": "",
+      "website": "https://www.legacyofathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "4.3/10",
+          "miles": 4.3,
+          "minutes": 10.0
+        },
+        "bike": {
+          "raw": "4.2/24",
+          "miles": 4.2,
+          "minutes": 24.0
+        },
+        "bus": {
+          "raw": "55，无shuttle",
+          "minutes": 55.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 775.0,
+          "min_price_per_person": 999.0,
+          "raw_size": "775",
+          "raw_price": "999"
+        },
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 850.0,
+          "min_price_per_person": 550.0,
+          "raw_size": "850",
+          "raw_price": "550"
+        },
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 1135.0,
+          "min_price_per_person": 625.0,
+          "raw_size": "1135",
+          "raw_price": "625"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1106.0,
+          "min_price_per_person": 433.0,
+          "raw_size": "1106",
+          "raw_price": "433"
+        }
+      ],
+      "summary": {
+        "unitCount": 4,
+        "minPricePerPerson": 433.0,
+        "maxPricePerPerson": 999.0,
+        "minSizeSqft": 775.0,
+        "maxSizeSqft": 1135.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b1b 2b1b 3b2b",
+        "sizes": "775 850 1135 1106",
+        "prices": "999 550 625 433",
+        "drive": "4.3/10",
+        "bike": "4.2/24",
+        "bus": "55，无shuttle"
+      }
+    },
+    {
+      "id": "the-reserve-at-athens",
+      "rowNumber": 33,
+      "name": "The Reserve at Athens",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 3.4,
+      "googleReviewSummary": "3.4分，管理问题，虫害问题，网络问题，维护问题",
+      "fees": "无停车费",
+      "amenitiesText": "游泳池，小健身房，网球场，篮球场，台球桌，打印机",
+      "amenities": [
+        "游泳池",
+        "小健身房",
+        "网球场",
+        "篮球场",
+        "台球桌",
+        "打印机"
+      ],
+      "notes": "",
+      "website": "https://reserveatathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "3.7/10",
+          "miles": 3.7,
+          "minutes": 10.0
+        },
+        "bike": {
+          "raw": "3.5/21",
+          "miles": 3.5,
+          "minutes": 21.0
+        },
+        "bus": {
+          "raw": "27，无shuttle",
+          "minutes": 27.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 872.0,
+          "min_price_per_person": 805.0,
+          "raw_size": "872",
+          "raw_price": "805"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1400.0,
+          "min_price_per_person": 699.0,
+          "raw_size": "1400",
+          "raw_price": "699"
+        }
+      ],
+      "summary": {
+        "unitCount": 2,
+        "minPricePerPerson": 699.0,
+        "maxPricePerPerson": 805.0,
+        "minSizeSqft": 872.0,
+        "maxSizeSqft": 1400.0
+      },
+      "raw": {
+        "layouts": "2b2b 4b4b",
+        "sizes": "872 1400",
+        "prices": "805 699",
+        "drive": "3.7/10",
+        "bike": "3.5/21",
+        "bus": "27，无shuttle"
+      }
+    },
+    {
+      "id": "the-pointe-apartments-2",
+      "rowNumber": 34,
+      "name": "The Pointe Apartments",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.0,
+      "googleReviewSummary": "4.0分，近期无差评",
+      "fees": "无停车费，虫害2，垃圾5，责任免除费18",
+      "amenitiesText": "游泳池，健身房，网球场，排球场，打印机",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "网球场",
+        "排球场",
+        "打印机"
+      ],
+      "notes": "",
+      "website": "https://www.liveatthepointe.com/",
+      "commute": {
+        "drive": {
+          "raw": "4.3/10",
+          "miles": 4.3,
+          "minutes": 10.0
+        },
+        "bike": {
+          "raw": "4.1/24",
+          "miles": 4.1,
+          "minutes": 24.0
+        },
+        "bus": {
+          "raw": "55，无shuttle",
+          "minutes": 55.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 800.0,
+          "min_price_per_person": 975.0,
+          "raw_size": "800",
+          "raw_price": "975"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1200.0,
+          "min_price_per_person": 575.0,
+          "raw_size": "1200",
+          "raw_price": "575"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1470.0,
+          "min_price_per_person": 428.0,
+          "raw_size": "1470",
+          "raw_price": "428"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 428.0,
+        "maxPricePerPerson": 975.0,
+        "minSizeSqft": 800.0,
+        "maxSizeSqft": 1470.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b",
+        "sizes": "800 1200 1470",
+        "prices": "975 575 428",
+        "drive": "4.3/10",
+        "bike": "4.1/24",
+        "bus": "55，无shuttle"
+      }
+    },
+    {
+      "id": "knoll-creek",
+      "rowNumber": 35,
+      "name": "Knoll Creek",
+      "region": "学校东面，Georgetown plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.0,
+      "googleReviewSummary": "4.0分，管理问题，虫害问题",
+      "fees": "无停车费",
+      "amenitiesText": "无",
+      "amenities": [
+        "无"
+      ],
+      "notes": "",
+      "website": "https://knollcreekathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "2.8/6",
+          "miles": 2.8,
+          "minutes": 6.0
+        },
+        "bike": {
+          "raw": "2.6/16",
+          "miles": 2.6,
+          "minutes": 16.0
+        },
+        "bus": {
+          "raw": "57，无shuttle",
+          "minutes": 57.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1568.0,
+          "min_price_per_person": 795.0,
+          "raw_size": "1568",
+          "raw_price": "795"
+        }
+      ],
+      "summary": {
+        "unitCount": 1,
+        "minPricePerPerson": 795.0,
+        "maxPricePerPerson": 795.0,
+        "minSizeSqft": 1568.0,
+        "maxSizeSqft": 1568.0
+      },
+      "raw": {
+        "layouts": "3b3b",
+        "sizes": "1568",
+        "prices": "795",
+        "drive": "2.8/6",
+        "bike": "2.6/16",
+        "bus": "57，无shuttle"
+      }
+    },
+    {
+      "id": "enclave-425",
+      "rowNumber": 36,
+      "name": "Enclave 425",
+      "region": "学校南面",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 3.4,
+      "googleReviewSummary": "3.4分，管理问题，收费问题",
+      "fees": "停车费25，无水费，无垃圾费",
+      "amenitiesText": "游泳池，健身房，排球场，打印机",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "排球场",
+        "打印机"
+      ],
+      "notes": "停车费，shuttle bus来自第三方信息",
+      "website": "https://www.enclave425.com/",
+      "commute": {
+        "drive": {
+          "raw": "2.6/7",
+          "miles": 2.6,
+          "minutes": 7.0
+        },
+        "bike": {
+          "raw": "2.5/16",
+          "miles": 2.5,
+          "minutes": 16.0
+        },
+        "bus": {
+          "raw": "18，有shuttle（时间未知）",
+          "minutes": 18.0,
+          "hasShuttle": true
+        }
+      },
+      "units": [
+        {
+          "layout": "4b2b",
+          "bedrooms": 4.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1108.0,
+          "min_price_per_person": 625.0,
+          "raw_size": "1108",
+          "raw_price": "625"
+        },
+        {
+          "layout": "4b3b",
+          "bedrooms": 4.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1154.0,
+          "min_price_per_person": 600.0,
+          "raw_size": "1154",
+          "raw_price": "600"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1200.0,
+          "min_price_per_person": 550.0,
+          "raw_size": "1200",
+          "raw_price": "550"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 550.0,
+        "maxPricePerPerson": 625.0,
+        "minSizeSqft": 1108.0,
+        "maxSizeSqft": 1200.0
+      },
+      "raw": {
+        "layouts": "4b2b 4b3b 4b4b",
+        "sizes": "1108 1154 1200",
+        "prices": "625 600 550",
+        "drive": "2.6/7",
+        "bike": "2.5/16",
+        "bus": "18，有shuttle（时间未知）"
+      }
+    },
+    {
+      "id": "the-grove-at-five-points",
+      "rowNumber": 37,
+      "name": "The Grove at Five Points",
+      "region": "学校南面",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 2.6,
+      "googleReviewSummary": "2.6分，虫害问题，收费问题，服务人员态度问题",
+      "fees": "无停车费",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "租房网站挂掉了",
+      "website": "https://www.groveat5.com/",
+      "commute": {
+        "drive": {
+          "raw": "2.3/7",
+          "miles": 2.3,
+          "minutes": 7.0
+        },
+        "bike": {
+          "raw": "2.0/11",
+          "miles": 2.0,
+          "minutes": 11.0
+        },
+        "bus": {
+          "raw": "18，无shuttle",
+          "minutes": 18.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "studio",
+          "bedrooms": 0.0,
+          "bathrooms": 1.0,
+          "size_sqft": 300.0,
+          "min_price_per_person": 849.0,
+          "raw_size": "300",
+          "raw_price": "849"
+        },
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 708.0,
+          "min_price_per_person": 1199.0,
+          "raw_size": "708",
+          "raw_price": "1199"
+        },
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 880.0,
+          "min_price_per_person": 715.0,
+          "raw_size": "880",
+          "raw_price": "715"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 715.0,
+        "maxPricePerPerson": 1199.0,
+        "minSizeSqft": 300.0,
+        "maxSizeSqft": 880.0
+      },
+      "raw": {
+        "layouts": "studio 1b1b 2b1b",
+        "sizes": "300 708 880",
+        "prices": "849 1199 715",
+        "drive": "2.3/7",
+        "bike": "2.0/11",
+        "bus": "18，无shuttle"
+      }
+    },
+    {
+      "id": "arches-on-the-lake-student-living",
+      "rowNumber": 38,
+      "name": "Arches On The Lake Student Living",
+      "region": "学校南面",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 2.9,
+      "googleReviewSummary": "2.9分，霉菌问题，蟑螂问题，老鼠问题，维护问题，管理问题",
+      "fees": "停车25",
+      "amenitiesText": "游泳池，健身房，台球桌，篮球场，打印机",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "台球桌",
+        "篮球场",
+        "打印机"
+      ],
+      "notes": "",
+      "website": "https://www.archesonthelake.com/",
+      "commute": {
+        "drive": {
+          "raw": "3.0/8",
+          "miles": 3.0,
+          "minutes": 8.0
+        },
+        "bike": {
+          "raw": "3.1/19",
+          "miles": 3.1,
+          "minutes": 19.0
+        },
+        "bus": {
+          "raw": "22，无shuttle",
+          "minutes": 22.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 790.0,
+          "min_price_per_person": 699.0,
+          "raw_size": "790",
+          "raw_price": "699"
+        },
+        {
+          "layout": "4b2b",
+          "bedrooms": 4.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1200.0,
+          "min_price_per_person": 535.0,
+          "raw_size": "1200",
+          "raw_price": "535"
+        }
+      ],
+      "summary": {
+        "unitCount": 2,
+        "minPricePerPerson": 535.0,
+        "maxPricePerPerson": 699.0,
+        "minSizeSqft": 790.0,
+        "maxSizeSqft": 1200.0
+      },
+      "raw": {
+        "layouts": "2b1b 4b2b",
+        "sizes": "790 1200",
+        "prices": "699 535",
+        "drive": "3.0/8",
+        "bike": "3.1/19",
+        "bus": "22，无shuttle"
+      }
+    },
+    {
+      "id": "linden-lane",
+      "rowNumber": 39,
+      "name": "Linden Lane",
+      "region": "学校南面",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 5.0,
+      "googleReviewSummary": "5.0分（1条评价）",
+      "fees": "费用均未写明",
+      "amenitiesText": "无",
+      "amenities": [
+        "无"
+      ],
+      "notes": "官网信息极少，价格等信息来自https://www.apartments.com/",
+      "website": "https://www.lindenlaneapts.com/",
+      "commute": {
+        "drive": {
+          "raw": "2.9/7",
+          "miles": 2.9,
+          "minutes": 7.0
+        },
+        "bike": {
+          "raw": "2.7/18",
+          "miles": 2.7,
+          "minutes": 18.0
+        },
+        "bus": {
+          "raw": "16，无shuttle",
+          "minutes": 16.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1500.0,
+          "min_price_per_person": 905.0,
+          "raw_size": "1500",
+          "raw_price": "905"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 2280.0,
+          "min_price_per_person": 875.0,
+          "raw_size": "2280",
+          "raw_price": "875"
+        }
+      ],
+      "summary": {
+        "unitCount": 2,
+        "minPricePerPerson": 875.0,
+        "maxPricePerPerson": 905.0,
+        "minSizeSqft": 1500.0,
+        "maxSizeSqft": 2280.0
+      },
+      "raw": {
+        "layouts": "3b3b 4b4b",
+        "sizes": "1500 2280",
+        "prices": "905 875",
+        "drive": "2.9/7",
+        "bike": "2.7/18",
+        "bus": "16，无shuttle"
+      }
+    },
+    {
+      "id": "the-retreat-on-milledge",
+      "rowNumber": 40,
+      "name": "The Retreat on Milledge",
+      "region": "学校南面",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 3.8,
+      "googleReviewSummary": "3.8分，停车位紧缺问题",
+      "fees": "停车50一年或55一个月（预留车位），无网费",
+      "amenitiesText": "游泳池，健身房，台球桌，打印机",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "台球桌",
+        "打印机"
+      ],
+      "notes": "近期似乎有刷好评",
+      "website": "https://www.retreatonmilledge.com/",
+      "commute": {
+        "drive": {
+          "raw": "4.2/9",
+          "miles": 4.2,
+          "minutes": 9.0
+        },
+        "bike": {
+          "raw": "4.0/26",
+          "miles": 4.0,
+          "minutes": 26.0
+        },
+        "bus": {
+          "raw": "51，有shuttle（时间未知）",
+          "minutes": 51.0,
+          "hasShuttle": true
+        }
+      },
+      "units": [
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1361.0,
+          "min_price_per_person": 919.0,
+          "raw_size": "1361",
+          "raw_price": "919"
+        },
+        {
+          "layout": "5b5b",
+          "bedrooms": 5.0,
+          "bathrooms": 5.0,
+          "size_sqft": 2141.0,
+          "min_price_per_person": 884.0,
+          "raw_size": "2141",
+          "raw_price": "884"
+        }
+      ],
+      "summary": {
+        "unitCount": 2,
+        "minPricePerPerson": 884.0,
+        "maxPricePerPerson": 919.0,
+        "minSizeSqft": 1361.0,
+        "maxSizeSqft": 2141.0
+      },
+      "raw": {
+        "layouts": "3b3b 5b5b",
+        "sizes": "1361 2141",
+        "prices": "919 884",
+        "drive": "4.2/9",
+        "bike": "4.0/26",
+        "bus": "51，有shuttle（时间未知）"
+      }
+    },
+    {
+      "id": "university-garden-apartment-homes",
+      "rowNumber": 41,
+      "name": "University Garden Apartment Homes",
+      "region": "学校西面，Alps Village Plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 2.5,
+      "googleReviewSummary": "2.5分，虫害问题，管理问题",
+      "fees": "无停车费",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "官网可租日期暂时租不了fall",
+      "website": "https://www.universitygardenapts.com/",
+      "commute": {
+        "drive": {
+          "raw": "2.4/7",
+          "miles": 2.4,
+          "minutes": 7.0
+        },
+        "bike": {
+          "raw": "2.2/14",
+          "miles": 2.2,
+          "minutes": 14.0
+        },
+        "bus": {
+          "raw": "25，无shuttle",
+          "minutes": 25.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "studio",
+          "bedrooms": 0.0,
+          "bathrooms": 1.0,
+          "size_sqft": 400.0,
+          "min_price_per_person": 838.0,
+          "raw_size": "400",
+          "raw_price": "838"
+        },
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 626.0,
+          "min_price_per_person": 810.0,
+          "raw_size": "626",
+          "raw_price": "810"
+        }
+      ],
+      "summary": {
+        "unitCount": 2,
+        "minPricePerPerson": 810.0,
+        "maxPricePerPerson": 838.0,
+        "minSizeSqft": 400.0,
+        "maxSizeSqft": 626.0
+      },
+      "raw": {
+        "layouts": "studio 1b1b",
+        "sizes": "400 626",
+        "prices": "838 810",
+        "drive": "2.4/7",
+        "bike": "2.2/14",
+        "bus": "25，无shuttle"
+      }
+    },
+    {
+      "id": "the-wright-house",
+      "rowNumber": 42,
+      "name": "The Wright House",
+      "region": "学校西面，Alps Village Plaza附近",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 2.6,
+      "googleReviewSummary": "2.6分（11条评价）管理问题，蟑螂问题",
+      "fees": "停车费100，无垃圾费，无网络费",
+      "amenitiesText": "健身房，打印机",
+      "amenities": [
+        "健身房",
+        "打印机"
+      ],
+      "notes": "价格来自https://www.collegetownproperties.com/",
+      "website": "https://wrighthouseathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "0.4/2",
+          "miles": 0.4,
+          "minutes": 2.0
+        },
+        "bike": {
+          "raw": "0.4/2",
+          "miles": 0.4,
+          "minutes": 2.0
+        },
+        "bus": {
+          "raw": "7（走路），无shuttle",
+          "minutes": 7.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 549.0,
+          "min_price_per_person": 1999.0,
+          "raw_size": "549",
+          "raw_price": "1999"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 500.0,
+          "min_price_per_person": 1515.0,
+          "raw_size": "500",
+          "raw_price": "1515"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1300.0,
+          "min_price_per_person": 1300.0,
+          "raw_size": "1300",
+          "raw_price": "1300"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1220.0,
+          "min_price_per_person": 1125.0,
+          "raw_size": "1220",
+          "raw_price": "1125"
+        }
+      ],
+      "summary": {
+        "unitCount": 4,
+        "minPricePerPerson": 1125.0,
+        "maxPricePerPerson": 1999.0,
+        "minSizeSqft": 500.0,
+        "maxSizeSqft": 1300.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b3b 4b4b",
+        "sizes": "549 500 1300 1220",
+        "prices": "1999 1515 1300 1125",
+        "drive": "0.4/2",
+        "bike": "0.4/2",
+        "bus": "7（走路），无shuttle"
+      }
+    },
+    {
+      "id": "beechwood-pines",
+      "rowNumber": 43,
+      "name": "Beechwood Pines",
+      "region": "学校西面，Alps Village Plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.5,
+      "googleReviewSummary": "4.5分，近期无差评",
+      "fees": "停车费135（车库，来自第三方）",
+      "amenitiesText": "游泳池，健身房，打印机",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "打印机"
+      ],
+      "notes": "价格来自apartmentfinder",
+      "website": "https://www.beechwoodpines.com/",
+      "commute": {
+        "drive": {
+          "raw": "3.5/9",
+          "miles": 3.5,
+          "minutes": 9.0
+        },
+        "bike": {
+          "raw": "3.0/18",
+          "miles": 3.0,
+          "minutes": 18.0
+        },
+        "bus": {
+          "raw": "29，无shuttle",
+          "minutes": 29.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 642.0,
+          "min_price_per_person": 1245.0,
+          "raw_size": "642",
+          "raw_price": "1245"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1059.0,
+          "min_price_per_person": 733.0,
+          "raw_size": "1059",
+          "raw_price": "733"
+        }
+      ],
+      "summary": {
+        "unitCount": 2,
+        "minPricePerPerson": 733.0,
+        "maxPricePerPerson": 1245.0,
+        "minSizeSqft": 642.0,
+        "maxSizeSqft": 1059.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b",
+        "sizes": "642 1059",
+        "prices": "1245 733",
+        "drive": "3.5/9",
+        "bike": "3.0/18",
+        "bus": "29，无shuttle"
+      }
+    },
+    {
+      "id": "university-oaks",
+      "rowNumber": 44,
+      "name": "University Oaks",
+      "region": "学校西面，Alps Village Plaza附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.0,
+      "googleReviewSummary": "3.0分，蟑螂问题，管理问题，维护问题，收费问题",
+      "fees": "无水费，无电费，无垃圾费，无下水费",
+      "amenitiesText": "游泳池，健身房，篮球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "篮球场"
+      ],
+      "notes": "",
+      "website": "https://www.athensuniversityoaks.com/",
+      "commute": {
+        "drive": {
+          "raw": "3.8/10",
+          "miles": 3.8,
+          "minutes": 10.0
+        },
+        "bike": {
+          "raw": "3.5/21",
+          "miles": 3.5,
+          "minutes": 21.0
+        },
+        "bus": {
+          "raw": "32，无shuttle",
+          "minutes": 32.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "studio",
+          "bedrooms": 0.0,
+          "bathrooms": 1.0,
+          "size_sqft": 330.0,
+          "min_price_per_person": 805.0,
+          "raw_size": "330",
+          "raw_price": "805"
+        },
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 460.0,
+          "min_price_per_person": 885.0,
+          "raw_size": "460",
+          "raw_price": "885"
+        },
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 700.0,
+          "min_price_per_person": 498.0,
+          "raw_size": "700",
+          "raw_price": "498"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 920.0,
+          "min_price_per_person": 478.0,
+          "raw_size": "920",
+          "raw_price": "478"
+        }
+      ],
+      "summary": {
+        "unitCount": 4,
+        "minPricePerPerson": 478.0,
+        "maxPricePerPerson": 885.0,
+        "minSizeSqft": 330.0,
+        "maxSizeSqft": 920.0
+      },
+      "raw": {
+        "layouts": "studio 1b1b 2b1b 3b2b",
+        "sizes": "330 460 700 920",
+        "prices": "805 885 498 478",
+        "drive": "3.8/10",
+        "bike": "3.5/21",
+        "bus": "32，无shuttle"
+      }
+    },
+    {
+      "id": "flats-at-general-time",
+      "rowNumber": 45,
+      "name": "Flats at General Time",
+      "region": "雅典北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.3,
+      "googleReviewSummary": "4.3分，近期无差评",
+      "fees": "停车费75，垃圾费25，害虫费6，公用事业账单管理费7，网络费75（费用来自第三方)",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "价格租约为15个月",
+      "website": "https://www.flatsatgeneraltime.com/",
+      "commute": {
+        "drive": {
+          "raw": "3.6/10",
+          "miles": 3.6,
+          "minutes": 10.0
+        },
+        "bike": {
+          "raw": "3.4/22",
+          "miles": 3.4,
+          "minutes": 22.0
+        },
+        "bus": {
+          "raw": "36，无shuttle",
+          "minutes": 36.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "studio",
+          "bedrooms": 0.0,
+          "bathrooms": 1.0,
+          "size_sqft": 561.0,
+          "min_price_per_person": 1479.0,
+          "raw_size": "561",
+          "raw_price": "1479"
+        },
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 762.0,
+          "min_price_per_person": 1554.0,
+          "raw_size": "762",
+          "raw_price": "1554"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1056.0,
+          "min_price_per_person": 887.0,
+          "raw_size": "1056",
+          "raw_price": "887"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 887.0,
+        "maxPricePerPerson": 1554.0,
+        "minSizeSqft": 561.0,
+        "maxSizeSqft": 1056.0
+      },
+      "raw": {
+        "layouts": "studio 1b1b 2b2b",
+        "sizes": "561 762 1056",
+        "prices": "1479 1554 887",
+        "drive": "3.6/10",
+        "bike": "3.4/22",
+        "bus": "36，无shuttle"
+      }
+    },
+    {
+      "id": "hidden-pines",
+      "rowNumber": 46,
+      "name": "Hidden Pines",
+      "region": "雅典北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 2.9,
+      "googleReviewSummary": "2.9分，蟑螂问题，管理问题，维护问题",
+      "fees": "停车费未写明，垃圾费10，害虫费5（费用来自第三方）",
+      "amenitiesText": "无",
+      "amenities": [
+        "无"
+      ],
+      "notes": "价格来自zillow",
+      "website": "https://www.hiddenpinesapts.com/",
+      "commute": {
+        "drive": {
+          "raw": "4.4/11",
+          "miles": 4.4,
+          "minutes": 11.0
+        },
+        "bike": {
+          "raw": "5.0/32",
+          "miles": 5.0,
+          "minutes": 32.0
+        },
+        "bus": {
+          "raw": "86，无shuttle",
+          "minutes": 86.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 972.0,
+          "min_price_per_person": 628.0,
+          "raw_size": "972",
+          "raw_price": "628"
+        }
+      ],
+      "summary": {
+        "unitCount": 1,
+        "minPricePerPerson": 628.0,
+        "maxPricePerPerson": 628.0,
+        "minSizeSqft": 972.0,
+        "maxSizeSqft": 972.0
+      },
+      "raw": {
+        "layouts": "2b1b",
+        "sizes": "972",
+        "prices": "628",
+        "drive": "4.4/11",
+        "bike": "5.0/32",
+        "bus": "86，无shuttle"
+      }
+    },
+    {
+      "id": "arch-vine",
+      "rowNumber": 47,
+      "name": "Arch + Vine",
+      "region": "雅典东北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.4,
+      "googleReviewSummary": "3.4分，管理问题，收费问题，维护问题",
+      "fees": "停车费未写明",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "价格租约为15个月",
+      "website": "https://www.archandvine.com/",
+      "commute": {
+        "drive": {
+          "raw": "5.1/9",
+          "miles": 5.1,
+          "minutes": 9.0
+        },
+        "bike": {
+          "raw": "3.9/25",
+          "miles": 3.9,
+          "minutes": 25.0
+        },
+        "bus": {
+          "raw": "47，无shuttle",
+          "minutes": 47.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 815.0,
+          "min_price_per_person": 1379.0,
+          "raw_size": "815",
+          "raw_price": "1379"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1086.0,
+          "min_price_per_person": 725.0,
+          "raw_size": "1086",
+          "raw_price": "725"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1380.0,
+          "min_price_per_person": 603.0,
+          "raw_size": "1380",
+          "raw_price": "603"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 603.0,
+        "maxPricePerPerson": 1379.0,
+        "minSizeSqft": 815.0,
+        "maxSizeSqft": 1380.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b",
+        "sizes": "815 1086 1380",
+        "prices": "1379 725 603",
+        "drive": "5.1/9",
+        "bike": "3.9/25",
+        "bus": "47，无shuttle"
+      }
+    },
+    {
+      "id": "georgia-green-townhome-apartments",
+      "rowNumber": 48,
+      "name": "Georgia Green Townhome Apartments",
+      "region": "雅典东北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.3,
+      "googleReviewSummary": "4.3分，近期无差评",
+      "fees": "停车费未写明，水/下水/垃圾/害虫费80，Rent Plus费10",
+      "amenitiesText": "游泳池",
+      "amenities": [
+        "游泳池"
+      ],
+      "notes": "",
+      "website": "https://www.georgiagreenapts.com/",
+      "commute": {
+        "drive": {
+          "raw": "5.2/10",
+          "miles": 5.2,
+          "minutes": 10.0
+        },
+        "bike": {
+          "raw": "4.1/26",
+          "miles": 4.1,
+          "minutes": 26.0
+        },
+        "bus": {
+          "raw": "52，无shuttle",
+          "minutes": 52.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 1000.0,
+          "min_price_per_person": 663.0,
+          "raw_size": "1000",
+          "raw_price": "663"
+        }
+      ],
+      "summary": {
+        "unitCount": 1,
+        "minPricePerPerson": 663.0,
+        "maxPricePerPerson": 663.0,
+        "minSizeSqft": 1000.0,
+        "maxSizeSqft": 1000.0
+      },
+      "raw": {
+        "layouts": "2b1b",
+        "sizes": "1000",
+        "prices": "663",
+        "drive": "5.2/10",
+        "bike": "4.1/26",
+        "bus": "52，无shuttle"
+      }
+    },
+    {
+      "id": "paragon-luxury-apartments",
+      "rowNumber": 49,
+      "name": "Paragon Luxury Apartments",
+      "region": "雅典东北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.6,
+      "googleReviewSummary": "4.6分，近期无差评",
+      "fees": "停车费未写明",
+      "amenitiesText": "游泳池，健身房，匹克球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "匹克球场"
+      ],
+      "notes": "",
+      "website": "https://www.paragonathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "4.7/11",
+          "miles": 4.7,
+          "minutes": 11.0
+        },
+        "bike": {
+          "raw": "5.4/34",
+          "miles": 5.4,
+          "minutes": 34.0
+        },
+        "bus": {
+          "raw": "36，无shuttle",
+          "minutes": 36.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1170.0,
+          "min_price_per_person": 758.0,
+          "raw_size": "1170",
+          "raw_price": "758"
+        }
+      ],
+      "summary": {
+        "unitCount": 1,
+        "minPricePerPerson": 758.0,
+        "maxPricePerPerson": 758.0,
+        "minSizeSqft": 1170.0,
+        "maxSizeSqft": 1170.0
+      },
+      "raw": {
+        "layouts": "2b2b",
+        "sizes": "1170",
+        "prices": "758",
+        "drive": "4.7/11",
+        "bike": "5.4/34",
+        "bus": "36，无shuttle"
+      }
+    },
+    {
+      "id": "classic-city-flats-luxury-apartments",
+      "rowNumber": 50,
+      "name": "Classic City Flats | Luxury Apartments",
+      "region": "雅典东北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.8,
+      "googleReviewSummary": "4.8分，近期无差评",
+      "fees": "无停车费",
+      "amenitiesText": "游泳池，健身房，匹克球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "匹克球场"
+      ],
+      "notes": "ADA（美国残疾人法案）能更便宜",
+      "website": "https://www.classiccityflats.com/",
+      "commute": {
+        "drive": {
+          "raw": "7.8/12",
+          "miles": 7.8,
+          "minutes": 12.0
+        },
+        "bike": {
+          "raw": "6.4/37",
+          "miles": 6.4,
+          "minutes": 37.0
+        },
+        "bus": {
+          "raw": "44，无shuttle",
+          "minutes": 44.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 737.0,
+          "min_price_per_person": 1480.0,
+          "raw_size": "737",
+          "raw_price": "1480"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1083.0,
+          "min_price_per_person": 845.0,
+          "raw_size": "1083",
+          "raw_price": "845"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1270.0,
+          "min_price_per_person": 650.0,
+          "raw_size": "1270",
+          "raw_price": "650"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 650.0,
+        "maxPricePerPerson": 1480.0,
+        "minSizeSqft": 737.0,
+        "maxSizeSqft": 1270.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b",
+        "sizes": "737 1083 1270",
+        "prices": "1480 845 650",
+        "drive": "7.8/12",
+        "bike": "6.4/37",
+        "bus": "44，无shuttle"
+      }
+    },
+    {
+      "id": "pointe-grand-north-athens-townhomes",
+      "rowNumber": 51,
+      "name": "Pointe Grand North Athens Townhomes",
+      "region": "雅典东北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.9,
+      "googleReviewSummary": "4.9分，近期无差评",
+      "fees": "停车费未写明，Smart Home/服务费199（包含high-speed Wi-Fi, smart technology like fob access locks instead of old school keys and Wi-Fi enabled appliances）",
+      "amenitiesText": "游泳池，健身房，匹克球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "匹克球场"
+      ],
+      "notes": "价格租约为24个月",
+      "website": "https://pointegrand.com/apartments/north-athens/",
+      "commute": {
+        "drive": {
+          "raw": "8.0/12",
+          "miles": 8.0,
+          "minutes": 12.0
+        },
+        "bike": {
+          "raw": "6.6/38",
+          "miles": 6.6,
+          "minutes": 38.0
+        },
+        "bus": {
+          "raw": "46，无shuttle",
+          "minutes": 46.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1170.0,
+          "min_price_per_person": 775.0,
+          "raw_size": "1170",
+          "raw_price": "775"
+        }
+      ],
+      "summary": {
+        "unitCount": 1,
+        "minPricePerPerson": 775.0,
+        "maxPricePerPerson": 775.0,
+        "minSizeSqft": 1170.0,
+        "maxSizeSqft": 1170.0
+      },
+      "raw": {
+        "layouts": "2b2b",
+        "sizes": "1170",
+        "prices": "775",
+        "drive": "8.0/12",
+        "bike": "6.6/38",
+        "bus": "46，无shuttle"
+      }
+    },
+    {
+      "id": "serene-at-northside",
+      "rowNumber": 52,
+      "name": "Serene at Northside",
+      "region": "雅典东北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.0,
+      "googleReviewSummary": "3.0分，管理问题，维护问题，收费问题，火警警报问题",
+      "fees": "停车费未写明，垃圾费15，害虫费5（费用来自第三方）",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "",
+      "website": "https://www.sereneatnorthside.com/",
+      "commute": {
+        "drive": {
+          "raw": "2.9/9",
+          "miles": 2.9,
+          "minutes": 9.0
+        },
+        "bike": {
+          "raw": "3.6/24",
+          "miles": 3.6,
+          "minutes": 24.0
+        },
+        "bus": {
+          "raw": "39，无shuttle",
+          "minutes": 39.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1058.0,
+          "min_price_per_person": 655.0,
+          "raw_size": "1058",
+          "raw_price": "655"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1238.0,
+          "min_price_per_person": 493.0,
+          "raw_size": "1238",
+          "raw_price": "493"
+        }
+      ],
+      "summary": {
+        "unitCount": 2,
+        "minPricePerPerson": 493.0,
+        "maxPricePerPerson": 655.0,
+        "minSizeSqft": 1058.0,
+        "maxSizeSqft": 1238.0
+      },
+      "raw": {
+        "layouts": "2b2b 3b2b",
+        "sizes": "1058 1238",
+        "prices": "655 493",
+        "drive": "2.9/9",
+        "bike": "3.6/24",
+        "bus": "39，无shuttle"
+      }
+    },
+    {
+      "id": "archer-apartments",
+      "rowNumber": 53,
+      "name": "Archer Apartments",
+      "region": "雅典东北部",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 2.9,
+      "googleReviewSummary": "2.9分，霉菌问题，安保问题，卫生问题",
+      "fees": "停车费未写明，Utility Fee25",
+      "amenitiesText": "游泳池，小健身房",
+      "amenities": [
+        "游泳池",
+        "小健身房"
+      ],
+      "notes": "",
+      "website": "https://www.archerapartments.com/",
+      "commute": {
+        "drive": {
+          "raw": "2.5/8",
+          "miles": 2.5,
+          "minutes": 8.0
+        },
+        "bike": {
+          "raw": "2.8/19",
+          "miles": 2.8,
+          "minutes": 19.0
+        },
+        "bus": {
+          "raw": "28，无shuttle",
+          "minutes": 28.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 546.0,
+          "min_price_per_person": 878.0,
+          "raw_size": "546",
+          "raw_price": "878"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1091.0,
+          "min_price_per_person": 998.0,
+          "raw_size": "1091",
+          "raw_price": "998"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1366.0,
+          "min_price_per_person": 652.0,
+          "raw_size": "1366",
+          "raw_price": "652"
+        },
+        {
+          "layout": "4b2b",
+          "bedrooms": 4.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1300.0,
+          "min_price_per_person": 553.0,
+          "raw_size": "1300",
+          "raw_price": "553"
+        }
+      ],
+      "summary": {
+        "unitCount": 4,
+        "minPricePerPerson": 553.0,
+        "maxPricePerPerson": 998.0,
+        "minSizeSqft": 546.0,
+        "maxSizeSqft": 1366.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b3b 4b2b",
+        "sizes": "546 1091 1366 1300",
+        "prices": "878 998 652 553",
+        "drive": "2.5/8",
+        "bike": "2.8/19",
+        "bus": "28，无shuttle"
+      }
+    },
+    {
+      "id": "the-lodge-of-athens",
+      "rowNumber": 54,
+      "name": "The Lodge of Athens",
+      "region": "雅典东北部",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 4.0,
+      "googleReviewSummary": "4.0分，蟑螂问题，班车可靠性问题，收费问题",
+      "fees": "停车费未写明",
+      "amenitiesText": "游泳池，健身房，打印机",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "打印机"
+      ],
+      "notes": "",
+      "website": "https://www.thelodgeofathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "2.3/8",
+          "miles": 2.3,
+          "minutes": 8.0
+        },
+        "bike": {
+          "raw": "2.7/18",
+          "miles": 2.7,
+          "minutes": 18.0
+        },
+        "bus": {
+          "raw": "27，无shuttle",
+          "minutes": 27.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 944.0,
+          "min_price_per_person": 939.0,
+          "raw_size": "944",
+          "raw_price": "939"
+        }
+      ],
+      "summary": {
+        "unitCount": 1,
+        "minPricePerPerson": 939.0,
+        "maxPricePerPerson": 939.0,
+        "minSizeSqft": 944.0,
+        "maxSizeSqft": 944.0
+      },
+      "raw": {
+        "layouts": "2b2b",
+        "sizes": "944",
+        "prices": "939",
+        "drive": "2.3/8",
+        "bike": "2.7/18",
+        "bus": "27，无shuttle"
+      }
+    },
+    {
+      "id": "covey-homes-lexington",
+      "rowNumber": 55,
+      "name": "Covey Homes Lexington",
+      "region": "雅典东部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.0,
+      "googleReviewSummary": "4.0分，近期无差评",
+      "fees": "停车费未写明，服务费125（包含smart home、landscape、trash、amenity access、pest control）",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "",
+      "website": "https://coveyhomesbymore.com/neighborhood/lexington/",
+      "commute": {
+        "drive": {
+          "raw": "5.2/11",
+          "miles": 5.2,
+          "minutes": 11.0
+        },
+        "bike": {
+          "raw": "6.6/38",
+          "miles": 6.6,
+          "minutes": 38.0
+        },
+        "bus": {
+          "raw": "60，无shuttle",
+          "minutes": 60.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1020.0,
+          "min_price_per_person": 880.0,
+          "raw_size": "1020",
+          "raw_price": "880"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1466.0,
+          "min_price_per_person": 750.0,
+          "raw_size": "1466",
+          "raw_price": "750"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1411.0,
+          "min_price_per_person": 701.0,
+          "raw_size": "1411",
+          "raw_price": "701"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 701.0,
+        "maxPricePerPerson": 880.0,
+        "minSizeSqft": 1020.0,
+        "maxSizeSqft": 1466.0
+      },
+      "raw": {
+        "layouts": "2b2b 3b2b 3b3b",
+        "sizes": "1020 1466 1411",
+        "prices": "880 750 701",
+        "drive": "5.2/11",
+        "bike": "6.6/38",
+        "bus": "60，无shuttle"
+      }
+    },
+    {
+      "id": "highland-park-townhomes",
+      "rowNumber": 56,
+      "name": "Highland Park Townhomes",
+      "region": "雅典东部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 2.5,
+      "googleReviewSummary": "2.5分（8条评价），维修维护问题，管理问题",
+      "fees": "停车费未写明",
+      "amenitiesText": "无",
+      "amenities": [
+        "无"
+      ],
+      "notes": "价格来自apartments.com",
+      "website": "https://www.livehighlandparktownhomes.com/",
+      "commute": {
+        "drive": {
+          "raw": "5.2/11",
+          "miles": 5.2,
+          "minutes": 11.0
+        },
+        "bike": {
+          "raw": "5.0/29",
+          "miles": 5.0,
+          "minutes": 29.0
+        },
+        "bus": {
+          "raw": "55，无shuttle",
+          "minutes": 55.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 1232.0,
+          "min_price_per_person": 598.0,
+          "raw_size": "1232",
+          "raw_price": "598"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1341.0,
+          "min_price_per_person": 698.0,
+          "raw_size": "1341",
+          "raw_price": "698"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1600.0,
+          "min_price_per_person": 550.0,
+          "raw_size": "1600",
+          "raw_price": "550"
+        },
+        {
+          "layout": "4b3b",
+          "bedrooms": 4.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1776.0,
+          "min_price_per_person": 449.0,
+          "raw_size": "1776",
+          "raw_price": "449"
+        }
+      ],
+      "summary": {
+        "unitCount": 4,
+        "minPricePerPerson": 449.0,
+        "maxPricePerPerson": 698.0,
+        "minSizeSqft": 1232.0,
+        "maxSizeSqft": 1776.0
+      },
+      "raw": {
+        "layouts": "2b1b 2b2b 3b2b 4b3b",
+        "sizes": "1232 1341 1600 1776",
+        "prices": "598 698 550 449",
+        "drive": "5.2/11",
+        "bike": "5.0/29",
+        "bus": "55，无shuttle"
+      }
+    },
+    {
+      "id": "the-oaks-athens",
+      "rowNumber": 57,
+      "name": "The Oaks - Athens",
+      "region": "雅典西北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.9,
+      "googleReviewSummary": "3.9分，收费问题，维护问题",
+      "fees": "停车费未写明",
+      "amenitiesText": "游泳池，健身房，网球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "网球场"
+      ],
+      "notes": "",
+      "website": "https://www.theoaksapts.com/",
+      "commute": {
+        "drive": {
+          "raw": "4.7/12",
+          "miles": 4.7,
+          "minutes": 12.0
+        },
+        "bike": {
+          "raw": "5.0/29",
+          "miles": 5.0,
+          "minutes": 29.0
+        },
+        "bus": {
+          "raw": "43，无shuttle",
+          "minutes": 43.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 1175.0,
+          "min_price_per_person": 665.0,
+          "raw_size": "1175",
+          "raw_price": "665"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1125.0,
+          "min_price_per_person": 513.0,
+          "raw_size": "1125",
+          "raw_price": "513"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1450.0,
+          "min_price_per_person": 426.0,
+          "raw_size": "1450",
+          "raw_price": "426"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 426.0,
+        "maxPricePerPerson": 665.0,
+        "minSizeSqft": 1125.0,
+        "maxSizeSqft": 1450.0
+      },
+      "raw": {
+        "layouts": "2b1b 2b2b 3b2b",
+        "sizes": "1175 1125 1450",
+        "prices": "665 513 426",
+        "drive": "4.7/12",
+        "bike": "5.0/29",
+        "bus": "43，无shuttle"
+      }
+    },
+    {
+      "id": "rosemary-place",
+      "rowNumber": 58,
+      "name": "Rosemary Place",
+      "region": "雅典西北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.5,
+      "googleReviewSummary": "3.5分（8条评价），近期无差评",
+      "fees": "停车费未写明",
+      "amenitiesText": "无",
+      "amenities": [
+        "无"
+      ],
+      "notes": "价格来自zillow",
+      "website": "https://www.rosemaryplaceapts.com/",
+      "commute": {
+        "drive": {
+          "raw": "6.3/14",
+          "miles": 6.3,
+          "minutes": 14.0
+        },
+        "bike": {
+          "raw": "5.8/32",
+          "miles": 5.8,
+          "minutes": 32.0
+        },
+        "bus": {
+          "raw": "43，无shuttle",
+          "minutes": 43.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 864.0,
+          "min_price_per_person": 650.0,
+          "raw_size": "864",
+          "raw_price": "650"
+        }
+      ],
+      "summary": {
+        "unitCount": 1,
+        "minPricePerPerson": 650.0,
+        "maxPricePerPerson": 650.0,
+        "minSizeSqft": 864.0,
+        "maxSizeSqft": 864.0
+      },
+      "raw": {
+        "layouts": "2b1b",
+        "sizes": "864",
+        "prices": "650",
+        "drive": "6.3/14",
+        "bike": "5.8/32",
+        "bus": "43，无shuttle"
+      }
+    },
+    {
+      "id": "holden-at-oak-grove",
+      "rowNumber": 59,
+      "name": "Holden at Oak Grove",
+      "region": "雅典西北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.5,
+      "googleReviewSummary": "4.5分，管理问题，收费问题",
+      "fees": "停车费10（第三方），Other费118",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "价格租约为15个月",
+      "website": "https://holdenoakgrove.com/",
+      "commute": {
+        "drive": {
+          "raw": "6.2/13",
+          "miles": 6.2,
+          "minutes": 13.0
+        },
+        "bike": {
+          "raw": "5.9/36",
+          "miles": 5.9,
+          "minutes": 36.0
+        },
+        "bus": {
+          "raw": "54，无shuttle",
+          "minutes": 54.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 649.0,
+          "min_price_per_person": 1499.0,
+          "raw_size": "649",
+          "raw_price": "1499"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1191.0,
+          "min_price_per_person": 908.0,
+          "raw_size": "1191",
+          "raw_price": "908"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1342.0,
+          "min_price_per_person": 637.0,
+          "raw_size": "1342",
+          "raw_price": "637"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 637.0,
+        "maxPricePerPerson": 1499.0,
+        "minSizeSqft": 649.0,
+        "maxSizeSqft": 1342.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b",
+        "sizes": "649 1191 1342",
+        "prices": "1499 908 637",
+        "drive": "6.2/13",
+        "bike": "5.9/36",
+        "bus": "54，无shuttle"
+      }
+    },
+    {
+      "id": "horizon-at-tallassee",
+      "rowNumber": 60,
+      "name": "Horizon at Tallassee",
+      "region": "雅典西北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.6,
+      "googleReviewSummary": "4.6分，近期无差评",
+      "fees": "停车费未写明，无垃圾费",
+      "amenitiesText": "游泳池，健身房，匹克球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "匹克球场"
+      ],
+      "notes": "",
+      "website": "https://www.horizonattallassee.com/",
+      "commute": {
+        "drive": {
+          "raw": "4.9/12",
+          "miles": 4.9,
+          "minutes": 12.0
+        },
+        "bike": {
+          "raw": "5.0/31",
+          "miles": 5.0,
+          "minutes": 31.0
+        },
+        "bus": {
+          "raw": "41，无shuttle",
+          "minutes": 41.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 786.0,
+          "min_price_per_person": 1525.0,
+          "raw_size": "786",
+          "raw_price": "1525"
+        },
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 1067.0,
+          "min_price_per_person": 798.0,
+          "raw_size": "1067",
+          "raw_price": "798"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1249.0,
+          "min_price_per_person": 848.0,
+          "raw_size": "1249",
+          "raw_price": "848"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 798.0,
+        "maxPricePerPerson": 1525.0,
+        "minSizeSqft": 786.0,
+        "maxSizeSqft": 1249.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b1b 2b2b",
+        "sizes": "786 1067 1249",
+        "prices": "1525 798 848",
+        "drive": "4.9/12",
+        "bike": "5.0/31",
+        "bus": "41，无shuttle"
+      }
+    },
+    {
+      "id": "westside-commons",
+      "rowNumber": 61,
+      "name": "Westside Commons",
+      "region": "雅典西北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.9,
+      "googleReviewSummary": "3.9分，近期无差评",
+      "fees": "停车费未写明，垃圾费15，责任险15",
+      "amenitiesText": "游泳池",
+      "amenities": [
+        "游泳池"
+      ],
+      "notes": "价格来自apartments.com",
+      "website": "https://www.westsidecommonsapartments.com/",
+      "commute": {
+        "drive": {
+          "raw": "5.1/13",
+          "miles": 5.1,
+          "minutes": 13.0
+        },
+        "bike": {
+          "raw": "4.8/29",
+          "miles": 4.8,
+          "minutes": 29.0
+        },
+        "bus": {
+          "raw": "35，无shuttle",
+          "minutes": 35.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 797.0,
+          "min_price_per_person": 1120.0,
+          "raw_size": "797",
+          "raw_price": "1120"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1090.0,
+          "min_price_per_person": 560.0,
+          "raw_size": "1090",
+          "raw_price": "560"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1368.0,
+          "min_price_per_person": 502.0,
+          "raw_size": "1368",
+          "raw_price": "502"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 502.0,
+        "maxPricePerPerson": 1120.0,
+        "minSizeSqft": 797.0,
+        "maxSizeSqft": 1368.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b",
+        "sizes": "797 1090 1368",
+        "prices": "1120 560 502",
+        "drive": "5.1/13",
+        "bike": "4.8/29",
+        "bus": "35，无shuttle"
+      }
+    },
+    {
+      "id": "130-cole",
+      "rowNumber": 62,
+      "name": "130 Cole",
+      "region": "雅典西北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.4,
+      "googleReviewSummary": "3.4分，管理问题，维护问题，收费问题",
+      "fees": "停车费未写明，无水费，无垃圾费",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "",
+      "website": "https://www.live130cole.com/",
+      "commute": {
+        "drive": {
+          "raw": "5.4/14",
+          "miles": 5.4,
+          "minutes": 14.0
+        },
+        "bike": {
+          "raw": "5.0/30",
+          "miles": 5.0,
+          "minutes": 30.0
+        },
+        "bus": {
+          "raw": "38，无shuttle",
+          "minutes": 38.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "studio",
+          "bedrooms": 0.0,
+          "bathrooms": 1.0,
+          "size_sqft": 400.0,
+          "min_price_per_person": 999.0,
+          "raw_size": "400",
+          "raw_price": "999"
+        },
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 808.0,
+          "min_price_per_person": 1199.0,
+          "raw_size": "808",
+          "raw_price": "1199"
+        },
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 850.0,
+          "min_price_per_person": 650.0,
+          "raw_size": "850",
+          "raw_price": "650"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 650.0,
+        "maxPricePerPerson": 1199.0,
+        "minSizeSqft": 400.0,
+        "maxSizeSqft": 850.0
+      },
+      "raw": {
+        "layouts": "studio 1b1b 2b1b",
+        "sizes": "400 808 850",
+        "prices": "999 1199 650",
+        "drive": "5.4/14",
+        "bike": "5.0/30",
+        "bus": "38，无shuttle"
+      }
+    },
+    {
+      "id": "one-athens-apartments",
+      "rowNumber": 63,
+      "name": "One Athens Apartments",
+      "region": "雅典西北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.2,
+      "googleReviewSummary": "4.2分，管理联系问题",
+      "fees": "停车费未写明，无水费，无垃圾费，无下水费",
+      "amenitiesText": "无",
+      "amenities": [
+        "无"
+      ],
+      "notes": "",
+      "website": "https://oneathensapartments.com/",
+      "commute": {
+        "drive": {
+          "raw": "5.1/13",
+          "miles": 5.1,
+          "minutes": 13.0
+        },
+        "bike": {
+          "raw": "4.7/28",
+          "miles": 4.7,
+          "minutes": 28.0
+        },
+        "bus": {
+          "raw": "32，无shuttle",
+          "minutes": 32.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 900.0,
+          "min_price_per_person": 910.0,
+          "raw_size": "900",
+          "raw_price": "910"
+        },
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 1110.0,
+          "min_price_per_person": 598.0,
+          "raw_size": "1110",
+          "raw_price": "598"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1025.0,
+          "min_price_per_person": 550.0,
+          "raw_size": "1025",
+          "raw_price": "550"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1404.0,
+          "min_price_per_person": 385.0,
+          "raw_size": "1404",
+          "raw_price": "385"
+        }
+      ],
+      "summary": {
+        "unitCount": 4,
+        "minPricePerPerson": 385.0,
+        "maxPricePerPerson": 910.0,
+        "minSizeSqft": 900.0,
+        "maxSizeSqft": 1404.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b1b 2b2b 3b2b",
+        "sizes": "900 1110 1025 1404",
+        "prices": "910 598 550 385",
+        "drive": "5.1/13",
+        "bike": "4.7/28",
+        "bus": "32，无shuttle"
+      }
+    },
+    {
+      "id": "the-mill-district",
+      "rowNumber": 64,
+      "name": "The Mill District",
+      "region": "雅典西北部",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 0.0,
+      "googleReviewSummary": "无评分",
+      "fees": "停车费未写明，无垃圾费",
+      "amenitiesText": "无",
+      "amenities": [
+        "无"
+      ],
+      "notes": "价格来自collegetownproperties",
+      "website": "https://milldistrictathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "3.3/10",
+          "miles": 3.3,
+          "minutes": 10.0
+        },
+        "bike": {
+          "raw": "2.8/19",
+          "miles": 2.8,
+          "minutes": 19.0
+        },
+        "bus": {
+          "raw": "37，无shuttle",
+          "minutes": 37.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 500.0,
+          "min_price_per_person": 1590.0,
+          "raw_size": "500",
+          "raw_price": "1590"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1075.0,
+          "min_price_per_person": 1295.0,
+          "raw_size": "1075",
+          "raw_price": "1295"
+        }
+      ],
+      "summary": {
+        "unitCount": 2,
+        "minPricePerPerson": 1295.0,
+        "maxPricePerPerson": 1590.0,
+        "minSizeSqft": 500.0,
+        "maxSizeSqft": 1075.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b",
+        "sizes": "500 1075",
+        "prices": "1590 1295",
+        "drive": "3.3/10",
+        "bike": "2.8/19",
+        "bus": "37，无shuttle"
+      }
+    },
+    {
+      "id": "twenty35-at-timothy-woods",
+      "rowNumber": 65,
+      "name": "Twenty35 at Timothy Woods",
+      "region": "雅典西部，Georgia Mall附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.8,
+      "googleReviewSummary": "3.8分，近期无差评",
+      "fees": "停车费未写明，垃圾费25，害虫费5，Other费5",
+      "amenitiesText": "游泳池，健身房，网球场，匹克球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "网球场",
+        "匹克球场"
+      ],
+      "notes": "",
+      "website": "https://www.livetwenty35.com/",
+      "commute": {
+        "drive": {
+          "raw": "6.2/12",
+          "miles": 6.2,
+          "minutes": 12.0
+        },
+        "bike": {
+          "raw": "7.0/41",
+          "miles": 7.0,
+          "minutes": 41.0
+        },
+        "bus": {
+          "raw": "43，无shuttle",
+          "minutes": 43.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 687.0,
+          "min_price_per_person": 1378.0,
+          "raw_size": "687",
+          "raw_price": "1378"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1143.0,
+          "min_price_per_person": 766.0,
+          "raw_size": "1143",
+          "raw_price": "766"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1376.0,
+          "min_price_per_person": 591.0,
+          "raw_size": "1376",
+          "raw_price": "591"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 591.0,
+        "maxPricePerPerson": 1378.0,
+        "minSizeSqft": 687.0,
+        "maxSizeSqft": 1376.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b",
+        "sizes": "687 1143 1376",
+        "prices": "1378 766 591",
+        "drive": "6.2/12",
+        "bike": "7.0/41",
+        "bus": "43，无shuttle"
+      }
+    },
+    {
+      "id": "high-ridge-apartments",
+      "rowNumber": 66,
+      "name": "High Ridge Apartments",
+      "region": "雅典西部，Georgia Mall附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 4.1,
+      "googleReviewSummary": "4.1分，收费问题",
+      "fees": "停车费未写明",
+      "amenitiesText": "游泳池，健身房，网球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "网球场"
+      ],
+      "notes": "价格来自apartments.com",
+      "website": "https://www.highridgeapt.com/",
+      "commute": {
+        "drive": {
+          "raw": "6.8/14",
+          "miles": 6.8,
+          "minutes": 14.0
+        },
+        "bike": {
+          "raw": "5.7/34",
+          "miles": 5.7,
+          "minutes": 34.0
+        },
+        "bus": {
+          "raw": "59，无shuttle",
+          "minutes": 59.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 925.0,
+          "min_price_per_person": 1330.0,
+          "raw_size": "925",
+          "raw_price": "1330"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1317.0,
+          "min_price_per_person": 726.0,
+          "raw_size": "1317",
+          "raw_price": "726"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1338.0,
+          "min_price_per_person": 595.0,
+          "raw_size": "1338",
+          "raw_price": "595"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 595.0,
+        "maxPricePerPerson": 1330.0,
+        "minSizeSqft": 925.0,
+        "maxSizeSqft": 1338.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b",
+        "sizes": "925 1317 1338",
+        "prices": "1330 726 595",
+        "drive": "6.8/14",
+        "bike": "5.7/34",
+        "bus": "59，无shuttle"
+      }
+    },
+    {
+      "id": "legacy-mill",
+      "rowNumber": 67,
+      "name": "Legacy Mill",
+      "region": "雅典西部，Georgia Mall附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.3,
+      "googleReviewSummary": "3.3分，维护问题，管理问题",
+      "fees": "停车费未写明，害虫费4，垃圾费10",
+      "amenitiesText": "游泳池，健身房，网球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "网球场"
+      ],
+      "notes": "价格租约为13个月",
+      "website": "https://www.legacymillapts.com/",
+      "commute": {
+        "drive": {
+          "raw": "7.4/15",
+          "miles": 7.4,
+          "minutes": 15.0
+        },
+        "bike": {
+          "raw": "8.3/48",
+          "miles": 8.3,
+          "minutes": 48.0
+        },
+        "bus": {
+          "raw": "85，无shuttle",
+          "minutes": 85.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 675.0,
+          "min_price_per_person": 1110.0,
+          "raw_size": "675",
+          "raw_price": "1110"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1186.0,
+          "min_price_per_person": 692.0,
+          "raw_size": "1186",
+          "raw_price": "692"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1350.0,
+          "min_price_per_person": 558.0,
+          "raw_size": "1350",
+          "raw_price": "558"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 558.0,
+        "maxPricePerPerson": 1110.0,
+        "minSizeSqft": 675.0,
+        "maxSizeSqft": 1350.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b",
+        "sizes": "675 1186 1350",
+        "prices": "1110 692 558",
+        "drive": "7.4/15",
+        "bike": "8.3/48",
+        "bus": "85，无shuttle"
+      }
+    },
+    {
+      "id": "the-preserve-townhome-apartments",
+      "rowNumber": 68,
+      "name": "The Preserve Townhome Apartments",
+      "region": "雅典西部，Georgia Mall附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 2.3,
+      "googleReviewSummary": "2.3分（16条评价），管理问题，收费问题",
+      "fees": "停车费30，垃圾费25，害虫费5，保险费14",
+      "amenitiesText": "游泳池",
+      "amenities": [
+        "游泳池"
+      ],
+      "notes": "",
+      "website": "https://preserveathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "5.6/12",
+          "miles": 5.6,
+          "minutes": 12.0
+        },
+        "bike": {
+          "raw": "6.4/37",
+          "miles": 6.4,
+          "minutes": 37.0
+        },
+        "bus": {
+          "raw": "43，无shuttle",
+          "minutes": 43.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1525.0,
+          "min_price_per_person": 1025.0,
+          "raw_size": "1525",
+          "raw_price": "1025"
+        }
+      ],
+      "summary": {
+        "unitCount": 1,
+        "minPricePerPerson": 1025.0,
+        "maxPricePerPerson": 1025.0,
+        "minSizeSqft": 1525.0,
+        "maxSizeSqft": 1525.0
+      },
+      "raw": {
+        "layouts": "2b2b",
+        "sizes": "1525",
+        "prices": "1025",
+        "drive": "5.6/12",
+        "bike": "6.4/37",
+        "bus": "43，无shuttle"
+      }
+    },
+    {
+      "id": "serene-at-woodlake",
+      "rowNumber": 69,
+      "name": "Serene at Woodlake",
+      "region": "雅典西部，Georgia Mall附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.9,
+      "googleReviewSummary": "3.9分，近期无差评",
+      "fees": "停车费未写明，垃圾费15，害虫费5",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "",
+      "website": "https://www.sereneatwoodlake.com/",
+      "commute": {
+        "drive": {
+          "raw": "6.1/14",
+          "miles": 6.1,
+          "minutes": 14.0
+        },
+        "bike": {
+          "raw": "7.1/43",
+          "miles": 7.1,
+          "minutes": 43.0
+        },
+        "bus": {
+          "raw": "51，无shuttle",
+          "minutes": 51.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 950.0,
+          "min_price_per_person": 725.0,
+          "raw_size": "950",
+          "raw_price": "725"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1050.0,
+          "min_price_per_person": 763.0,
+          "raw_size": "1050",
+          "raw_price": "763"
+        },
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 750.0,
+          "min_price_per_person": 1375.0,
+          "raw_size": "750",
+          "raw_price": "1375"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 725.0,
+        "maxPricePerPerson": 1375.0,
+        "minSizeSqft": 750.0,
+        "maxSizeSqft": 1050.0
+      },
+      "raw": {
+        "layouts": "2b1b 2b2b 1b1b",
+        "sizes": "950 1050 750",
+        "prices": "725 763 1375",
+        "drive": "6.1/14",
+        "bike": "7.1/43",
+        "bus": "51，无shuttle"
+      }
+    },
+    {
+      "id": "the-fairways-at-jennings-mill",
+      "rowNumber": 70,
+      "name": "The Fairways at Jennings Mill",
+      "region": "雅典西部，Georgia Mall附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.9,
+      "googleReviewSummary": "3.9分，霉菌问题，维护问题",
+      "fees": "无停车费，垃圾费25，害虫费3.75",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "",
+      "website": "https://www.thefairwaysatjenningsmill.com/",
+      "commute": {
+        "drive": {
+          "raw": "7.1/14",
+          "miles": 7.1,
+          "minutes": 14.0
+        },
+        "bike": {
+          "raw": "8.1/47",
+          "miles": 8.1,
+          "minutes": 47.0
+        },
+        "bus": {
+          "raw": "63，无shuttle",
+          "minutes": 63.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 728.0,
+          "min_price_per_person": 1224.0,
+          "raw_size": "728",
+          "raw_price": "1224"
+        },
+        {
+          "layout": "2b1b",
+          "bedrooms": 2.0,
+          "bathrooms": 1.0,
+          "size_sqft": 925.0,
+          "min_price_per_person": 680.0,
+          "raw_size": "925",
+          "raw_price": "680"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1113.0,
+          "min_price_per_person": 815.0,
+          "raw_size": "1113",
+          "raw_price": "815"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1303.0,
+          "min_price_per_person": 588.0,
+          "raw_size": "1303",
+          "raw_price": "588"
+        }
+      ],
+      "summary": {
+        "unitCount": 4,
+        "minPricePerPerson": 588.0,
+        "maxPricePerPerson": 1224.0,
+        "minSizeSqft": 728.0,
+        "maxSizeSqft": 1303.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b1b 2b2b 3b2b",
+        "sizes": "728 925 1113 1303",
+        "prices": "1224 680 815 588",
+        "drive": "7.1/14",
+        "bike": "8.1/47",
+        "bus": "63，无shuttle"
+      }
+    },
+    {
+      "id": "westpark-club",
+      "rowNumber": 71,
+      "name": "Westpark Club",
+      "region": "雅典西部，Georgia Mall附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.9,
+      "googleReviewSummary": "3.9分，管理问题，霉菌问题",
+      "fees": "停车费未写明",
+      "amenitiesText": "游泳池，健身房，网球场，匹克球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "网球场",
+        "匹克球场"
+      ],
+      "notes": "价格租约为15个月",
+      "website": "https://www.westparkathens.com/",
+      "commute": {
+        "drive": {
+          "raw": "6.6/13",
+          "miles": 6.6,
+          "minutes": 13.0
+        },
+        "bike": {
+          "raw": "7.6/43",
+          "miles": 7.6,
+          "minutes": 43.0
+        },
+        "bus": {
+          "raw": "68，无shuttle",
+          "minutes": 68.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 834.0,
+          "min_price_per_person": 1339.0,
+          "raw_size": "834",
+          "raw_price": "1339"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1232.0,
+          "min_price_per_person": 725.0,
+          "raw_size": "1232",
+          "raw_price": "725"
+        }
+      ],
+      "summary": {
+        "unitCount": 2,
+        "minPricePerPerson": 725.0,
+        "maxPricePerPerson": 1339.0,
+        "minSizeSqft": 834.0,
+        "maxSizeSqft": 1232.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b",
+        "sizes": "834 1232",
+        "prices": "1339 725",
+        "drive": "6.6/13",
+        "bike": "7.6/43",
+        "bus": "68，无shuttle"
+      }
+    },
+    {
+      "id": "lullwater-at-jennings-mill",
+      "rowNumber": 72,
+      "name": "Lullwater at Jennings Mill",
+      "region": "雅典西部，Georgia Mall附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.8,
+      "googleReviewSummary": "3.8分，搬出费用问题",
+      "fees": "停车费175（车库），害虫费10，垃圾费20，包裹柜费3，管理服务费7，设施费25",
+      "amenitiesText": "游泳池，健身房，台球桌",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "台球桌"
+      ],
+      "notes": "价格租约为14个月",
+      "website": "https://www.lullwateratjenningsmill.com/",
+      "commute": {
+        "drive": {
+          "raw": "7.5/14",
+          "miles": 7.5,
+          "minutes": 14.0
+        },
+        "bike": {
+          "raw": "8.4/48",
+          "miles": 8.4,
+          "minutes": 48.0
+        },
+        "bus": {
+          "raw": "87，无shuttle",
+          "minutes": 87.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 975.0,
+          "min_price_per_person": 1504.0,
+          "raw_size": "975",
+          "raw_price": "1504"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1264.0,
+          "min_price_per_person": 835.0,
+          "raw_size": "1264",
+          "raw_price": "835"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1441.0,
+          "min_price_per_person": 617.0,
+          "raw_size": "1441",
+          "raw_price": "617"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 617.0,
+        "maxPricePerPerson": 1504.0,
+        "minSizeSqft": 975.0,
+        "maxSizeSqft": 1441.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b",
+        "sizes": "975 1264 1441",
+        "prices": "1504 835 617",
+        "drive": "7.5/14",
+        "bike": "8.4/48",
+        "bus": "87，无shuttle"
+      }
+    },
+    {
+      "id": "grand-preserve",
+      "rowNumber": 73,
+      "name": "Grand Preserve",
+      "region": "雅典西部，Georgia Mall附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.9,
+      "googleReviewSummary": "3.9分（16条评价），近期无差评",
+      "fees": "停车费150（车库），垃圾/社区/害虫费39.05",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "",
+      "website": "https://www.grandpreserve.com/",
+      "commute": {
+        "drive": {
+          "raw": "5.6/12",
+          "miles": 5.6,
+          "minutes": 12.0
+        },
+        "bike": {
+          "raw": "6.8/40",
+          "miles": 6.8,
+          "minutes": 40.0
+        },
+        "bus": {
+          "raw": "45，无shuttle",
+          "minutes": 45.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 928.0,
+          "min_price_per_person": 1605.0,
+          "raw_size": "928",
+          "raw_price": "1605"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1193.0,
+          "min_price_per_person": 885.0,
+          "raw_size": "1193",
+          "raw_price": "885"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1405.0,
+          "min_price_per_person": 657.0,
+          "raw_size": "1405",
+          "raw_price": "657"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 657.0,
+        "maxPricePerPerson": 1605.0,
+        "minSizeSqft": 928.0,
+        "maxSizeSqft": 1405.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b",
+        "sizes": "928 1193 1405",
+        "prices": "1605 885 657",
+        "drive": "5.6/12",
+        "bike": "6.8/40",
+        "bus": "45，无shuttle"
+      }
+    },
+    {
+      "id": "arbor-ridge-apartments",
+      "rowNumber": 74,
+      "name": "Arbor Ridge Apartments",
+      "region": "雅典西部，Georgia Mall附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.4,
+      "googleReviewSummary": "3.4分，安保问题，管理问题，维护问题",
+      "fees": "停车费未写明，设施费10，害虫费5，垃圾费15，楼宇保险费19，utility billing费5",
+      "amenitiesText": "游泳池，健身房，网球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "网球场"
+      ],
+      "notes": "价格租约为14个月",
+      "website": "https://www.arborridgeapartmenthomes.com/",
+      "commute": {
+        "drive": {
+          "raw": "4.7/11",
+          "miles": 4.7,
+          "minutes": 11.0
+        },
+        "bike": {
+          "raw": "4.6/32",
+          "miles": 4.6,
+          "minutes": 32.0
+        },
+        "bus": {
+          "raw": "36，无shuttle",
+          "minutes": 36.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 740.0,
+          "min_price_per_person": 1146.0,
+          "raw_size": "740",
+          "raw_price": "1146"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 960.0,
+          "min_price_per_person": 685.0,
+          "raw_size": "960",
+          "raw_price": "685"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1200.0,
+          "min_price_per_person": 509.0,
+          "raw_size": "1200",
+          "raw_price": "509"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 509.0,
+        "maxPricePerPerson": 1146.0,
+        "minSizeSqft": 740.0,
+        "maxSizeSqft": 1200.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b",
+        "sizes": "740 960 1200",
+        "prices": "1146 685 509",
+        "drive": "4.7/11",
+        "bike": "4.6/32",
+        "bus": "36，无shuttle"
+      }
+    },
+    {
+      "id": "the-connection-at-athens",
+      "rowNumber": 75,
+      "name": "The Connection at Athens",
+      "region": "雅典西部，Georgia Mall附近",
+      "location": "Athens, GA",
+      "furnished": "含",
+      "googleRating": 3.7,
+      "googleReviewSummary": "3.7分，班车可靠性问题",
+      "fees": "无停车费，无水费，无垃圾费，无害虫费，无网络费",
+      "amenitiesText": "游泳池，健身房，台球桌，乒乓球桌，篮球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "台球桌",
+        "乒乓球桌",
+        "篮球场"
+      ],
+      "notes": "",
+      "website": "https://www.connectionatathensapts.com/",
+      "commute": {
+        "drive": {
+          "raw": "5.5/12",
+          "miles": 5.5,
+          "minutes": 12.0
+        },
+        "bike": {
+          "raw": "6.6/38",
+          "miles": 6.6,
+          "minutes": 38.0
+        },
+        "bus": {
+          "raw": "39，无shuttle",
+          "minutes": 39.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 860.0,
+          "min_price_per_person": 799.0,
+          "raw_size": "860",
+          "raw_price": "799"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1174.0,
+          "min_price_per_person": 749.0,
+          "raw_size": "1174",
+          "raw_price": "749"
+        },
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1472.0,
+          "min_price_per_person": 699.0,
+          "raw_size": "1472",
+          "raw_price": "699"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 699.0,
+        "maxPricePerPerson": 799.0,
+        "minSizeSqft": 860.0,
+        "maxSizeSqft": 1472.0
+      },
+      "raw": {
+        "layouts": "2b2b 3b3b 4b4b",
+        "sizes": "860 1174 1472",
+        "prices": "799 749 699",
+        "drive": "5.5/12",
+        "bike": "6.6/38",
+        "bus": "39，无shuttle"
+      }
+    },
+    {
+      "id": "campus-crossings-at-abbey-west",
+      "rowNumber": 76,
+      "name": "Campus Crossings at Abbey West",
+      "region": "雅典西部，Georgia Mall附近",
+      "location": "Athens, GA",
+      "furnished": "含/不含",
+      "googleRating": 3.1,
+      "googleReviewSummary": "3.1分，霉菌问题，维护问题，管理问题",
+      "fees": "停车费25，无垃圾费，无害虫费，Utilities40",
+      "amenitiesText": "游泳池，健身房，网球场，匹克球场，篮球场",
+      "amenities": [
+        "游泳池",
+        "健身房",
+        "网球场",
+        "匹克球场",
+        "篮球场"
+      ],
+      "notes": "",
+      "website": "https://www.liveabbeywest.com/",
+      "commute": {
+        "drive": {
+          "raw": "5.1/10",
+          "miles": 5.1,
+          "minutes": 10.0
+        },
+        "bike": {
+          "raw": "5.0/35",
+          "miles": 5.0,
+          "minutes": 35.0
+        },
+        "bus": {
+          "raw": "44，无shuttle",
+          "minutes": 44.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "4b4b",
+          "bedrooms": 4.0,
+          "bathrooms": 4.0,
+          "size_sqft": 1496.0,
+          "min_price_per_person": 675.0,
+          "raw_size": "1496",
+          "raw_price": "675"
+        }
+      ],
+      "summary": {
+        "unitCount": 1,
+        "minPricePerPerson": 675.0,
+        "maxPricePerPerson": 675.0,
+        "minSizeSqft": 1496.0,
+        "maxSizeSqft": 1496.0
+      },
+      "raw": {
+        "layouts": "4b4b",
+        "sizes": "1496",
+        "prices": "675",
+        "drive": "5.1/10",
+        "bike": "5.0/35",
+        "bus": "44，无shuttle"
+      }
+    },
+    {
+      "id": "the-bluffs-at-epps-bridge",
+      "rowNumber": 77,
+      "name": "The Bluffs at Epps Bridge",
+      "region": "雅典西部，Georgia Mall附近",
+      "location": "Athens, GA",
+      "furnished": "不含",
+      "googleRating": 3.5,
+      "googleReviewSummary": "3.5分，近期无差评",
+      "fees": "停车费未写明，无水费，垃圾费12",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "13个月起租，且暂不可租fall",
+      "website": "https://www.thebluffsateppsbridge.com/",
+      "commute": {
+        "drive": {
+          "raw": "4.6/10",
+          "miles": 4.6,
+          "minutes": 10.0
+        },
+        "bike": {
+          "raw": "4.6/32",
+          "miles": 4.6,
+          "minutes": 32.0
+        },
+        "bus": {
+          "raw": "36，无shuttle",
+          "minutes": 36.0,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "1b1b",
+          "bedrooms": 1.0,
+          "bathrooms": 1.0,
+          "size_sqft": 692.0,
+          "min_price_per_person": 1215.0,
+          "raw_size": "692",
+          "raw_price": "1215"
+        },
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 960.0,
+          "min_price_per_person": 695.0,
+          "raw_size": "960",
+          "raw_price": "695"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1147.0,
+          "min_price_per_person": 507.0,
+          "raw_size": "1147",
+          "raw_price": "507"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 507.0,
+        "maxPricePerPerson": 1215.0,
+        "minSizeSqft": 692.0,
+        "maxSizeSqft": 1147.0
+      },
+      "raw": {
+        "layouts": "1b1b 2b2b 3b2b",
+        "sizes": "692 960 1147",
+        "prices": "1215 695 507",
+        "drive": "4.6/10",
+        "bike": "4.6/32",
+        "bus": "36，无shuttle"
+      }
+    },
+    {
+      "id": "wisteria-ridge-1062-wisteria-ridge-watkinsville-ga-30677",
+      "rowNumber": 78,
+      "name": "Wisteria Ridge (1062 Wisteria Ridge, Watkinsville, GA 30677)",
+      "region": "周边城市",
+      "location": "Watkinsville, GA",
+      "furnished": "不含",
+      "googleRating": 3.7,
+      "googleReviewSummary": "3.7分，近期无差评",
+      "fees": "停车费未写明，垃圾费19",
+      "amenitiesText": "游泳池，健身房",
+      "amenities": [
+        "游泳池",
+        "健身房"
+      ],
+      "notes": "价格租约为17个月",
+      "website": "https://www.wisteriaridgeapartments.com/",
+      "commute": {
+        "drive": {
+          "raw": "7.1/14",
+          "miles": 7.1,
+          "minutes": 14.0
+        },
+        "bike": {
+          "raw": "8.5/46",
+          "miles": 8.5,
+          "minutes": 46.0
+        },
+        "bus": {
+          "raw": "None",
+          "minutes": null,
+          "hasShuttle": false
+        }
+      },
+      "units": [
+        {
+          "layout": "2b2b",
+          "bedrooms": 2.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1050.0,
+          "min_price_per_person": 1038.0,
+          "raw_size": "1050",
+          "raw_price": "1038"
+        },
+        {
+          "layout": "3b2b",
+          "bedrooms": 3.0,
+          "bathrooms": 2.0,
+          "size_sqft": 1360.0,
+          "min_price_per_person": 788.0,
+          "raw_size": "1360",
+          "raw_price": "788"
+        },
+        {
+          "layout": "3b3b",
+          "bedrooms": 3.0,
+          "bathrooms": 3.0,
+          "size_sqft": 1425.0,
+          "min_price_per_person": 810.0,
+          "raw_size": "1425",
+          "raw_price": "810"
+        }
+      ],
+      "summary": {
+        "unitCount": 3,
+        "minPricePerPerson": 788.0,
+        "maxPricePerPerson": 1038.0,
+        "minSizeSqft": 1050.0,
+        "maxSizeSqft": 1425.0
+      },
+      "raw": {
+        "layouts": "2b2b 3b2b 3b3b",
+        "sizes": "1050 1360 1425",
+        "prices": "1038 788 810",
+        "drive": "7.1/14",
+        "bike": "8.5/46",
+        "bus": "None"
+      }
+    }
+  ]
+}

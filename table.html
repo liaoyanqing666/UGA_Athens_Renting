@@ -1,0 +1,55 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UGA Athens 数据表格</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell sheet-page">
+      <button class="theme-toggle" type="button" data-theme-toggle>黑夜模式</button>
+
+      <section class="star-banner">
+        <div class="star-banner__body">
+          <p class="star-banner__eyebrow">Support This Project</p>
+          <h2 class="star-banner__title">这份 Athens 租房整理如果帮你省下了选房时间，给项目点个 Star。</h2>
+          <p class="star-banner__text">项目地址在 <a href="https://github.com/liaoyanqing666/UGA_Athens_Renting" target="_blank" rel="noreferrer">github.com/liaoyanqing666/UGA_Athens_Renting</a>。如果有疑问可以提 <a href="https://github.com/liaoyanqing666/UGA_Athens_Renting/issues" target="_blank" rel="noreferrer">Issue</a>，如果想自己更新租房数据，请看 <a href="./update.html">更新数据说明</a>。</p>
+        </div>
+        <a class="star-banner__action" href="https://github.com/liaoyanqing666/UGA_Athens_Renting" target="_blank" rel="noreferrer">去 GitHub 点 Star</a>
+      </section>
+
+      <header class="panel sheet-hero">
+        <div class="sheet-toolbar">
+          <div>
+            <p class="eyebrow">Spreadsheet View</p>
+            <h1 class="hero__title">UGA Athens 数据表格</h1>
+            <p class="hero__text">使用 <code>apartments.json</code> 还原 Excel 视图，列顺序与原表保持一致。</p>
+          </div>
+          <div class="sheet-actions">
+            <a class="hero-action hero-action--primary" href="./index.html">返回卡片页</a>
+            <div class="font-controls" aria-label="调整表格字体大小">
+              <button class="font-control" type="button" data-font-scale="0.9">A-</button>
+              <button class="font-control is-active" type="button" data-font-scale="1">A</button>
+              <button class="font-control" type="button" data-font-scale="1.12">A+</button>
+            </div>
+            <a class="hero-action hero-action--accent" href="./26fall%20renting.xlsx" download>下载原始表格</a>
+            <a class="hero-action" href="./update.html">更新数据说明</a>
+            <a class="hero-action" href="https://www.google.com/maps/d/edit?mid=1ooMiqrCHx2RVI0O97TrKhHmKrmN72_Y&usp=sharing" target="_blank" rel="noreferrer">打开谷歌地图</a>
+          </div>
+        </div>
+        <div id="sheet-meta" class="results-meta"></div>
+      </header>
+
+      <section class="sheet-grid">
+        <table class="sheet-table">
+          <thead id="sheet-head"></thead>
+          <tbody id="sheet-body"></tbody>
+        </table>
+      </section>
+    </div>
+
+    <script src="./theme.js" type="module"></script>
+    <script src="./table.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>如何更新租房数据</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <button class="theme-toggle" type="button" data-theme-toggle>黑夜模式</button>
+
+      <section class="star-banner">
+        <div class="star-banner__body">
+          <p class="star-banner__eyebrow">Support This Project</p>
+          <h2 class="star-banner__title">这份 Athens 租房整理如果帮你省下了选房时间，给项目点个 Star。</h2>
+          <p class="star-banner__text">项目地址在 <a href="https://github.com/liaoyanqing666/UGA_Athens_Renting" target="_blank" rel="noreferrer">github.com/liaoyanqing666/UGA_Athens_Renting</a>。如果有疑问可以提 <a href="https://github.com/liaoyanqing666/UGA_Athens_Renting/issues" target="_blank" rel="noreferrer">Issue</a>，如果想自己更新租房数据，请看 <a href="./update.html">更新数据说明</a>。</p>
+        </div>
+        <a class="star-banner__action" href="https://github.com/liaoyanqing666/UGA_Athens_Renting" target="_blank" rel="noreferrer">去 GitHub 点 Star</a>
+      </section>
+
+      <header class="panel update-hero">
+        <div class="sheet-toolbar">
+          <div>
+            <p class="eyebrow">Update Data</p>
+            <h1 class="hero__title">更新 UGA Athens 租房数据</h1>
+          </div>
+          <div class="sheet-actions">
+            <a class="hero-action hero-action--primary" href="./index.html">返回主页</a>
+            <a class="hero-action" href="./table.html">打开数据表格页</a>
+          </div>
+        </div>
+      </header>
+
+      <main class="update-grid">
+        <section class="panel">
+          <p class="panel__eyebrow">Method 1</p>
+          <h2 class="panel__title">留下 Issue</h2>
+          <ol class="update-list">
+            <li>适合希望公开记录问题、让后续修改过程可追踪的人。</li>
+            <li>如果你发现数据缺漏、价格变化、地图点位错误，最稳妥的方式是直接提 Issue。</li>
+            <li>在 Issue 里写清楚公寓名称、需要修改的字段，以及你看到的新信息来源。</li>
+          </ol>
+          <div class="hero__actions">
+            <a class="hero-action hero-action--primary" href="https://github.com/liaoyanqing666/UGA_Athens_Renting/issues" target="_blank" rel="noreferrer">前往提 Issue</a>
+          </div>
+        </section>
+
+        <section class="panel">
+          <p class="panel__eyebrow">Method 2</p>
+          <h2 class="panel__title">联系作者</h2>
+          <ol class="update-list">
+            <li>适合不会用 GitHub、希望直接沟通的人。</li>
+            <li>建议把公寓名、要改的字段、修改后的值和信息来源一起发给作者，避免来回确认。</li>
+            <li>QQ 邮箱：<code>1793706453@qq.com</code>；UGA 邮箱：<code>sl64343@uga.edu</code>。</li>
+          </ol>
+          <div class="hero__actions">
+            <a class="hero-action" href="https://github.com/liaoyanqing666" target="_blank" rel="noreferrer">访问作者主页</a>
+          </div>
+        </section>
+
+        <section class="panel">
+          <p class="panel__eyebrow">Method 3</p>
+          <h2 class="panel__title">自行更新表格后运行脚本</h2>
+          <ol class="update-list">
+            <li>适合已经拿到新版 Excel、希望自己立即更新页面数据的人。</li>
+            <li>先 Fork 项目，在你自己的仓库里修改根目录的 <code>26fall renting.xlsx</code>。</li>
+            <li>运行 <code>python .\scripts\build_data.py</code>，重新生成 <code>data/apartments.json</code>。</li>
+            <li>确认页面数据正常后，提交 commit，再向主仓库发起 Pull Request。</li>
+          </ol>
+          <div class="hero__actions">
+            <a class="hero-action hero-action--primary" href="https://github.com/liaoyanqing666/UGA_Athens_Renting/fork" target="_blank" rel="noreferrer">Fork 这个项目</a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./theme.js" type="module"></script>
+  </body>
+</html>
