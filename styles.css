@@ -204,7 +204,6 @@ p {
 
 .hero__text {
   margin-top: 14px;
-  max-width: 62ch;
   color: var(--muted);
   line-height: 1.58;
   font-size: 0.93rem;

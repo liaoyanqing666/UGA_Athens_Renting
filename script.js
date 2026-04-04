@@ -29,7 +29,6 @@ const elements = {
 
 const noteLabels = {
   "人均价格(最低)": "人均价格（最低）",
-  房型: "房型",
   大小: "面积",
   "距离Boyd开车(mile/min)": "到 Boyd 开车距离",
   "公交/shuttle bus": "公交 / Shuttle",
@@ -167,13 +166,10 @@ function createCheckbox(name, value, label) {
 }
 
 function renderNotes(columnNotes = {}) {
-  const importantKeys = ["人均价格(最低)", "房型", "大小", "距离Boyd开车(mile/min)", "公交/shuttle bus", "谷歌评价"];
-
   elements.notes.innerHTML = "";
 
-  importantKeys.forEach((key) => {
-    const note = columnNotes[key];
-    if (!note) {
+  Object.entries(columnNotes).forEach(([key, note]) => {
+    if (!sanitizeText(note)) {
       return;
     }
 
