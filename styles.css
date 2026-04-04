@@ -314,8 +314,6 @@ p {
   background:
     linear-gradient(180deg, rgba(255, 250, 245, 0.92), rgba(251, 242, 232, 0.82)),
     var(--panel);
-  max-height: min(72vh, 760px);
-  overflow: auto;
 }
 
 .panel--muted {
@@ -936,11 +934,52 @@ p {
 }
 
 @media (max-width: 640px) {
+  .page-shell {
+    width: min(100vw - 40px, 1360px);
+  }
+
+  .hero__copy,
+  .hero__stats,
+  .panel,
+  .results-head,
+  .card {
+    padding: 22px;
+  }
+
+  .map-panel__summary,
+  .notes-panel__summary {
+    padding: 22px;
+  }
+
+  .map-panel__content,
+  .notes-panel__content {
+    padding: 0 22px 22px;
+  }
+
+  .field input,
+  .field select,
+  .ghost-button {
+    padding: 13px 15px;
+  }
+
+  .check-dropdown summary {
+    padding: 15px 16px;
+  }
+
+  .check-dropdown .check-list {
+    padding: 16px;
+  }
+
+  .metric {
+    padding: 13px;
+  }
+
   .panel__header,
   .card__top,
   .results-head,
   .section-head,
   .map-panel__summary,
+  .notes-panel__summary,
   .sheet-toolbar,
   .star-banner,
   .sheet-actions {
@@ -949,8 +988,7 @@ p {
 
   .star-banner__body,
   .sheet-toolbar > div:first-child,
-  .sheet-actions,
-  .theme-toggle {
+  .sheet-actions {
     width: 100%;
     min-width: 0;
     flex: 1 1 auto;
@@ -1073,6 +1111,11 @@ html[data-theme="dark"] .font-control.is-active {
   top: 18px;
   right: 18px;
   z-index: 20;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 112px;
+  min-width: 112px;
   min-height: 38px;
   padding: 0 14px;
   border: 1px solid var(--line);
@@ -1081,6 +1124,15 @@ html[data-theme="dark"] .font-control.is-active {
   color: var(--text);
   cursor: pointer;
   box-shadow: var(--shadow-md);
+  white-space: nowrap;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .theme-toggle {
+    top: 14px;
+    right: 14px;
+  }
 }
 
 .hero-action--accent {
