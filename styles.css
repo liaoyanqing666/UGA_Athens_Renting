@@ -14,8 +14,8 @@
   --radius-xl: 26px;
   --radius-lg: 18px;
   --radius-md: 14px;
-  --shadow-lg: 0 24px 54px rgba(83, 56, 33, 0.13);
-  --shadow-md: 0 14px 30px rgba(83, 56, 33, 0.09);
+  --shadow-lg: 0 5px 16px rgba(83, 56, 33, 0.15);
+  --shadow-md: 0 3px 9px rgba(83, 56, 33, 0.105);
   --base-font: 14px;
 }
 
@@ -149,13 +149,13 @@ p {
   border: 1px solid var(--line);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-lg);
-  backdrop-filter: blur(16px);
 }
 
 .hero__copy {
   position: relative;
   overflow: hidden;
   padding: 24px;
+  backdrop-filter: blur(16px);
   background:
     radial-gradient(circle at top right, rgba(255, 214, 174, 0.55), transparent 34%),
     linear-gradient(135deg, rgba(255, 249, 242, 0.9), rgba(250, 238, 222, 0.76));
@@ -255,6 +255,7 @@ p {
   padding: 16px;
   display: grid;
   gap: 10px;
+  backdrop-filter: blur(14px);
   background: linear-gradient(180deg, rgba(255, 251, 247, 0.86), rgba(247, 238, 229, 0.8));
 }
 
@@ -306,17 +307,16 @@ p {
 
 .panel {
   padding: 18px;
-  background: var(--panel);
+  background: rgba(255, 250, 244, 0.97);
 }
 
 .panel--filters {
   background:
-    linear-gradient(180deg, rgba(255, 250, 245, 0.92), rgba(251, 242, 232, 0.82)),
-    var(--panel);
+    linear-gradient(180deg, rgba(255, 251, 246, 0.98), rgba(250, 241, 231, 0.96));
 }
 
 .panel--muted {
-  background: rgba(252, 247, 240, 0.86);
+  background: rgba(252, 247, 240, 0.97);
 }
 
 .panel--notes {
@@ -331,8 +331,7 @@ p {
 .panel--map {
   margin-bottom: 18px;
   background:
-    linear-gradient(180deg, rgba(255, 250, 245, 0.9), rgba(246, 238, 230, 0.86)),
-    var(--panel);
+    linear-gradient(180deg, rgba(255, 251, 246, 0.97), rgba(246, 238, 230, 0.95));
 }
 
 .map-frame {
@@ -563,7 +562,7 @@ p {
 
 .results-head {
   padding: 16px 18px;
-  background: linear-gradient(180deg, rgba(255, 251, 245, 0.86), rgba(255, 244, 233, 0.78));
+  background: linear-gradient(180deg, rgba(255, 251, 245, 0.98), rgba(255, 244, 233, 0.96));
 }
 
 .results-head h2 {
@@ -592,8 +591,7 @@ p {
   display: grid;
   gap: 12px;
   background:
-    linear-gradient(180deg, rgba(255, 254, 251, 0.9), rgba(255, 247, 239, 0.82)),
-    var(--panel);
+    linear-gradient(180deg, rgba(255, 254, 251, 0.98), rgba(255, 247, 239, 0.96));
   box-shadow: var(--shadow-md);
 }
 
