@@ -409,6 +409,10 @@ p {
   padding: 0 18px 18px;
 }
 
+.notes-panel--en {
+  max-height: min(58vh, 460px);
+}
+
 .panel__header,
 .card__top,
 .results-head {
@@ -1098,21 +1102,29 @@ html[data-theme="dark"] .check-item,
 html[data-theme="dark"] .field input,
 html[data-theme="dark"] .field select,
 html[data-theme="dark"] .font-controls,
-html[data-theme="dark"] .font-control.is-active {
+html[data-theme="dark"] .font-control.is-active,
+html[data-theme="dark"] .theme-toggle,
+html[data-theme="dark"] .language-toggle {
   background: #111111 !important;
   color: var(--text);
 }
 
-.theme-toggle {
+.page-controls {
   position: fixed;
   top: 18px;
   right: 18px;
   z-index: 20;
+  display: flex;
+  gap: 8px;
+}
+
+.theme-toggle,
+.language-toggle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 112px;
-  min-width: 112px;
+  width: 92px;
+  min-width: 92px;
   min-height: 38px;
   padding: 0 14px;
   border: 1px solid var(--line);
@@ -1125,8 +1137,12 @@ html[data-theme="dark"] .font-control.is-active {
   text-align: center;
 }
 
+.language-toggle {
+  text-decoration: none;
+}
+
 @media (max-width: 640px) {
-  .theme-toggle {
+  .page-controls {
     top: 14px;
     right: 14px;
   }

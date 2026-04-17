@@ -29,5 +29,7 @@ function applyTheme(theme) {
     return;
   }
 
-  button.textContent = theme === "dark" ? "白天模式" : "黑夜模式";
+  const lightLabel = button.dataset.themeLabelLight || "Dark Mode";
+  const darkLabel = button.dataset.themeLabelDark || "Light Mode";
+  button.textContent = theme === "dark" ? darkLabel : lightLabel;
 }

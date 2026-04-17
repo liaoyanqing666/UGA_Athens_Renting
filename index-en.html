@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UGA Athens Renting</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="page-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-theme-label-light="Dark Mode" data-theme-label-dark="Light Mode">Dark Mode</button>
+        <a class="language-toggle" href="./index.html">Chinese</a>
+      </div>
+
+      <section class="star-banner">
+        <div class="star-banner__body">
+          <p class="star-banner__eyebrow">Support This Project</p>
+          <h2 class="star-banner__title">If this free open-source UGA Athens housing guide saved you time, please give the project a star.</h2>
+          <p class="star-banner__text">The repo is at <a href="https://github.com/liaoyanqing666/UGA_Athens_Renting" target="_blank" rel="noreferrer">github.com/liaoyanqing666/UGA_Athens_Renting</a>. If you spot issues or have suggestions, open an <a href="https://github.com/liaoyanqing666/UGA_Athens_Renting/issues" target="_blank" rel="noreferrer">Issue</a>. If you want to update the dataset, read <a href="./update-en.html">how to update the data</a>.</p>
+        </div>
+        <a class="star-banner__action" href="https://github.com/liaoyanqing666/UGA_Athens_Renting" target="_blank" rel="noreferrer">Star on GitHub</a>
+      </section>
+
+      <header class="hero">
+        <div class="hero__copy">
+          <p class="eyebrow">UGA Athens Renting</p>
+          <h1 class="hero__title">Fall 2026 UGA Athens Apartment Guide</h1>
+          <p class="hero__text">This website is an extremely detailed investigation carried out by the project author in the process of renting a house, which is now free and open source for all students to use together. This English site reads directly from the translated spreadsheet, which may has some translation problem. The data was collected manually by the project authors, so it could be wrong or out of date, Welcome to <a href = "https://github.com/liaoyanqing666/UGA_Athens_Renting" target = "_blank" rel = "noreferrer" >Github</a> to contribute to the project!</p>
+          <div class="hero__actions">
+            <a class="hero-action hero-action--primary" href="./table-en.html">Open Spreadsheet View</a>
+            <a class="hero-action" href="https://www.google.com/maps/d/edit?mid=1ooMiqrCHx2RVI0O97TrKhHmKrmN72_Y&usp=sharing" target="_blank" rel="noreferrer">Open Map</a>
+            <a class="hero-action" href="./update-en.html">Update Data</a>
+          </div>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__label">Total Apartments</span>
+            <strong id="stat-total">-</strong>
+          </div>
+          <div class="stat">
+            <span class="stat__label">Current Results</span>
+            <strong id="stat-visible">-</strong>
+          </div>
+          <div class="stat">
+            <span class="stat__label">Author</span>
+            <strong><a class="stat__link" href="https://github.com/liaoyanqing666" target="_blank" rel="noreferrer">Siyuan Li (liaoyanqing666)</a></strong>
+          </div>
+        </div>
+      </header>
+
+      <details class="panel panel--map map-panel">
+        <summary class="map-panel__summary">
+          <div>
+            <p class="panel__eyebrow">Map</p>
+            <h2>Apartment Map</h2>
+          </div>
+          <span class="map-panel__toggle">Expand / Collapse</span>
+        </summary>
+
+        <div class="map-panel__content">
+          <div class="section-head">
+            <p class="panel__hint">Browse the embedded map here, or open the full Google My Maps view in a new tab.</p>
+            <a class="ghost-button ghost-button--link" href="https://www.google.com/maps/d/edit?mid=1ooMiqrCHx2RVI0O97TrKhHmKrmN72_Y&usp=sharing" target="_blank" rel="noreferrer">Open in New Tab</a>
+          </div>
+          <div class="map-frame">
+            <iframe title="UGA Athens Apartments Map" src="https://www.google.com/maps/d/embed?mid=1ooMiqrCHx2RVI0O97TrKhHmKrmN72_Y&usp=sharing" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </details>
+
+      <details class="panel panel--muted panel--notes notes-panel notes-panel--en">
+        <summary class="notes-panel__summary">
+          <div>
+            <p class="panel__eyebrow">Notes</p>
+            <h2 class="panel__title">How to Read the Data</h2>
+          </div>
+          <span class="notes-panel__toggle">Expand / Collapse</span>
+        </summary>
+        <div class="notes-panel__content">
+          <p class="panel__hint">This website only tracks apartment communities leased by property companies. Individual sublets and private landlords are not included.</p>
+          <ul id="column-notes" class="notes-list"></ul>
+        </div>
+      </details>
+
+      <main class="layout">
+        <aside class="filters">
+          <div class="panel panel--filters">
+            <div class="panel__header">
+              <div>
+                <p class="panel__eyebrow">Filters</p>
+                <h2 class="panel__title">Filter Apartments</h2>
+              </div>
+              <button id="reset-filters" class="ghost-button" type="button">Reset</button>
+            </div>
+
+            <div class="field-grid">
+              <label class="field field--search">
+                <span>Keyword</span>
+                <input id="filter-search" type="search" placeholder="Apartment, notes, amenities" />
+              </label>
+
+              <label class="field">
+                <span>Furnishing</span>
+                <select id="filter-furnished">
+                  <option value="">All</option>
+                  <option value="Furnished">Furnished</option>
+                  <option value="Unfurnished">Unfurnished</option>
+                  <option value="Mixed Furnished / Unfurnished">Mixed Furnished / Unfurnished</option>
+                </select>
+              </label>
+
+              <label class="field">
+                <span>Max Min Price / Person (USD)</span>
+                <input id="filter-max-price" type="number" min="0" step="1" placeholder="e.g. 1000" />
+              </label>
+
+              <label class="field">
+                <span>Min Google Rating</span>
+                <input id="filter-min-rating" type="number" min="0" max="5" step="0.1" placeholder="e.g. 4.0" />
+              </label>
+
+              <label class="field">
+                <span>Max Drive Time (min)</span>
+                <input id="filter-max-drive" type="number" min="0" step="1" placeholder="e.g. 15" />
+              </label>
+
+              <label class="field">
+                <span>Max Bus Time (min)</span>
+                <input id="filter-max-bus" type="number" min="0" step="1" placeholder="e.g. 30" />
+              </label>
+
+              <label class="field">
+                <span>Sort By</span>
+                <select id="sort-by">
+                  <option value="region-asc">Region</option>
+                  <option value="price-asc">Lowest Price</option>
+                  <option value="rating-desc">Highest Rating</option>
+                  <option value="drive-asc">Shortest Drive</option>
+                  <option value="bus-asc">Shortest Bus Ride</option>
+                  <option value="name-asc">Name A-Z</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="check-grid">
+              <details class="check-dropdown">
+                <summary>Regions</summary>
+                <div id="filter-region-group" class="check-list"></div>
+              </details>
+
+              <details class="check-dropdown">
+                <summary>Layouts</summary>
+                <div id="filter-layout-group" class="check-list"></div>
+              </details>
+            </div>
+          </div>
+        </aside>
+
+        <section class="results">
+          <div class="results-head">
+            <div>
+              <p class="results-head__eyebrow">Listings</p>
+              <h2 class="panel__title">Apartment Results</h2>
+            </div>
+            <div id="results-meta" class="results-meta"></div>
+          </div>
+          <div id="cards" class="cards"></div>
+        </section>
+      </main>
+    </div>
+
+    <template id="card-template">
+      <article class="card">
+        <div class="card__top">
+          <div class="card__heading">
+            <p class="card__region"></p>
+            <h3 class="card__title"></h3>
+          </div>
+          <a class="card__link" target="_blank" rel="noreferrer">Website</a>
+        </div>
+
+        <div class="metric-grid">
+          <div class="metric">
+            <span class="metric__label">Min Price / Person</span>
+            <strong class="metric__value metric__price"></strong>
+          </div>
+          <div class="metric">
+            <span class="metric__label">Google Rating</span>
+            <strong class="metric__value metric__rating"></strong>
+          </div>
+          <div class="metric">
+            <span class="metric__label">Drive</span>
+            <strong class="metric__value metric__drive"></strong>
+          </div>
+          <div class="metric">
+            <span class="metric__label">Bus</span>
+            <strong class="metric__value metric__bus"></strong>
+          </div>
+        </div>
+
+        <div class="tags card__tags"></div>
+
+        <div class="card__section">
+          <h4>Available Layouts</h4>
+          <div class="unit-list"></div>
+        </div>
+
+        <div class="card__section">
+          <h4>Reviews and Fees</h4>
+          <p class="card__reviews"></p>
+          <p class="card__fees"></p>
+        </div>
+
+        <details class="details">
+          <summary>More Details</summary>
+          <div class="details__content">
+            <p><strong>Location:</strong> <span class="card__location"></span></p>
+            <p><strong>Amenities:</strong> <span class="card__amenities"></span></p>
+            <p><strong>Notes:</strong> <span class="card__notes"></span></p>
+            <p><strong>Raw Commute:</strong> <span class="card__raw-commute"></span></p>
+          </div>
+        </details>
+      </article>
+    </template>
+
+    <script src="./theme.js" type="module"></script>
+    <script src="./script-en.js" type="module"></script>
+  </body>
+</html>

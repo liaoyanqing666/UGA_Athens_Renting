@@ -8,7 +8,10 @@
   </head>
   <body>
     <div class="page-shell">
-      <button class="theme-toggle" type="button" data-theme-toggle>黑夜模式</button>
+      <div class="page-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-theme-label-light="黑夜模式" data-theme-label-dark="白天模式">黑夜模式</button>
+        <a class="language-toggle" href="./update-en.html">English</a>
+      </div>
 
       <section class="star-banner">
         <div class="star-banner__body">
@@ -65,11 +68,11 @@
           <ol class="update-list">
             <li>这种方法会复杂一点，但可以让你成为项目合作者。</li>
             <li>创建 GitHub 账号，点击项目右上角 Fork，将此项目 Fork 到你自己的账户中。</li>
-            <li>在你 Fork 的版本中，找到 <code>data/26fall renting.xlsx</code> 文件，克隆或下载到本地编辑后再上传，更新租房数据。</li>
+            <li>在你 Fork 的版本中，更新 <code>26fall renting.xlsx</code>；如果英文页面也要同步更新，请一并修改 <code>26fall renting EN.xlsx</code>。</li>
             <li>注意编辑时请模仿其他行的编写逻辑，以及中英文符号的使用</li>
-            <li>使用 Python 运行 <code>build_data.py</code>，重新生成数据库文件： <code>data/apartments.json</code>。</li>
-            <li>在本地打开 <code>table.html</code>和 <code>index.html</code>，确认数据正确显示。</li>
-            <li>将修改上传到你 Fork 的 GitHub 上（需要上传新的 <code>26fall renting.xlsx</code> 和 <code>apartments.json</code>）。</li>
+            <li>使用 Python 运行 <code>python scripts/build_data.py</code>，重新生成数据库文件：<code>data/apartments.json</code> 和 <code>data/apartments_EN.json</code>。</li>
+            <li>在本地打开中英文两个版本的主页和表格页，确认数据正确显示。</li>
+            <li>将修改上传到你 Fork 的 GitHub 上（需要上传新的 Excel 文件以及对应生成的 JSON 文件）。</li>
             <li>在 GitHub 上提交 Pull Request，等待项目维护者合并。</li>
           </ol>
           <div class="hero__actions">

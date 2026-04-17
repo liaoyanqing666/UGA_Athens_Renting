@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to Update the Renting Data</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="page-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-theme-label-light="Dark Mode" data-theme-label-dark="Light Mode">Dark Mode</button>
+        <a class="language-toggle" href="./update.html">Chinese</a>
+      </div>
+
+      <section class="star-banner">
+        <div class="star-banner__body">
+          <p class="star-banner__eyebrow">Support This Project</p>
+          <h2 class="star-banner__title">If this free open-source UGA Athens housing guide saved you time, please give the project a star.</h2>
+          <p class="star-banner__text">The repo is at <a href="https://github.com/liaoyanqing666/UGA_Athens_Renting" target="_blank" rel="noreferrer">github.com/liaoyanqing666/UGA_Athens_Renting</a>. If you spot issues or have suggestions, open an <a href="https://github.com/liaoyanqing666/UGA_Athens_Renting/issues" target="_blank" rel="noreferrer">Issue</a>.</p>
+        </div>
+        <a class="star-banner__action" href="https://github.com/liaoyanqing666/UGA_Athens_Renting" target="_blank" rel="noreferrer">Star on GitHub</a>
+      </section>
+
+      <header class="panel update-hero">
+        <div class="sheet-toolbar">
+          <div>
+            <p class="eyebrow">Update Data</p>
+            <h1 class="hero__title">Update the UGA Athens Renting Dataset</h1>
+            <p class="hero__text">Suggestions of any size are useful. The project is a static site backed by Excel files. If you just want to report a mistake, the first two methods are enough. If you want to maintain the data yourself, the third method walks through the full contribution flow.</p>
+          </div>
+          <div class="sheet-actions">
+            <a class="hero-action hero-action--primary" href="./index-en.html">Back to Home</a>
+            <a class="hero-action" href="./table-en.html">Open Spreadsheet Page</a>
+          </div>
+        </div>
+      </header>
+
+      <main class="update-grid">
+        <section class="panel">
+          <p class="panel__eyebrow">Method 1</p>
+          <h2 class="panel__title">Open an Issue</h2>
+          <ol class="update-list">
+            <li>If you find missing data, price changes, or mistakes, open a GitHub issue directly.</li>
+            <li>Include the apartment name, the fields that need updates, and the corrected values if you have them.</li>
+          </ol>
+          <div class="hero__actions">
+            <a class="hero-action hero-action--primary" href="https://github.com/liaoyanqing666/UGA_Athens_Renting/issues" target="_blank" rel="noreferrer">Open an Issue</a>
+          </div>
+        </section>
+
+        <section class="panel">
+          <p class="panel__eyebrow">Method 2</p>
+          <h2 class="panel__title">Contact the Author</h2>
+          <ol class="update-list">
+            <li>If you do not use GitHub, or you want to coordinate directly, contact the author instead.</li>
+            <li>When possible, send the apartment name, target fields, and replacement values in one message to reduce back-and-forth.</li>
+            <li>QQ Mail: <code>1793706453@qq.com</code>; UGA Mail: <code>sl64343@uga.edu</code>.</li>
+          </ol>
+          <div class="hero__actions">
+            <a class="hero-action" href="https://github.com/liaoyanqing666" target="_blank" rel="noreferrer">Author Profile</a>
+          </div>
+        </section>
+
+        <section class="panel">
+          <p class="panel__eyebrow">Method 3</p>
+          <h2 class="panel__title">Edit the Excel Files and Rebuild JSON</h2>
+          <ol class="update-list">
+            <li>Fork the repository to your own GitHub account.</li>
+            <li>Update both <code>26fall renting.xlsx</code> and <code>26fall renting EN.xlsx</code> if you want the Chinese and English sites to stay aligned.</li>
+            <li>Run <code>python scripts/build_data.py</code> to regenerate <code>data/apartments.json</code> and <code>data/apartments_EN.json</code>.</li>
+            <li>Open both language versions locally and verify that the pages render correctly.</li>
+            <li>Commit the updated Excel files and generated JSON files, then open a Pull Request.</li>
+          </ol>
+          <div class="hero__actions">
+            <a class="hero-action hero-action--primary" href="https://github.com/liaoyanqing666/UGA_Athens_Renting/fork" target="_blank" rel="noreferrer">Fork This Project</a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./theme.js" type="module"></script>
+  </body>
+</html>

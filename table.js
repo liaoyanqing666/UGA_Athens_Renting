@@ -11,57 +11,50 @@ const elements = {
 };
 
 const COLUMN_DEFS = [
-  { key: "name", label: "名称", noteKeys: ["名称", "鍚嶇О"], getValue: (apartment) => sanitizeText(apartment.name) },
-  { key: "region", label: "地理位置", noteKeys: ["地理位置", "鍦扮悊浣嶇疆"], getValue: (apartment) => sanitizeText(apartment.region) },
-  { key: "location", label: "位置", noteKeys: ["位置", "浣嶇疆"], getValue: (apartment) => sanitizeText(apartment.location) },
-  { key: "layouts", label: "房型", noteKeys: ["房型", "鎴垮瀷"], getValue: (apartment) => sanitizeText(apartment.raw?.layouts) },
-  { key: "sizes", label: "大小", noteKeys: ["大小", "澶у皬"], getValue: (apartment) => sanitizeText(apartment.raw?.sizes) },
+  { key: "name", label: "名称", getValue: (apartment) => sanitizeText(apartment.name) },
+  { key: "region", label: "地理位置", getValue: (apartment) => sanitizeText(apartment.region) },
+  { key: "location", label: "位置", getValue: (apartment) => sanitizeText(apartment.location) },
+  { key: "layouts", label: "房型", getValue: (apartment) => sanitizeText(apartment.raw?.layouts) },
+  { key: "sizes", label: "大小", getValue: (apartment) => sanitizeText(apartment.raw?.sizes) },
   {
     key: "prices",
     label: "人均价格(最低)",
-    noteKeys: ["人均价格(最低)", "浜哄潎浠锋牸(鏈€浣?"],
     getValue: (apartment) => sanitizeText(apartment.raw?.prices),
   },
-  { key: "furnished", label: "家具", noteKeys: ["家具", "瀹跺叿"], getValue: (apartment) => sanitizeText(apartment.furnished) },
+  { key: "furnished", label: "家具", getValue: (apartment) => sanitizeText(apartment.furnished) },
   {
     key: "drive",
     label: "距离Boyd开车(mile/min)",
-    noteKeys: ["距离Boyd开车(mile/min)", "璺濈Boyd寮€杞?mile/min)"],
     getValue: (apartment) => sanitizeText(apartment.raw?.drive),
   },
-  { key: "bike", label: "骑车(mile/min)", noteKeys: ["骑车(mile/min)", "楠戣溅(mile/min)"], getValue: (apartment) => sanitizeText(apartment.raw?.bike) },
+  { key: "bike", label: "骑车(mile/min)", getValue: (apartment) => sanitizeText(apartment.raw?.bike) },
   {
     key: "bus",
     label: "公交/shuttle bus",
-    noteKeys: ["公交/shuttle bus", "鍏氦/shuttle bus"],
     getValue: (apartment) => sanitizeText(apartment.raw?.bus),
   },
   {
     key: "rating",
     label: "谷歌评分",
-    noteKeys: ["谷歌评分", "璋锋瓕璇勫垎"],
     getValue: (apartment) => (apartment.googleRating === null || apartment.googleRating === undefined ? "" : String(apartment.googleRating)),
   },
-  { key: "reviews", label: "谷歌评价", noteKeys: ["谷歌评价", "璋锋瓕璇勪环"], getValue: (apartment) => sanitizeText(apartment.googleReviewSummary) },
+  { key: "reviews", label: "谷歌评价", getValue: (apartment) => sanitizeText(apartment.googleReviewSummary) },
   {
     key: "fees",
     label: "各种费用(如有写明)(不含申请费)",
-    noteKeys: ["各种费用(如有写明)(不含申请费)", "鍚勭璐圭敤(濡傛湁鍐欐槑)(涓嶅惈鐢宠璐?"],
     getValue: (apartment) => sanitizeText(apartment.fees),
   },
   {
     key: "amenities",
     label: "社区设施(运动)",
-    noteKeys: ["社区设施(运动)", "绀惧尯璁炬柦(杩愬姩)"],
     getValue: (apartment) => sanitizeText(apartment.amenitiesText),
   },
   {
     key: "notes",
     label: "注意事项/备注",
-    noteKeys: ["注意事项/备注", "娉ㄦ剰浜嬮」/澶囨敞"],
     getValue: (apartment) => sanitizeText(apartment.notes),
   },
-  { key: "website", label: "网址", noteKeys: ["网址", "缃戝潃"], getValue: (apartment) => sanitizeText(apartment.website) },
+  { key: "website", label: "网址", getValue: (apartment) => sanitizeText(apartment.website) },
 ];
 
 init().catch((error) => {
@@ -92,7 +85,7 @@ function renderHead(payload) {
     const note = document.createElement("td");
 
     head.textContent = column.label;
-    note.textContent = findNote(payload.columnNotes, column.noteKeys);
+    note.textContent = sanitizeText(payload.columnNotes?.[column.label]);
 
     headerRow.append(head);
     noteRow.append(note);
@@ -145,17 +138,6 @@ function createCell(column, apartment) {
 
   cell.textContent = value;
   return cell;
-}
-
-function findNote(notes, keys) {
-  for (const key of keys) {
-    const value = notes?.[key];
-    if (value) {
-      return sanitizeText(value);
-    }
-  }
-
-  return "";
 }
 
 function bindFontControls() {

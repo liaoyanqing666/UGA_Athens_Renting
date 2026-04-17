@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UGA Athens Spreadsheet</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell sheet-page">
+      <div class="page-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-theme-label-light="Dark Mode" data-theme-label-dark="Light Mode">Dark Mode</button>
+        <a class="language-toggle" href="./table.html">Chinese</a>
+      </div>
+
+      <section class="star-banner">
+        <div class="star-banner__body">
+          <p class="star-banner__eyebrow">Support This Project</p>
+          <h2 class="star-banner__title">If this free open-source UGA Athens housing guide saved you time, please give the project a star.</h2>
+          <p class="star-banner__text">The repo is at <a href="https://github.com/liaoyanqing666/UGA_Athens_Renting" target="_blank" rel="noreferrer">github.com/liaoyanqing666/UGA_Athens_Renting</a>. If you spot issues or have suggestions, open an <a href="https://github.com/liaoyanqing666/UGA_Athens_Renting/issues" target="_blank" rel="noreferrer">Issue</a>. If you want to update the dataset, read <a href="./update-en.html">how to update the data</a>.</p>
+        </div>
+        <a class="star-banner__action" href="https://github.com/liaoyanqing666/UGA_Athens_Renting" target="_blank" rel="noreferrer">Star on GitHub</a>
+      </section>
+
+      <header class="panel sheet-hero">
+        <div class="sheet-toolbar">
+          <div>
+            <p class="eyebrow">Spreadsheet View</p>
+            <h1 class="hero__title">UGA Athens Apartment Spreadsheet</h1>
+            <p class="hero__text">If needed, you can download the translated Excel source file directly.</p>
+          </div>
+          <div class="sheet-actions">
+            <a class="hero-action hero-action--accent" href="./26fall%20renting%20EN.xlsx" download>Download Excel</a>
+            <div class="font-controls" aria-label="Adjust table font size">
+              <button class="font-control" type="button" data-font-scale="0.9">A-</button>
+              <button class="font-control is-active" type="button" data-font-scale="1">A</button>
+              <button class="font-control" type="button" data-font-scale="1.12">A+</button>
+            </div>
+            <a class="hero-action" href="./update-en.html">Update Data</a>
+            <a class="hero-action" href="https://www.google.com/maps/d/edit?mid=1ooMiqrCHx2RVI0O97TrKhHmKrmN72_Y&usp=sharing" target="_blank" rel="noreferrer">Open Map</a>
+            <a class="hero-action hero-action--primary" href="./index-en.html">Back to Cards</a>
+          </div>
+        </div>
+        <div id="sheet-meta" class="results-meta"></div>
+      </header>
+
+      <section class="sheet-grid">
+        <table class="sheet-table">
+          <thead id="sheet-head"></thead>
+          <tbody id="sheet-body"></tbody>
+        </table>
+      </section>
+    </div>
+
+    <script src="./theme.js" type="module"></script>
+    <script src="./table-en.js" type="module"></script>
+  </body>
+</html>

@@ -1,42 +1,42 @@
 {
-  "generatedAt": "2026-04-17T03:19:13.037809+00:00",
-  "sourceFile": "26fall renting.xlsx",
+  "generatedAt": "2026-04-17T03:19:13.076789+00:00",
+  "sourceFile": "26fall renting EN.xlsx",
   "sheetName": "Sheet1",
   "columns": [
-    "名称",
-    "地理位置",
-    "位置",
-    "房型",
-    "大小",
-    "人均价格(最低)",
-    "家具",
-    "距离Boyd开车(mile/min)",
-    "骑车(mile/min)",
-    "公交/shuttle bus",
-    "谷歌评分",
-    "谷歌评价",
-    "各种费用(如有写明)(不含申请费)",
-    "社区设施(运动)",
-    "注意事项/备注",
-    "网址"
+    "Name",
+    "Region",
+    "Location",
+    "Layouts",
+    "Size",
+    "Min Price Per Person",
+    "Furnishing",
+    "Drive to Boyd (mile/min)",
+    "Bike (mile/min)",
+    "Bus/shuttle",
+    "Google Rating",
+    "Google Reviews",
+    "Fees (if disclosed, excluding application fee)",
+    "Community Amenities (Sports)",
+    "Notes",
+    "Website"
   ],
   "columnNotes": {
-    "名称": "并非都为学生公寓，住户不保证都为学生。如果有26fall-27fall专属提前报价则以其为准，否则采用当前价格。原始表格中绿色代表谷歌地图标记为“学生住宿中心”",
-    "地理位置": null,
-    "位置": null,
-    "房型": "2b2.5b按照2b2b考虑计算，仅考虑可用的房型",
-    "大小": "最低价房型大小",
-    "人均价格(最低)": "按卧室数量平均",
-    "家具": "是否包含卧室内家具",
-    "距离Boyd开车(mile/min)": "按照半夜未堵车情况计算",
-    "骑车(mile/min)": null,
-    "公交/shuttle bus": "不考虑等车时间，以周一8am查看公交线路",
-    "谷歌评分": null,
-    "谷歌评价": "人工总结，问题需一年内至少两条评论提及",
-    "各种费用(如有写明)(不含申请费)": "仅包含公开写明的免费或收费项，不含入住一次性费用",
-    "社区设施(运动)": "根据公寓说明和照片查看，可能有疏漏，尤其是打印机",
-    "注意事项/备注": null,
-    "网址": null
+    "Name": "Not all of these are student apartments, and residents are not necessarily students. If a Fall 2026 to Fall 2027 early-bird quote is available, that quote is used; otherwise the current listed price is used. Green rows in the original sheet indicate places labeled as student housing on Google Maps.",
+    "Region": null,
+    "Location": null,
+    "Layouts": "2b2.5b is calculated as 2b2b. Only available floor plans are included.",
+    "Size": "Size of the lowest-price floor plan.",
+    "Min Price Per Person": "Average per person based on bedroom count.",
+    "Furnishing": "Whether bedroom furniture is included.",
+    "Drive to Boyd (mile/min)": "Estimated under late-night, no-traffic conditions.",
+    "Bike (mile/min)": null,
+    "Bus/shuttle": "Wait time is not included. Transit routes were checked for Monday 8:00 AM.",
+    "Google Rating": null,
+    "Google Reviews": "Manually summarized. An issue is only listed if at least two reviews mentioned it within the past year.",
+    "Fees (if disclosed, excluding application fee)": "Only publicly disclosed free or charged items are included. One-time move-in fees are excluded.",
+    "Community Amenities (Sports)": "Based on apartment descriptions and photos, so omissions are possible, especially for printers.",
+    "Notes": null,
+    "Website": null
   },
   "recordCount": 76,
   "apartments": [
@@ -44,17 +44,15 @@
       "id": "uncommon-athens",
       "rowNumber": 3,
       "name": "uncommon athens",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 4.3,
-      "googleReviewSummary": "4.3分，近期无差评",
-      "fees": "停车50/70，无水费，无垃圾费，无网费，管理费10",
-      "amenitiesText": "健身房，乒乓球桌，打印机",
+      "googleReviewSummary": "4.3/5, no recent major complaints",
+      "fees": "parking 50/70, no water fee, no trash fee, no internet fee, admin fee 10",
+      "amenitiesText": "Gym, Ping Pong Table, Printer",
       "amenities": [
-        "健身房",
-        "乒乓球桌",
-        "打印机"
+        "Gym, Ping Pong Table, Printer"
       ],
       "notes": "",
       "website": "https://www.uncommonathens.com/",
@@ -70,9 +68,9 @@
           "minutes": 11.0
         },
         "bus": {
-          "raw": "18，无shuttle",
+          "raw": "18, no shuttle",
           "minutes": 18.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -126,25 +124,22 @@
         "prices": "1689 1249 1089 1169",
         "drive": "1.5/6",
         "bike": "1.7/11",
-        "bus": "18，无shuttle"
+        "bus": "18, no shuttle"
       }
     },
     {
       "id": "the-mark-athens",
       "rowNumber": 4,
       "name": "The Mark Athens",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 3.5,
-      "googleReviewSummary": "3.5分，维修维护、管理人员态度问题、收费问题",
-      "fees": "无垃圾费，无网费，停车55-115，具体收费见https://themarkathens.landmark-properties.com/price-calculator/",
-      "amenitiesText": "游泳池，健身房，台球桌，室内篮球场",
+      "googleReviewSummary": "3.5/5, maintenance, staff attitude issues, fee issues",
+      "fees": "no trash fee, no internet fee, parking 55-115, see detailed fees at https://themarkathens.landmark-properties.com/price-calculator/",
+      "amenitiesText": "Pool, Gym, Pool Table, Indoor Basketball Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "台球桌",
-        "室内篮球场"
+        "Pool, Gym, Pool Table, Indoor Basketball Court"
       ],
       "notes": "",
       "website": "https://themarkathens.landmark-properties.com/",
@@ -160,9 +155,9 @@
           "minutes": 12.0
         },
         "bus": {
-          "raw": "21，无shuttle",
+          "raw": "21, no shuttle",
           "minutes": 21.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -225,25 +220,22 @@
         "prices": "1775 1399 1315 999 1190",
         "drive": "1.6/6",
         "bike": "1.7/12",
-        "bus": "21，无shuttle"
+        "bus": "21, no shuttle"
       }
     },
     {
       "id": "accolade-athens",
       "rowNumber": 5,
       "name": "Accolade Athens",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 4.2,
-      "googleReviewSummary": "4.2分，火警警报问题，维护问题",
-      "fees": "租金仅含账单处理费，停车40/70",
-      "amenitiesText": "游泳池，健身房，台球桌，打印机",
+      "googleReviewSummary": "4.2/5, fire alarm issues, maintenance issues",
+      "fees": "rent only includes billing processing fee, parking 40/70",
+      "amenitiesText": "Pool, Gym, Pool Table, Printer",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "台球桌",
-        "打印机"
+        "Pool, Gym, Pool Table, Printer"
       ],
       "notes": "",
       "website": "https://www.accoladeathens.com/",
@@ -259,9 +251,9 @@
           "minutes": 11.0
         },
         "bus": {
-          "raw": "22，无shuttle",
+          "raw": "22, no shuttle",
           "minutes": 22.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -333,25 +325,24 @@
         "prices": "1842 1942 1277 1147 972 1057",
         "drive": "1.6/6",
         "bike": "1.5/11",
-        "bus": "22，无shuttle"
+        "bus": "22, no shuttle"
       }
     },
     {
       "id": "the-view-at-noda",
       "rowNumber": 6,
       "name": "The View at NoDA",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 2.1,
-      "googleReviewSummary": "2.1分（12条评价），联系不上问题",
-      "fees": "无停车费（第三方数据）",
-      "amenitiesText": "健身房，打印机",
+      "googleReviewSummary": "2.1/5 (12 reviews), poor contact responsiveness",
+      "fees": "no parking fee (third-party data)",
+      "amenitiesText": "Gym, Printer",
       "amenities": [
-        "健身房",
-        "打印机"
+        "Gym, Printer"
       ],
-      "notes": "线下探访后：此公寓为面向社会的affordable apart，要求收入在某个范围内。不接受预订26fall，最多提前一个月打电话订房。",
+      "notes": "After an in-person visit: this apartment is a general-market affordable property, income must fall within a certain range. does not accept Fall 2026 reservations, call at most one month in advance to ask about leasing.",
       "website": "https://www.theviewatnoda.com/",
       "commute": {
         "drive": {
@@ -365,9 +356,9 @@
           "minutes": 14.0
         },
         "bus": {
-          "raw": "29，无shuttle",
+          "raw": "29, no shuttle",
           "minutes": 29.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -412,25 +403,24 @@
         "prices": "1100 650 500",
         "drive": "1.8/7",
         "bike": "2.0/14",
-        "bus": "29，无shuttle"
+        "bus": "29, no shuttle"
       }
     },
     {
       "id": "newberry-apartments",
       "rowNumber": 7,
       "name": "Newberry Apartments",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 3.9,
-      "googleReviewSummary": "3.9分，近期无差评",
-      "fees": "停车费45起",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "3.9/5, no recent major complaints",
+      "fees": "parking 45 and up",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
-      "notes": "包含三个子公寓：The rive, newberry north, newberry central，位置略有差别",
+      "notes": "includes three sub-communities：The rive, newberry north, newberry central, locations differ slightly",
       "website": "https://www.livenewberry.com/",
       "commute": {
         "drive": {
@@ -444,9 +434,9 @@
           "minutes": 13.0
         },
         "bus": {
-          "raw": "23，无shuttle",
+          "raw": "23, no shuttle",
           "minutes": 23.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -500,25 +490,24 @@
         "prices": "985 915 889 785",
         "drive": "2.0/6",
         "bike": "1.7/13",
-        "bus": "23，无shuttle"
+        "bus": "23, no shuttle"
       }
     },
     {
       "id": "755-broad-apartments",
       "rowNumber": 8,
       "name": "755 Broad Apartments",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.4,
-      "googleReviewSummary": "4.4分，近期无差评",
-      "fees": "水垃圾40-60/apt，停车费50",
-      "amenitiesText": "小游泳池，健身房",
+      "googleReviewSummary": "4.4/5, no recent major complaints",
+      "fees": "water and trash 40-60/apt, parking 50",
+      "amenitiesText": "Small Pool, Gym",
       "amenities": [
-        "小游泳池",
-        "健身房"
+        "Small Pool, Gym"
       ],
-      "notes": "apply online似乎有问题，价格来自apartments.com",
+      "notes": "online application seems to have issues, pricing from apartments.com",
       "website": "https://755broad.com/",
       "commute": {
         "drive": {
@@ -532,9 +521,9 @@
           "minutes": 11.0
         },
         "bus": {
-          "raw": "18，无shuttle",
+          "raw": "18, no shuttle",
           "minutes": 18.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -588,24 +577,24 @@
         "prices": "1570 993 1317 1307",
         "drive": "1.4/7",
         "bike": "1.5/11",
-        "bus": "18，无shuttle"
+        "bus": "18, no shuttle"
       }
     },
     {
       "id": "eclipse-on-broad",
       "rowNumber": 9,
       "name": "Eclipse on Broad",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 3.5,
-      "googleReviewSummary": "3.5分，虫害问题，管理问题",
-      "fees": "有停车费，价格未知",
-      "amenitiesText": "健身房",
+      "googleReviewSummary": "3.5/5, pest issues, management issues",
+      "fees": "parking available; price unknown",
+      "amenitiesText": "Gym",
       "amenities": [
-        "健身房"
+        "Gym"
       ],
-      "notes": "价格来自apartments.com",
+      "notes": "pricing from apartments.com",
       "website": "https://eclipseonbroad.com/",
       "commute": {
         "drive": {
@@ -619,9 +608,9 @@
           "minutes": 12.0
         },
         "bus": {
-          "raw": "19，无shuttle",
+          "raw": "19, no shuttle",
           "minutes": 19.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -648,26 +637,24 @@
         "prices": "859",
         "drive": "1.5/7",
         "bike": "1.5/12",
-        "bus": "19，无shuttle"
+        "bus": "19, no shuttle"
       }
     },
     {
       "id": "lark-athens",
       "rowNumber": 10,
       "name": "Lark Athens",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.6,
-      "googleReviewSummary": "3.6分，近期差评极多，维护问题，管理问题，虫害问题，卫生问题",
-      "fees": "无停车费",
-      "amenitiesText": "游泳池，健身房，台球桌",
+      "googleReviewSummary": "3.6/5, many recent negative reviews, maintenance issues, management issues, pest issues, cleanliness issues",
+      "fees": "no parking fee",
+      "amenitiesText": "Pool, Gym, Pool Table",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "台球桌"
+        "Pool, Gym, Pool Table"
       ],
-      "notes": "华人群里避雷较多",
+      "notes": "frequently warned against in Chinese student groups",
       "website": "https://larkathens.com/",
       "commute": {
         "drive": {
@@ -681,9 +668,9 @@
           "minutes": 12.0
         },
         "bus": {
-          "raw": "20，无shuttle",
+          "raw": "20, no shuttle",
           "minutes": 20.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -755,23 +742,22 @@
         "prices": "1299 1399 919 999 849 899",
         "drive": "1.5/7",
         "bike": "1.5/12",
-        "bus": "20，无shuttle"
+        "bus": "20, no shuttle"
       }
     },
     {
       "id": "1785-club",
       "rowNumber": 11,
       "name": "1785 Club",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.9,
-      "googleReviewSummary": "3.9分（19条评价），安保问题",
-      "fees": "有停车费，价格未知",
-      "amenitiesText": "健身房，乒乓球桌",
+      "googleReviewSummary": "3.9/5 (19 reviews), security issues",
+      "fees": "parking available; price unknown",
+      "amenitiesText": "Gym, Ping Pong Table",
       "amenities": [
-        "健身房",
-        "乒乓球桌"
+        "Gym, Ping Pong Table"
       ],
       "notes": "",
       "website": "https://www.the1785club.com/",
@@ -787,9 +773,9 @@
           "minutes": 11.0
         },
         "bus": {
-          "raw": "24，无shuttle",
+          "raw": "24, no shuttle",
           "minutes": 24.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -834,25 +820,22 @@
         "prices": "1525 1775 1425",
         "drive": "1.3/6",
         "bike": "1.3/11",
-        "bus": "24，无shuttle"
+        "bus": "24, no shuttle"
       }
     },
     {
       "id": "the-flats-at-carrs-hill",
       "rowNumber": 12,
       "name": "The Flats At Carrs Hill",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 4.1,
-      "googleReviewSummary": "4.1分，近期评价尚可，搬出费用问题",
-      "fees": "有停车费，价格未知（第三方数据45）",
-      "amenitiesText": "游泳池，健身房，台球桌，乒乓球桌",
+      "googleReviewSummary": "4.1/5, recent reviews are acceptable, move-out fee issues",
+      "fees": "parking available; price unknown (third-party data suggests $45)",
+      "amenitiesText": "Pool, Gym, Pool Table, Ping Pong Table",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "台球桌",
-        "乒乓球桌"
+        "Pool, Gym, Pool Table, Ping Pong Table"
       ],
       "notes": "",
       "website": "https://www.theflatsatcarrshill.com/",
@@ -868,9 +851,9 @@
           "minutes": 14.0
         },
         "bus": {
-          "raw": "29，无shuttle",
+          "raw": "29, no shuttle",
           "minutes": 29.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -906,25 +889,22 @@
         "prices": "1354 1329",
         "drive": "1.9/9",
         "bike": "1.7/14",
-        "bus": "29，无shuttle"
+        "bus": "29, no shuttle"
       }
     },
     {
       "id": "the-maxxen-athens",
       "rowNumber": 13,
       "name": "The Maxxen Athens",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 4.4,
-      "googleReviewSummary": "4.4分，近期无差评",
-      "fees": "无水费，无垃圾费，无网费，有停车费，价格未知（谷歌评价说75）",
-      "amenitiesText": "小游泳池，健身房，台球桌，乒乓球桌",
+      "googleReviewSummary": "4.4/5, no recent major complaints",
+      "fees": "no water fee, no trash fee, no internet fee, parking available; price unknown(Google reviews mention $75)",
+      "amenitiesText": "Small Pool, Gym, Pool Table, Ping Pong Table",
       "amenities": [
-        "小游泳池",
-        "健身房",
-        "台球桌",
-        "乒乓球桌"
+        "Small Pool, Gym, Pool Table, Ping Pong Table"
       ],
       "notes": "",
       "website": "https://www.themaxxenathens.com/",
@@ -940,9 +920,9 @@
           "minutes": 9.0
         },
         "bus": {
-          "raw": "29，无shuttle",
+          "raw": "29, no shuttle",
           "minutes": 29.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -1005,23 +985,22 @@
         "prices": "1660 1799 1099 1425 999",
         "drive": "1.6/7",
         "bike": "1.4/9",
-        "bus": "29，无shuttle"
+        "bus": "29, no shuttle"
       }
     },
     {
       "id": "rambler-athens",
       "rowNumber": 14,
       "name": "Rambler Athens",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 4.4,
-      "googleReviewSummary": "4.4分，垃圾问题，停车位紧张问题，火警警报问题",
-      "fees": "垃圾费5，停车费75/95",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "4.4/5, trash issues, tight parking availability, fire alarm issues",
+      "fees": "trash fee 5, parking 75/95",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
       "notes": "",
       "website": "https://ramblerathens.com/",
@@ -1037,9 +1016,9 @@
           "minutes": 7.0
         },
         "bus": {
-          "raw": "25，无shuttle",
+          "raw": "25, no shuttle",
           "minutes": 25.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -1111,26 +1090,24 @@
         "prices": "1609 1819 1499 1439 1289 1329",
         "drive": "1.4/6",
         "bike": "1.2/7",
-        "bus": "25，无shuttle"
+        "bus": "25, no shuttle"
       }
     },
     {
       "id": "hub-athens-apartments",
       "rowNumber": 15,
       "name": "Hub Athens Apartments",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 4.6,
-      "googleReviewSummary": "4.6分，火警警报问题",
-      "fees": "技术费5，停车费175起",
-      "amenitiesText": "游泳池，健身房，乒乓球桌",
+      "googleReviewSummary": "4.6/5, fire alarm issues",
+      "fees": "tech fee 5, parking 175 and up",
+      "amenitiesText": "Pool, Gym, Ping Pong Table",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "乒乓球桌"
+        "Pool, Gym, Ping Pong Table"
       ],
-      "notes": "按床位计价，1b有两个床位",
+      "notes": "priced by bed, 1bhas two beds",
       "website": "https://www.hubathens.com/",
       "commute": {
         "drive": {
@@ -1144,9 +1121,9 @@
           "minutes": 9.0
         },
         "bus": {
-          "raw": "21，无shuttle",
+          "raw": "21, no shuttle",
           "minutes": 21.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -1218,23 +1195,22 @@
         "prices": "849 1049 1205 1349 1165 1225",
         "drive": "1.6/8",
         "bike": "1.2/9",
-        "bus": "21，无shuttle"
+        "bus": "21, no shuttle"
       }
     },
     {
       "id": "georgia-heights",
       "rowNumber": 16,
       "name": "Georgia Heights",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 4.3,
-      "googleReviewSummary": "4.3分，管理问题，收费问题",
-      "fees": "off-Site无停车费",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "4.3/5, management issues, fee issues",
+      "fees": "off-Siteno parking fee",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
       "notes": "",
       "website": "https://www.americancampus.com/student-apartments/ga/athens/georgia-heights",
@@ -1250,9 +1226,9 @@
           "minutes": 7.0
         },
         "bus": {
-          "raw": "13，无shuttle",
+          "raw": "13, no shuttle",
           "minutes": 13.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -1297,24 +1273,24 @@
         "prices": "1659 1289 1389",
         "drive": "1.1/6",
         "bike": "1.1/7",
-        "bus": "13，无shuttle"
+        "bus": "13, no shuttle"
       }
     },
     {
       "id": "100-prince-apartments",
       "rowNumber": 17,
       "name": "100 Prince Apartments",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.3,
-      "googleReviewSummary": "4.3分，近期无差评",
-      "fees": "电视网费82，水账单费7.25，垃圾费7，害虫费5",
-      "amenitiesText": "无",
+      "googleReviewSummary": "4.3/5, no recent major complaints",
+      "fees": "TV/internet fee 82, water billing fee 7.25, trash fee 7, pest-control fee 5",
+      "amenitiesText": "None",
       "amenities": [
-        "无"
+        "None"
       ],
-      "notes": "商住一体楼，一楼为超市等商业",
+      "notes": "mixed-use building with retail, including a grocery store, on the ground floor",
       "website": "https://www.100princeathens.com/",
       "commute": {
         "drive": {
@@ -1328,9 +1304,9 @@
           "minutes": 10.0
         },
         "bus": {
-          "raw": "33，无shuttle",
+          "raw": "33, no shuttle",
           "minutes": 33.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -1366,24 +1342,24 @@
         "prices": "1710 1083",
         "drive": "1.6/7",
         "bike": "1.5/10",
-        "bus": "33，无shuttle"
+        "bus": "33, no shuttle"
       }
     },
     {
       "id": "farmer-s-exchange-athens",
       "rowNumber": 18,
       "name": "Farmer's Exchange Athens",
-      "region": "downtown",
+      "region": "Downtown",
       "location": "Athens, GA",
-      "furnished": "含/不含",
+      "furnished": "Mixed Furnished / Unfurnished",
       "googleRating": 3.5,
-      "googleReviewSummary": "3.5分（18条），老旧问题",
-      "fees": "费用均未写明",
-      "amenitiesText": "台球桌",
+      "googleReviewSummary": "3.5/5 (18 reviews), aging property issues",
+      "fees": "fees not disclosed",
+      "amenitiesText": "Pool Table",
       "amenities": [
-        "台球桌"
+        "Pool Table"
       ],
-      "notes": "官网信息极少，样板图都是由AI生成的，右下角有gemini的logo",
+      "notes": "very limited info on the official site, model images appear to be AI-generated, a Gemini logo appears in the lower right",
       "website": "https://farmersathens.com/",
       "commute": {
         "drive": {
@@ -1397,9 +1373,9 @@
           "minutes": 9.0
         },
         "bus": {
-          "raw": "17，无shuttle",
+          "raw": "17, no shuttle",
           "minutes": 17.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -1480,26 +1456,24 @@
         "prices": "1295 845 895 895 745 595 645",
         "drive": "1.3/5",
         "bike": "1.3/9",
-        "bus": "17，无shuttle"
+        "bus": "17, no shuttle"
       }
     },
     {
       "id": "ikon-at-athens",
       "rowNumber": 19,
       "name": "Ikon at Athens",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "含/不含",
+      "furnished": "Mixed Furnished / Unfurnished",
       "googleRating": 3.8,
-      "googleReviewSummary": "3.8分，收费问题，维修问题",
-      "fees": "无停车费",
-      "amenitiesText": "游泳池，健身房，打印机",
+      "googleReviewSummary": "3.8/5, fee issues, maintenance issues",
+      "fees": "no parking fee",
+      "amenitiesText": "Pool, Gym, Printer",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "打印机"
+        "Pool, Gym, Printer"
       ],
-      "notes": "包含含家具和不含家具两种floor plan，价格相差一点",
+      "notes": "includes both furnished and unfurnished floor plans, prices differ slightly",
       "website": "https://ikonathens.com/",
       "commute": {
         "drive": {
@@ -1513,7 +1487,7 @@
           "minutes": 20.0
         },
         "bus": {
-          "raw": "44，有shuttle（7.30am-5.30pm）",
+          "raw": "44, shuttle available(7.30am-5.30pm)",
           "minutes": 44.0,
           "hasShuttle": true
         }
@@ -1560,27 +1534,24 @@
         "prices": "1079 879 859",
         "drive": "3.2/8",
         "bike": "3.2/20",
-        "bus": "44，有shuttle（7.30am-5.30pm）"
+        "bus": "44, shuttle available(7.30am-5.30pm)"
       }
     },
     {
       "id": "the-haven-of-athens",
       "rowNumber": 20,
       "name": "The Haven of Athens",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.6,
-      "googleReviewSummary": "4.6分，近期无差评",
-      "fees": "房租含垃圾费，停车费40（也可能为0）",
-      "amenitiesText": "游泳池，健身房，台球桌，乒乓球桌",
+      "googleReviewSummary": "4.6/5, no recent major complaints",
+      "fees": "rent includes trash fee, parking 40(might also be $0)",
+      "amenitiesText": "Pool, Gym, Pool Table, Ping Pong Table",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "台球桌",
-        "乒乓球桌"
+        "Pool, Gym, Pool Table, Ping Pong Table"
       ],
-      "notes": "账单中提到有两个停车场要收费40/month，不确定是否只有这两个停车场",
+      "notes": "billing mentions two parking lots at $40/month; unclear whether only those two lots are paid",
       "website": "https://www.thehavenathens.com/",
       "commute": {
         "drive": {
@@ -1594,9 +1565,9 @@
           "minutes": 22.0
         },
         "bus": {
-          "raw": "45，无shuttle",
+          "raw": "45, no shuttle",
           "minutes": 45.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -1641,27 +1612,24 @@
         "prices": "995 900 875",
         "drive": "3.5/8",
         "bike": "3.6/22",
-        "bus": "45，无shuttle"
+        "bus": "45, no shuttle"
       }
     },
     {
       "id": "atlas-athens",
       "rowNumber": 21,
       "name": "Atlas Athens",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 4.0,
-      "googleReviewSummary": "4.0分，网络问题，班车可靠性问题，管理问题",
-      "fees": "停车费10/25",
-      "amenitiesText": "游泳池，健身房，台球桌，篮球场",
+      "googleReviewSummary": "4.0/5, internet issues, shuttle reliability issues, management issues",
+      "fees": "parking 10/25",
+      "amenitiesText": "Pool, Gym, Pool Table, Basketball Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "台球桌",
-        "篮球场"
+        "Pool, Gym, Pool Table, Basketball Court"
       ],
-      "notes": "似乎对没有美国担保人的学生要额外收大几十刀每月的担保费",
+      "notes": "students without a U.S. guarantor may be charged an extra guarantor fee of several dozen dollars per month",
       "website": "https://www.liveatlasathens.com/",
       "commute": {
         "drive": {
@@ -1675,7 +1643,7 @@
           "minutes": 28.0
         },
         "bus": {
-          "raw": "46，有shuttle（时间未知）",
+          "raw": "46, shuttle available(时间未知)",
           "minutes": 46.0,
           "hasShuttle": true
         }
@@ -1749,24 +1717,22 @@
         "prices": "1400 1500 875 955 905 990",
         "drive": "4.0/10",
         "bike": "4.3/28",
-        "bus": "46，有shuttle（时间未知）"
+        "bus": "46, shuttle available(时间未知)"
       }
     },
     {
       "id": "willow-mist-condos",
       "rowNumber": 22,
       "name": "Willow Mist Condos",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.4,
-      "googleReviewSummary": "3.4分，虫害问题，霉菌问题",
-      "fees": "无停车费",
-      "amenitiesText": "游泳池，网球场，篮球场",
+      "googleReviewSummary": "3.4/5, pest issues, mold issues",
+      "fees": "no parking fee",
+      "amenitiesText": "Pool, Tennis Court, Basketball Court",
       "amenities": [
-        "游泳池",
-        "网球场",
-        "篮球场"
+        "Pool, Tennis Court, Basketball Court"
       ],
       "notes": "",
       "website": "https://www.willowmistathens.com/",
@@ -1782,9 +1748,9 @@
           "minutes": 32.0
         },
         "bus": {
-          "raw": "48，无shuttle",
+          "raw": "48, no shuttle",
           "minutes": 48.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -1820,23 +1786,22 @@
         "prices": "725 550",
         "drive": "4.6/10",
         "bike": "5.5/32",
-        "bus": "48，无shuttle"
+        "bus": "48, no shuttle"
       }
     },
     {
       "id": "ascent-athens",
       "rowNumber": 23,
       "name": "Ascent Athens",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.2,
-      "googleReviewSummary": "4.2分，近期无差评",
-      "fees": "无停车费",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "4.2/5, no recent major complaints",
+      "fees": "no parking fee",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
       "notes": "",
       "website": "https://ascentathens.com/",
@@ -1852,9 +1817,9 @@
           "minutes": 19.0
         },
         "bus": {
-          "raw": "47，无shuttle",
+          "raw": "47, no shuttle",
           "minutes": 47.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -1908,29 +1873,24 @@
         "prices": "1382 837 612 642",
         "drive": "3.9/10",
         "bike": "2.9/19",
-        "bus": "47，无shuttle"
+        "bus": "47, no shuttle"
       }
     },
     {
       "id": "summit-of-athens",
       "rowNumber": 24,
       "name": "Summit of Athens",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.0,
-      "googleReviewSummary": "4.0分，无近期评价",
-      "fees": "无停车费",
-      "amenitiesText": "游泳池，小健身房，网球场，篮球场，台球桌，打印机",
+      "googleReviewSummary": "4.0/5, no recent reviews",
+      "fees": "no parking fee",
+      "amenitiesText": "Pool, Small Gym, Tennis Court, Basketball Court, Pool Table, Printer",
       "amenities": [
-        "游泳池",
-        "小健身房",
-        "网球场",
-        "篮球场",
-        "台球桌",
-        "打印机"
+        "Pool, Small Gym, Tennis Court, Basketball Court, Pool Table, Printer"
       ],
-      "notes": "与Woodlands of Athens同一公司和网站，价格来自apartmenthomeliving.com",
+      "notes": "same company and website as Woodlands of Athens, pricing from apartmenthomeliving.com",
       "website": "https://summitofathens.com/",
       "commute": {
         "drive": {
@@ -1944,9 +1904,9 @@
           "minutes": 21.0
         },
         "bus": {
-          "raw": "50，无shuttle",
+          "raw": "50, no shuttle",
           "minutes": 50.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -1991,29 +1951,24 @@
         "prices": "800 700 800",
         "drive": "3.6/9",
         "bike": "3.4/21",
-        "bus": "50，无shuttle"
+        "bus": "50, no shuttle"
       }
     },
     {
       "id": "woodlands-of-athens",
       "rowNumber": 25,
       "name": "Woodlands of Athens",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.9,
-      "googleReviewSummary": "3.9分，近期无差评",
-      "fees": "无停车费",
-      "amenitiesText": "游泳池，小健身房，网球场，篮球场，台球桌，打印机",
+      "googleReviewSummary": "3.9/5, no recent major complaints",
+      "fees": "no parking fee",
+      "amenitiesText": "Pool, Small Gym, Tennis Court, Basketball Court, Pool Table, Printer",
       "amenities": [
-        "游泳池",
-        "小健身房",
-        "网球场",
-        "篮球场",
-        "台球桌",
-        "打印机"
+        "Pool, Small Gym, Tennis Court, Basketball Court, Pool Table, Printer"
       ],
-      "notes": "与Woodlands of Athens同一公司和网站，价格来自apartmentfinder.com",
+      "notes": "same company and website as Woodlands of Athens, pricing from apartmentfinder.com",
       "website": "https://summitofathens.com/",
       "commute": {
         "drive": {
@@ -2027,9 +1982,9 @@
           "minutes": 16.0
         },
         "bus": {
-          "raw": "49，无shuttle",
+          "raw": "49, no shuttle",
           "minutes": 49.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -2083,25 +2038,24 @@
         "prices": "1400 800 700 800",
         "drive": "3.6/9",
         "bike": "2.6/16",
-        "bus": "49，无shuttle"
+        "bus": "49, no shuttle"
       }
     },
     {
       "id": "woodsong-village",
       "rowNumber": 26,
       "name": "Woodsong Village",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.9,
-      "googleReviewSummary": "3.9分（9条评价），近期无差评",
-      "fees": "无停车费",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "3.9/5 (9 reviews), no recent major complaints",
+      "fees": "no parking fee",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
-      "notes": "1b1b显示comming soon，但有价格",
+      "notes": "1b1b shows as coming soon but a price is listed",
       "website": "https://www.livewoodsongvillage.com/",
       "commute": {
         "drive": {
@@ -2115,9 +2069,9 @@
           "minutes": 20.0
         },
         "bus": {
-          "raw": "49，无shuttle",
+          "raw": "49, no shuttle",
           "minutes": 49.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -2171,24 +2125,22 @@
         "prices": "1343 768 643 703",
         "drive": "3.5/8",
         "bike": "3.3/20",
-        "bus": "49，无shuttle"
+        "bus": "49, no shuttle"
       }
     },
     {
       "id": "the-pointe-apartments",
       "rowNumber": 27,
       "name": "The Pointe Apartments",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.0,
-      "googleReviewSummary": "4.0分，近期无差评",
-      "fees": "无停车费，垃圾费5，责任险18，害虫费2",
-      "amenitiesText": "游泳池，健身房，网球场",
+      "googleReviewSummary": "4.0/5, no recent major complaints",
+      "fees": "no parking fee, trash fee 5, liability insurance18, pest-control fee 2",
+      "amenitiesText": "Pool, Gym, Tennis Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "网球场"
+        "Pool, Gym, Tennis Court"
       ],
       "notes": "",
       "website": "https://www.liveatthepointe.com/",
@@ -2204,9 +2156,9 @@
           "minutes": 24.0
         },
         "bus": {
-          "raw": "55，无shuttle",
+          "raw": "55, no shuttle",
           "minutes": 55.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -2251,25 +2203,22 @@
         "prices": "975 575 438",
         "drive": "4.3/9",
         "bike": "4.1/24",
-        "bus": "55，无shuttle"
+        "bus": "55, no shuttle"
       }
     },
     {
       "id": "cambridge-apartments",
       "rowNumber": 28,
       "name": "Cambridge Apartments",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.4,
-      "googleReviewSummary": "3.4分，蟑螂问题，维护问题，管理问题",
-      "fees": "锁具租赁费30，害虫费5，垃圾费12",
-      "amenitiesText": "游泳池，小健身房，网球场，篮球场",
+      "googleReviewSummary": "3.4/5, roach issues, maintenance issues, management issues",
+      "fees": "lock rental fee30, pest-control fee 5, trash fee 12",
+      "amenitiesText": "Pool, Small Gym, Tennis Court, Basketball Court",
       "amenities": [
-        "游泳池",
-        "小健身房",
-        "网球场",
-        "篮球场"
+        "Pool, Small Gym, Tennis Court, Basketball Court"
       ],
       "notes": "",
       "website": "https://www.cambridgeapthomes.com/",
@@ -2285,9 +2234,9 @@
           "minutes": 20.0
         },
         "bus": {
-          "raw": "50，无shuttle",
+          "raw": "50, no shuttle",
           "minutes": 50.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -2332,28 +2281,22 @@
         "prices": "895 546 434",
         "drive": "3.4/8",
         "bike": "3.2/20",
-        "bus": "50，无shuttle"
+        "bus": "50, no shuttle"
       }
     },
     {
       "id": "polo-club-athens-apartments",
       "rowNumber": 29,
       "name": "Polo Club Athens Apartments",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 4.2,
-      "googleReviewSummary": "4.2分，近期无差评",
-      "fees": "无停车费",
-      "amenitiesText": "游泳池，健身房，台球桌，网球场，匹克球场，篮球场，打印机",
+      "googleReviewSummary": "4.2/5, no recent major complaints",
+      "fees": "no parking fee",
+      "amenitiesText": "Pool, Gym, Pool Table, Tennis Court, Pickleball Court, Basketball Court, Printer",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "台球桌",
-        "网球场",
-        "匹克球场",
-        "篮球场",
-        "打印机"
+        "Pool, Gym, Pool Table, Tennis Court, Pickleball Court, Basketball Court, Printer"
       ],
       "notes": "",
       "website": "https://www.poloclubuga.com/",
@@ -2369,9 +2312,9 @@
           "minutes": 19.0
         },
         "bus": {
-          "raw": "21，无shuttle",
+          "raw": "21, no shuttle",
           "minutes": 21.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -2416,22 +2359,22 @@
         "prices": "899 715 575",
         "drive": "3.4/8",
         "bike": "3.2/19",
-        "bus": "21，无shuttle"
+        "bus": "21, no shuttle"
       }
     },
     {
       "id": "joiner-management-arbor-creek",
       "rowNumber": 30,
       "name": "Joiner Management (Arbor Creek)",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.8,
-      "googleReviewSummary": "4.8分，近期无差评",
-      "fees": "无停车费",
-      "amenitiesText": "游泳池",
+      "googleReviewSummary": "4.8/5, no recent major complaints",
+      "fees": "no parking fee",
+      "amenitiesText": "Pool",
       "amenities": [
-        "游泳池"
+        "Pool"
       ],
       "notes": "",
       "website": "https://joinermanagement.com/arbor-creek-apartments/",
@@ -2447,9 +2390,9 @@
           "minutes": 19.0
         },
         "bus": {
-          "raw": "21，无shuttle",
+          "raw": "21, no shuttle",
           "minutes": 21.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -2476,28 +2419,24 @@
         "prices": "700",
         "drive": "3.2/8",
         "bike": "3.1/19",
-        "bus": "21，无shuttle"
+        "bus": "21, no shuttle"
       }
     },
     {
       "id": "1287-shoals-apartments",
       "rowNumber": 31,
       "name": "1287 Shoals Apartments",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.4,
-      "googleReviewSummary": "4.4分，管理问题，蟑螂问题",
-      "fees": "无停车费，害虫费7，垃圾费25，水费40/60/80，包裹接收费7",
-      "amenitiesText": "游泳池，健身房，网球场，匹克球场，打印机",
+      "googleReviewSummary": "4.4/5, management issues, roach issues",
+      "fees": "no parking fee, pest-control fee 7, trash fee 25, water fee40/60/80, package handling fee7",
+      "amenitiesText": "Pool, Gym, Tennis Court, Pickleball Court, Printer",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "网球场",
-        "匹克球场",
-        "打印机"
+        "Pool, Gym, Tennis Court, Pickleball Court, Printer"
       ],
-      "notes": "价格为当前价格，且价格对应入住时间可能不为12个月",
+      "notes": "current price shown; the quoted lease term may not be 12 months",
       "website": "https://www.1287shoals.com/",
       "commute": {
         "drive": {
@@ -2511,9 +2450,9 @@
           "minutes": 25.0
         },
         "bus": {
-          "raw": "51，无shuttle",
+          "raw": "51, no shuttle",
           "minutes": 51.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -2558,24 +2497,22 @@
         "prices": "1244 666 549",
         "drive": "4.2/10",
         "bike": "4.1/25",
-        "bus": "51，无shuttle"
+        "bus": "51, no shuttle"
       }
     },
     {
       "id": "legacy-of-athens-apartments",
       "rowNumber": 32,
       "name": "Legacy of Athens Apartments",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.5,
-      "googleReviewSummary": "3.5分，虫害问题，管理问题",
-      "fees": "无停车费",
-      "amenitiesText": "游泳池，健身房，网球场",
+      "googleReviewSummary": "3.5/5, pest issues, management issues",
+      "fees": "no parking fee",
+      "amenitiesText": "Pool, Gym, Tennis Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "网球场"
+        "Pool, Gym, Tennis Court"
       ],
       "notes": "",
       "website": "https://www.legacyofathens.com/",
@@ -2591,9 +2528,9 @@
           "minutes": 24.0
         },
         "bus": {
-          "raw": "55，无shuttle",
+          "raw": "55, no shuttle",
           "minutes": 55.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -2647,27 +2584,22 @@
         "prices": "999 550 625 433",
         "drive": "4.3/10",
         "bike": "4.2/24",
-        "bus": "55，无shuttle"
+        "bus": "55, no shuttle"
       }
     },
     {
       "id": "the-reserve-at-athens",
       "rowNumber": 33,
       "name": "The Reserve at Athens",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 3.4,
-      "googleReviewSummary": "3.4分，管理问题，虫害问题，网络问题，维护问题",
-      "fees": "无停车费",
-      "amenitiesText": "游泳池，小健身房，网球场，篮球场，台球桌，打印机",
+      "googleReviewSummary": "3.4/5, management issues, pest issues, internet issues, maintenance issues",
+      "fees": "no parking fee",
+      "amenitiesText": "Pool, Small Gym, Tennis Court, Basketball Court, Pool Table, Printer",
       "amenities": [
-        "游泳池",
-        "小健身房",
-        "网球场",
-        "篮球场",
-        "台球桌",
-        "打印机"
+        "Pool, Small Gym, Tennis Court, Basketball Court, Pool Table, Printer"
       ],
       "notes": "",
       "website": "https://reserveatathens.com/",
@@ -2683,9 +2615,9 @@
           "minutes": 21.0
         },
         "bus": {
-          "raw": "27，无shuttle",
+          "raw": "27, no shuttle",
           "minutes": 27.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -2721,26 +2653,22 @@
         "prices": "805 699",
         "drive": "3.7/10",
         "bike": "3.5/21",
-        "bus": "27，无shuttle"
+        "bus": "27, no shuttle"
       }
     },
     {
       "id": "the-pointe-apartments-2",
       "rowNumber": 34,
       "name": "The Pointe Apartments",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.0,
-      "googleReviewSummary": "4.0分，近期无差评",
-      "fees": "无停车费，虫害2，垃圾5，责任免除费18",
-      "amenitiesText": "游泳池，健身房，网球场，排球场，打印机",
+      "googleReviewSummary": "4.0/5, no recent major complaints",
+      "fees": "no parking fee, pest2, trash5, liability waiver fee18",
+      "amenitiesText": "Pool, Gym, Tennis Court, Volleyball Court, Printer",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "网球场",
-        "排球场",
-        "打印机"
+        "Pool, Gym, Tennis Court, Volleyball Court, Printer"
       ],
       "notes": "",
       "website": "https://www.liveatthepointe.com/",
@@ -2756,9 +2684,9 @@
           "minutes": 24.0
         },
         "bus": {
-          "raw": "55，无shuttle",
+          "raw": "55, no shuttle",
           "minutes": 55.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -2803,22 +2731,22 @@
         "prices": "975 575 428",
         "drive": "4.3/10",
         "bike": "4.1/24",
-        "bus": "55，无shuttle"
+        "bus": "55, no shuttle"
       }
     },
     {
       "id": "knoll-creek",
       "rowNumber": 35,
       "name": "Knoll Creek",
-      "region": "学校东面，Georgetown plaza附近",
+      "region": "East of Campus, near Georgetown Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.0,
-      "googleReviewSummary": "4.0分，管理问题，虫害问题",
-      "fees": "无停车费",
-      "amenitiesText": "无",
+      "googleReviewSummary": "4.0/5, management issues, pest issues",
+      "fees": "no parking fee",
+      "amenitiesText": "None",
       "amenities": [
-        "无"
+        "None"
       ],
       "notes": "",
       "website": "https://knollcreekathens.com/",
@@ -2834,9 +2762,9 @@
           "minutes": 16.0
         },
         "bus": {
-          "raw": "57，无shuttle",
+          "raw": "57, no shuttle",
           "minutes": 57.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -2863,27 +2791,24 @@
         "prices": "795",
         "drive": "2.8/6",
         "bike": "2.6/16",
-        "bus": "57，无shuttle"
+        "bus": "57, no shuttle"
       }
     },
     {
       "id": "enclave-425",
       "rowNumber": 36,
       "name": "Enclave 425",
-      "region": "学校南面",
+      "region": "South of Campus",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 3.4,
-      "googleReviewSummary": "3.4分，管理问题，收费问题",
-      "fees": "停车费25，无水费，无垃圾费",
-      "amenitiesText": "游泳池，健身房，排球场，打印机",
+      "googleReviewSummary": "3.4/5, management issues, fee issues",
+      "fees": "parking 25, no water fee, no trash fee",
+      "amenitiesText": "Pool, Gym, Volleyball Court, Printer",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "排球场",
-        "打印机"
+        "Pool, Gym, Volleyball Court, Printer"
       ],
-      "notes": "停车费，shuttle bus来自第三方信息",
+      "notes": "parking and shuttle information come from third-party information",
       "website": "https://www.enclave425.com/",
       "commute": {
         "drive": {
@@ -2897,7 +2822,7 @@
           "minutes": 16.0
         },
         "bus": {
-          "raw": "18，有shuttle（时间未知）",
+          "raw": "18, shuttle available(时间未知)",
           "minutes": 18.0,
           "hasShuttle": true
         }
@@ -2944,25 +2869,24 @@
         "prices": "625 600 550",
         "drive": "2.6/7",
         "bike": "2.5/16",
-        "bus": "18，有shuttle（时间未知）"
+        "bus": "18, shuttle available(时间未知)"
       }
     },
     {
       "id": "the-grove-at-five-points",
       "rowNumber": 37,
       "name": "The Grove at Five Points",
-      "region": "学校南面",
+      "region": "South of Campus",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 2.6,
-      "googleReviewSummary": "2.6分，虫害问题，收费问题，服务人员态度问题",
-      "fees": "无停车费",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "2.6/5, pest issues, fee issues, staff service attitude issues",
+      "fees": "no parking fee",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
-      "notes": "租房网站挂掉了",
+      "notes": "the leasing website is down",
       "website": "https://www.groveat5.com/",
       "commute": {
         "drive": {
@@ -2976,9 +2900,9 @@
           "minutes": 11.0
         },
         "bus": {
-          "raw": "18，无shuttle",
+          "raw": "18, no shuttle",
           "minutes": 18.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -3023,26 +2947,22 @@
         "prices": "849 1199 715",
         "drive": "2.3/7",
         "bike": "2.0/11",
-        "bus": "18，无shuttle"
+        "bus": "18, no shuttle"
       }
     },
     {
       "id": "arches-on-the-lake-student-living",
       "rowNumber": 38,
       "name": "Arches On The Lake Student Living",
-      "region": "学校南面",
+      "region": "South of Campus",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 2.9,
-      "googleReviewSummary": "2.9分，霉菌问题，蟑螂问题，老鼠问题，维护问题，管理问题",
-      "fees": "停车25",
-      "amenitiesText": "游泳池，健身房，台球桌，篮球场，打印机",
+      "googleReviewSummary": "2.9/5, mold issues, roach issues, rodent issues, maintenance issues, management issues",
+      "fees": "parking 25",
+      "amenitiesText": "Pool, Gym, Pool Table, Basketball Court, Printer",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "台球桌",
-        "篮球场",
-        "打印机"
+        "Pool, Gym, Pool Table, Basketball Court, Printer"
       ],
       "notes": "",
       "website": "https://www.archesonthelake.com/",
@@ -3058,9 +2978,9 @@
           "minutes": 19.0
         },
         "bus": {
-          "raw": "22，无shuttle",
+          "raw": "22, no shuttle",
           "minutes": 22.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -3096,24 +3016,24 @@
         "prices": "699 535",
         "drive": "3.0/8",
         "bike": "3.1/19",
-        "bus": "22，无shuttle"
+        "bus": "22, no shuttle"
       }
     },
     {
       "id": "linden-lane",
       "rowNumber": 39,
       "name": "Linden Lane",
-      "region": "学校南面",
+      "region": "South of Campus",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 5.0,
-      "googleReviewSummary": "5.0分（1条评价）",
-      "fees": "费用均未写明",
-      "amenitiesText": "无",
+      "googleReviewSummary": "5.0/5 (1 reviews)",
+      "fees": "fees not disclosed",
+      "amenitiesText": "None",
       "amenities": [
-        "无"
+        "None"
       ],
-      "notes": "官网信息极少，价格等信息来自https://www.apartments.com/",
+      "notes": "very limited info on the official site, pricing and other information from https://www.apartments.com/",
       "website": "https://www.lindenlaneapts.com/",
       "commute": {
         "drive": {
@@ -3127,9 +3047,9 @@
           "minutes": 18.0
         },
         "bus": {
-          "raw": "16，无shuttle",
+          "raw": "16, no shuttle",
           "minutes": 16.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -3165,27 +3085,24 @@
         "prices": "905 875",
         "drive": "2.9/7",
         "bike": "2.7/18",
-        "bus": "16，无shuttle"
+        "bus": "16, no shuttle"
       }
     },
     {
       "id": "the-retreat-on-milledge",
       "rowNumber": 40,
       "name": "The Retreat on Milledge",
-      "region": "学校南面",
+      "region": "South of Campus",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 3.8,
-      "googleReviewSummary": "3.8分，停车位紧缺问题",
-      "fees": "停车50一年或55一个月（预留车位），无网费",
-      "amenitiesText": "游泳池，健身房，台球桌，打印机",
+      "googleReviewSummary": "3.8/5, parking shortage",
+      "fees": "parking 50 per year or 55 per month (reserved space), no internet fee",
+      "amenitiesText": "Pool, Gym, Pool Table, Printer",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "台球桌",
-        "打印机"
+        "Pool, Gym, Pool Table, Printer"
       ],
-      "notes": "近期似乎有刷好评",
+      "notes": "recent positive reviews may be artificially boosted",
       "website": "https://www.retreatonmilledge.com/",
       "commute": {
         "drive": {
@@ -3199,7 +3116,7 @@
           "minutes": 26.0
         },
         "bus": {
-          "raw": "51，有shuttle（时间未知）",
+          "raw": "51, shuttle available(时间未知)",
           "minutes": 51.0,
           "hasShuttle": true
         }
@@ -3237,25 +3154,24 @@
         "prices": "919 884",
         "drive": "4.2/9",
         "bike": "4.0/26",
-        "bus": "51，有shuttle（时间未知）"
+        "bus": "51, shuttle available(时间未知)"
       }
     },
     {
       "id": "university-garden-apartment-homes",
       "rowNumber": 41,
       "name": "University Garden Apartment Homes",
-      "region": "学校西面，Alps Village Plaza附近",
+      "region": "West of Campus, near Alps Village Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 2.5,
-      "googleReviewSummary": "2.5分，虫害问题，管理问题",
-      "fees": "无停车费",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "2.5/5, pest issues, management issues",
+      "fees": "no parking fee",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
-      "notes": "官网可租日期暂时租不了fall",
+      "notes": "current official availability does not appear to cover fall",
       "website": "https://www.universitygardenapts.com/",
       "commute": {
         "drive": {
@@ -3269,9 +3185,9 @@
           "minutes": 14.0
         },
         "bus": {
-          "raw": "25，无shuttle",
+          "raw": "25, no shuttle",
           "minutes": 25.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -3307,25 +3223,24 @@
         "prices": "838 810",
         "drive": "2.4/7",
         "bike": "2.2/14",
-        "bus": "25，无shuttle"
+        "bus": "25, no shuttle"
       }
     },
     {
       "id": "the-wright-house",
       "rowNumber": 42,
       "name": "The Wright House",
-      "region": "学校西面，Alps Village Plaza附近",
+      "region": "West of Campus, near Alps Village Plaza",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 2.6,
-      "googleReviewSummary": "2.6分（11条评价）管理问题，蟑螂问题",
-      "fees": "停车费100，无垃圾费，无网络费",
-      "amenitiesText": "健身房，打印机",
+      "googleReviewSummary": "2.6/5 (11 reviews)management issues, roach issues",
+      "fees": "parking 100, no trash fee, no internet fee",
+      "amenitiesText": "Gym, Printer",
       "amenities": [
-        "健身房",
-        "打印机"
+        "Gym, Printer"
       ],
-      "notes": "价格来自https://www.collegetownproperties.com/",
+      "notes": "pricing from https://www.collegetownproperties.com/",
       "website": "https://wrighthouseathens.com/",
       "commute": {
         "drive": {
@@ -3339,9 +3254,9 @@
           "minutes": 2.0
         },
         "bus": {
-          "raw": "7（走路），无shuttle",
+          "raw": "7(walk), no shuttle",
           "minutes": 7.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -3395,26 +3310,24 @@
         "prices": "1999 1515 1300 1125",
         "drive": "0.4/2",
         "bike": "0.4/2",
-        "bus": "7（走路），无shuttle"
+        "bus": "7(walk), no shuttle"
       }
     },
     {
       "id": "beechwood-pines",
       "rowNumber": 43,
       "name": "Beechwood Pines",
-      "region": "学校西面，Alps Village Plaza附近",
+      "region": "West of Campus, near Alps Village Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.5,
-      "googleReviewSummary": "4.5分，近期无差评",
-      "fees": "停车费135（车库，来自第三方）",
-      "amenitiesText": "游泳池，健身房，打印机",
+      "googleReviewSummary": "4.5/5, no recent major complaints",
+      "fees": "parking 135(garage, from a third party)",
+      "amenitiesText": "Pool, Gym, Printer",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "打印机"
+        "Pool, Gym, Printer"
       ],
-      "notes": "价格来自apartmentfinder",
+      "notes": "pricing from apartmentfinder",
       "website": "https://www.beechwoodpines.com/",
       "commute": {
         "drive": {
@@ -3428,9 +3341,9 @@
           "minutes": 18.0
         },
         "bus": {
-          "raw": "29，无shuttle",
+          "raw": "29, no shuttle",
           "minutes": 29.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -3466,24 +3379,22 @@
         "prices": "1245 733",
         "drive": "3.5/9",
         "bike": "3.0/18",
-        "bus": "29，无shuttle"
+        "bus": "29, no shuttle"
       }
     },
     {
       "id": "university-oaks",
       "rowNumber": 44,
       "name": "University Oaks",
-      "region": "学校西面，Alps Village Plaza附近",
+      "region": "West of Campus, near Alps Village Plaza",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.0,
-      "googleReviewSummary": "3.0分，蟑螂问题，管理问题，维护问题，收费问题",
-      "fees": "无水费，无电费，无垃圾费，无下水费",
-      "amenitiesText": "游泳池，健身房，篮球场",
+      "googleReviewSummary": "3.0/5, roach issues, management issues, maintenance issues, fee issues",
+      "fees": "no water fee, no electricity fee, no trash fee, no sewer fee",
+      "amenitiesText": "Pool, Gym, Basketball Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "篮球场"
+        "Pool, Gym, Basketball Court"
       ],
       "notes": "",
       "website": "https://www.athensuniversityoaks.com/",
@@ -3499,9 +3410,9 @@
           "minutes": 21.0
         },
         "bus": {
-          "raw": "32，无shuttle",
+          "raw": "32, no shuttle",
           "minutes": 32.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -3555,25 +3466,24 @@
         "prices": "805 885 498 478",
         "drive": "3.8/10",
         "bike": "3.5/21",
-        "bus": "32，无shuttle"
+        "bus": "32, no shuttle"
       }
     },
     {
       "id": "flats-at-general-time",
       "rowNumber": 45,
       "name": "Flats at General Time",
-      "region": "雅典北部",
+      "region": "North Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.3,
-      "googleReviewSummary": "4.3分，近期无差评",
-      "fees": "停车费75，垃圾费25，害虫费6，公用事业账单管理费7，网络费75（费用来自第三方)",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "4.3/5, no recent major complaints",
+      "fees": "parking 75, trash fee 25, pest-control fee 6, utility billing admin fee 7, internet fee 75(fees from a third party)",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
-      "notes": "价格租约为15个月",
+      "notes": "quoted price is for a 15-month",
       "website": "https://www.flatsatgeneraltime.com/",
       "commute": {
         "drive": {
@@ -3587,9 +3497,9 @@
           "minutes": 22.0
         },
         "bus": {
-          "raw": "36，无shuttle",
+          "raw": "36, no shuttle",
           "minutes": 36.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -3634,24 +3544,24 @@
         "prices": "1479 1554 887",
         "drive": "3.6/10",
         "bike": "3.4/22",
-        "bus": "36，无shuttle"
+        "bus": "36, no shuttle"
       }
     },
     {
       "id": "hidden-pines",
       "rowNumber": 46,
       "name": "Hidden Pines",
-      "region": "雅典北部",
+      "region": "North Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 2.9,
-      "googleReviewSummary": "2.9分，蟑螂问题，管理问题，维护问题",
-      "fees": "停车费未写明，垃圾费10，害虫费5（费用来自第三方）",
-      "amenitiesText": "无",
+      "googleReviewSummary": "2.9/5, roach issues, management issues, maintenance issues",
+      "fees": "parking fee not disclosed, trash fee 10, pest-control fee 5(fees from a third party)",
+      "amenitiesText": "None",
       "amenities": [
-        "无"
+        "None"
       ],
-      "notes": "价格来自zillow",
+      "notes": "pricing from Zillow",
       "website": "https://www.hiddenpinesapts.com/",
       "commute": {
         "drive": {
@@ -3665,9 +3575,9 @@
           "minutes": 32.0
         },
         "bus": {
-          "raw": "86，无shuttle",
+          "raw": "86, no shuttle",
           "minutes": 86.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -3694,25 +3604,24 @@
         "prices": "628",
         "drive": "4.4/11",
         "bike": "5.0/32",
-        "bus": "86，无shuttle"
+        "bus": "86, no shuttle"
       }
     },
     {
       "id": "arch-vine",
       "rowNumber": 47,
       "name": "Arch + Vine",
-      "region": "雅典东北部",
+      "region": "Northeast Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.4,
-      "googleReviewSummary": "3.4分，管理问题，收费问题，维护问题",
-      "fees": "停车费未写明",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "3.4/5, management issues, fee issues, maintenance issues",
+      "fees": "parking fee not disclosed",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
-      "notes": "价格租约为15个月",
+      "notes": "quoted price is for a 15-month",
       "website": "https://www.archandvine.com/",
       "commute": {
         "drive": {
@@ -3726,9 +3635,9 @@
           "minutes": 25.0
         },
         "bus": {
-          "raw": "47，无shuttle",
+          "raw": "47, no shuttle",
           "minutes": 47.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -3773,22 +3682,22 @@
         "prices": "1379 725 603",
         "drive": "5.1/9",
         "bike": "3.9/25",
-        "bus": "47，无shuttle"
+        "bus": "47, no shuttle"
       }
     },
     {
       "id": "georgia-green-townhome-apartments",
       "rowNumber": 48,
       "name": "Georgia Green Townhome Apartments",
-      "region": "雅典东北部",
+      "region": "Northeast Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.3,
-      "googleReviewSummary": "4.3分，近期无差评",
-      "fees": "停车费未写明，水/下水/垃圾/害虫费80，Rent Plus费10",
-      "amenitiesText": "游泳池",
+      "googleReviewSummary": "4.3/5, no recent major complaints",
+      "fees": "parking fee not disclosed, water/sewer/trash/pest-control fee 80, Rent Plus fee 10",
+      "amenitiesText": "Pool",
       "amenities": [
-        "游泳池"
+        "Pool"
       ],
       "notes": "",
       "website": "https://www.georgiagreenapts.com/",
@@ -3804,9 +3713,9 @@
           "minutes": 26.0
         },
         "bus": {
-          "raw": "52，无shuttle",
+          "raw": "52, no shuttle",
           "minutes": 52.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -3833,24 +3742,22 @@
         "prices": "663",
         "drive": "5.2/10",
         "bike": "4.1/26",
-        "bus": "52，无shuttle"
+        "bus": "52, no shuttle"
       }
     },
     {
       "id": "paragon-luxury-apartments",
       "rowNumber": 49,
       "name": "Paragon Luxury Apartments",
-      "region": "雅典东北部",
+      "region": "Northeast Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.6,
-      "googleReviewSummary": "4.6分，近期无差评",
-      "fees": "停车费未写明",
-      "amenitiesText": "游泳池，健身房，匹克球场",
+      "googleReviewSummary": "4.6/5, no recent major complaints",
+      "fees": "parking fee not disclosed",
+      "amenitiesText": "Pool, Gym, Pickleball Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "匹克球场"
+        "Pool, Gym, Pickleball Court"
       ],
       "notes": "",
       "website": "https://www.paragonathens.com/",
@@ -3866,9 +3773,9 @@
           "minutes": 34.0
         },
         "bus": {
-          "raw": "36，无shuttle",
+          "raw": "36, no shuttle",
           "minutes": 36.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -3895,26 +3802,24 @@
         "prices": "758",
         "drive": "4.7/11",
         "bike": "5.4/34",
-        "bus": "36，无shuttle"
+        "bus": "36, no shuttle"
       }
     },
     {
       "id": "classic-city-flats-luxury-apartments",
       "rowNumber": 50,
       "name": "Classic City Flats | Luxury Apartments",
-      "region": "雅典东北部",
+      "region": "Northeast Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.8,
-      "googleReviewSummary": "4.8分，近期无差评",
-      "fees": "无停车费",
-      "amenitiesText": "游泳池，健身房，匹克球场",
+      "googleReviewSummary": "4.8/5, no recent major complaints",
+      "fees": "no parking fee",
+      "amenitiesText": "Pool, Gym, Pickleball Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "匹克球场"
+        "Pool, Gym, Pickleball Court"
       ],
-      "notes": "ADA（美国残疾人法案）能更便宜",
+      "notes": "ADA-compliant units may be cheaper",
       "website": "https://www.classiccityflats.com/",
       "commute": {
         "drive": {
@@ -3928,9 +3833,9 @@
           "minutes": 37.0
         },
         "bus": {
-          "raw": "44，无shuttle",
+          "raw": "44, no shuttle",
           "minutes": 44.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -3975,26 +3880,24 @@
         "prices": "1480 845 650",
         "drive": "7.8/12",
         "bike": "6.4/37",
-        "bus": "44，无shuttle"
+        "bus": "44, no shuttle"
       }
     },
     {
       "id": "pointe-grand-north-athens-townhomes",
       "rowNumber": 51,
       "name": "Pointe Grand North Athens Townhomes",
-      "region": "雅典东北部",
+      "region": "Northeast Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.9,
-      "googleReviewSummary": "4.9分，近期无差评",
-      "fees": "停车费未写明，Smart Home/服务费199（包含high-speed Wi-Fi, smart technology like fob access locks instead of old school keys and Wi-Fi enabled appliances）",
-      "amenitiesText": "游泳池，健身房，匹克球场",
+      "googleReviewSummary": "4.9/5, no recent major complaints",
+      "fees": "parking fee not disclosed, Smart Home/service fee 199(includes high-speed Wi-Fi, smart technology like fob access locks instead of old school keys and Wi-Fi enabled appliances)",
+      "amenitiesText": "Pool, Gym, Pickleball Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "匹克球场"
+        "Pool, Gym, Pickleball Court"
       ],
-      "notes": "价格租约为24个月",
+      "notes": "quoted price is for a 24-month",
       "website": "https://pointegrand.com/apartments/north-athens/",
       "commute": {
         "drive": {
@@ -4008,9 +3911,9 @@
           "minutes": 38.0
         },
         "bus": {
-          "raw": "46，无shuttle",
+          "raw": "46, no shuttle",
           "minutes": 46.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -4037,23 +3940,22 @@
         "prices": "775",
         "drive": "8.0/12",
         "bike": "6.6/38",
-        "bus": "46，无shuttle"
+        "bus": "46, no shuttle"
       }
     },
     {
       "id": "serene-at-northside",
       "rowNumber": 52,
       "name": "Serene at Northside",
-      "region": "雅典东北部",
+      "region": "Northeast Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.0,
-      "googleReviewSummary": "3.0分，管理问题，维护问题，收费问题，火警警报问题",
-      "fees": "停车费未写明，垃圾费15，害虫费5（费用来自第三方）",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "3.0/5, management issues, maintenance issues, fee issues, fire alarm issues",
+      "fees": "parking fee not disclosed, trash fee 15, pest-control fee 5(fees from a third party)",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
       "notes": "",
       "website": "https://www.sereneatnorthside.com/",
@@ -4069,9 +3971,9 @@
           "minutes": 24.0
         },
         "bus": {
-          "raw": "39，无shuttle",
+          "raw": "39, no shuttle",
           "minutes": 39.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -4107,23 +4009,22 @@
         "prices": "655 493",
         "drive": "2.9/9",
         "bike": "3.6/24",
-        "bus": "39，无shuttle"
+        "bus": "39, no shuttle"
       }
     },
     {
       "id": "archer-apartments",
       "rowNumber": 53,
       "name": "Archer Apartments",
-      "region": "雅典东北部",
+      "region": "Northeast Athens",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 2.9,
-      "googleReviewSummary": "2.9分，霉菌问题，安保问题，卫生问题",
-      "fees": "停车费未写明，Utility Fee25",
-      "amenitiesText": "游泳池，小健身房",
+      "googleReviewSummary": "2.9/5, mold issues, security issues, cleanliness issues",
+      "fees": "parking fee not disclosed, Utility Fee25",
+      "amenitiesText": "Pool, Small Gym",
       "amenities": [
-        "游泳池",
-        "小健身房"
+        "Pool, Small Gym"
       ],
       "notes": "",
       "website": "https://www.archerapartments.com/",
@@ -4139,9 +4040,9 @@
           "minutes": 19.0
         },
         "bus": {
-          "raw": "28，无shuttle",
+          "raw": "28, no shuttle",
           "minutes": 28.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -4195,24 +4096,22 @@
         "prices": "878 998 652 553",
         "drive": "2.5/8",
         "bike": "2.8/19",
-        "bus": "28，无shuttle"
+        "bus": "28, no shuttle"
       }
     },
     {
       "id": "the-lodge-of-athens",
       "rowNumber": 54,
       "name": "The Lodge of Athens",
-      "region": "雅典东北部",
+      "region": "Northeast Athens",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 4.0,
-      "googleReviewSummary": "4.0分，蟑螂问题，班车可靠性问题，收费问题",
-      "fees": "停车费未写明",
-      "amenitiesText": "游泳池，健身房，打印机",
+      "googleReviewSummary": "4.0/5, roach issues, shuttle reliability issues, fee issues",
+      "fees": "parking fee not disclosed",
+      "amenitiesText": "Pool, Gym, Printer",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "打印机"
+        "Pool, Gym, Printer"
       ],
       "notes": "",
       "website": "https://www.thelodgeofathens.com/",
@@ -4228,9 +4127,9 @@
           "minutes": 18.0
         },
         "bus": {
-          "raw": "27，无shuttle",
+          "raw": "27, no shuttle",
           "minutes": 27.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -4257,23 +4156,22 @@
         "prices": "939",
         "drive": "2.3/8",
         "bike": "2.7/18",
-        "bus": "27，无shuttle"
+        "bus": "27, no shuttle"
       }
     },
     {
       "id": "covey-homes-lexington",
       "rowNumber": 55,
       "name": "Covey Homes Lexington",
-      "region": "雅典东部",
+      "region": "East Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.0,
-      "googleReviewSummary": "4.0分，近期无差评",
-      "fees": "停车费未写明，服务费125（包含smart home、landscape、trash、amenity access、pest control）",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "4.0/5, no recent major complaints",
+      "fees": "parking fee not disclosed, service fee 125(includes smart home, landscape, trash, amenity access, pest control)",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
       "notes": "",
       "website": "https://coveyhomesbymore.com/neighborhood/lexington/",
@@ -4289,9 +4187,9 @@
           "minutes": 38.0
         },
         "bus": {
-          "raw": "60，无shuttle",
+          "raw": "60, no shuttle",
           "minutes": 60.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -4336,24 +4234,24 @@
         "prices": "880 750 701",
         "drive": "5.2/11",
         "bike": "6.6/38",
-        "bus": "60，无shuttle"
+        "bus": "60, no shuttle"
       }
     },
     {
       "id": "highland-park-townhomes",
       "rowNumber": 56,
       "name": "Highland Park Townhomes",
-      "region": "雅典东部",
+      "region": "East Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 2.5,
-      "googleReviewSummary": "2.5分（8条评价），维修维护问题，管理问题",
-      "fees": "停车费未写明",
-      "amenitiesText": "无",
+      "googleReviewSummary": "2.5/5 (8 reviews), maintenance issues, management issues",
+      "fees": "parking fee not disclosed",
+      "amenitiesText": "None",
       "amenities": [
-        "无"
+        "None"
       ],
-      "notes": "价格来自apartments.com",
+      "notes": "pricing from apartments.com",
       "website": "https://www.livehighlandparktownhomes.com/",
       "commute": {
         "drive": {
@@ -4367,9 +4265,9 @@
           "minutes": 29.0
         },
         "bus": {
-          "raw": "55，无shuttle",
+          "raw": "55, no shuttle",
           "minutes": 55.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -4423,24 +4321,22 @@
         "prices": "598 698 550 449",
         "drive": "5.2/11",
         "bike": "5.0/29",
-        "bus": "55，无shuttle"
+        "bus": "55, no shuttle"
       }
     },
     {
       "id": "the-oaks-athens",
       "rowNumber": 57,
       "name": "The Oaks - Athens",
-      "region": "雅典西北部",
+      "region": "Northwest Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.9,
-      "googleReviewSummary": "3.9分，收费问题，维护问题",
-      "fees": "停车费未写明",
-      "amenitiesText": "游泳池，健身房，网球场",
+      "googleReviewSummary": "3.9/5, fee issues, maintenance issues",
+      "fees": "parking fee not disclosed",
+      "amenitiesText": "Pool, Gym, Tennis Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "网球场"
+        "Pool, Gym, Tennis Court"
       ],
       "notes": "",
       "website": "https://www.theoaksapts.com/",
@@ -4456,9 +4352,9 @@
           "minutes": 29.0
         },
         "bus": {
-          "raw": "43，无shuttle",
+          "raw": "43, no shuttle",
           "minutes": 43.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -4503,24 +4399,24 @@
         "prices": "665 513 426",
         "drive": "4.7/12",
         "bike": "5.0/29",
-        "bus": "43，无shuttle"
+        "bus": "43, no shuttle"
       }
     },
     {
       "id": "rosemary-place",
       "rowNumber": 58,
       "name": "Rosemary Place",
-      "region": "雅典西北部",
+      "region": "Northwest Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.5,
-      "googleReviewSummary": "3.5分（8条评价），近期无差评",
-      "fees": "停车费未写明",
-      "amenitiesText": "无",
+      "googleReviewSummary": "3.5/5 (8 reviews), no recent major complaints",
+      "fees": "parking fee not disclosed",
+      "amenitiesText": "None",
       "amenities": [
-        "无"
+        "None"
       ],
-      "notes": "价格来自zillow",
+      "notes": "pricing from Zillow",
       "website": "https://www.rosemaryplaceapts.com/",
       "commute": {
         "drive": {
@@ -4534,9 +4430,9 @@
           "minutes": 32.0
         },
         "bus": {
-          "raw": "43，无shuttle",
+          "raw": "43, no shuttle",
           "minutes": 43.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -4563,25 +4459,24 @@
         "prices": "650",
         "drive": "6.3/14",
         "bike": "5.8/32",
-        "bus": "43，无shuttle"
+        "bus": "43, no shuttle"
       }
     },
     {
       "id": "holden-at-oak-grove",
       "rowNumber": 59,
       "name": "Holden at Oak Grove",
-      "region": "雅典西北部",
+      "region": "Northwest Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.5,
-      "googleReviewSummary": "4.5分，管理问题，收费问题",
-      "fees": "停车费10（第三方），Other费118",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "4.5/5, management issues, fee issues",
+      "fees": "parking 10(third-party), other fee 118",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
-      "notes": "价格租约为15个月",
+      "notes": "quoted price is for a 15-month",
       "website": "https://holdenoakgrove.com/",
       "commute": {
         "drive": {
@@ -4595,9 +4490,9 @@
           "minutes": 36.0
         },
         "bus": {
-          "raw": "54，无shuttle",
+          "raw": "54, no shuttle",
           "minutes": 54.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -4642,24 +4537,22 @@
         "prices": "1499 908 637",
         "drive": "6.2/13",
         "bike": "5.9/36",
-        "bus": "54，无shuttle"
+        "bus": "54, no shuttle"
       }
     },
     {
       "id": "horizon-at-tallassee",
       "rowNumber": 60,
       "name": "Horizon at Tallassee",
-      "region": "雅典西北部",
+      "region": "Northwest Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.6,
-      "googleReviewSummary": "4.6分，近期无差评",
-      "fees": "停车费未写明，无垃圾费",
-      "amenitiesText": "游泳池，健身房，匹克球场",
+      "googleReviewSummary": "4.6/5, no recent major complaints",
+      "fees": "parking fee not disclosed, no trash fee",
+      "amenitiesText": "Pool, Gym, Pickleball Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "匹克球场"
+        "Pool, Gym, Pickleball Court"
       ],
       "notes": "",
       "website": "https://www.horizonattallassee.com/",
@@ -4675,9 +4568,9 @@
           "minutes": 31.0
         },
         "bus": {
-          "raw": "41，无shuttle",
+          "raw": "41, no shuttle",
           "minutes": 41.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -4722,24 +4615,24 @@
         "prices": "1525 798 848",
         "drive": "4.9/12",
         "bike": "5.0/31",
-        "bus": "41，无shuttle"
+        "bus": "41, no shuttle"
       }
     },
     {
       "id": "westside-commons",
       "rowNumber": 61,
       "name": "Westside Commons",
-      "region": "雅典西北部",
+      "region": "Northwest Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.9,
-      "googleReviewSummary": "3.9分，近期无差评",
-      "fees": "停车费未写明，垃圾费15，责任险15",
-      "amenitiesText": "游泳池",
+      "googleReviewSummary": "3.9/5, no recent major complaints",
+      "fees": "parking fee not disclosed, trash fee 15, liability insurance15",
+      "amenitiesText": "Pool",
       "amenities": [
-        "游泳池"
+        "Pool"
       ],
-      "notes": "价格来自apartments.com",
+      "notes": "pricing from apartments.com",
       "website": "https://www.westsidecommonsapartments.com/",
       "commute": {
         "drive": {
@@ -4753,9 +4646,9 @@
           "minutes": 29.0
         },
         "bus": {
-          "raw": "35，无shuttle",
+          "raw": "35, no shuttle",
           "minutes": 35.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -4800,23 +4693,22 @@
         "prices": "1120 560 502",
         "drive": "5.1/13",
         "bike": "4.8/29",
-        "bus": "35，无shuttle"
+        "bus": "35, no shuttle"
       }
     },
     {
       "id": "130-cole",
       "rowNumber": 62,
       "name": "130 Cole",
-      "region": "雅典西北部",
+      "region": "Northwest Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.4,
-      "googleReviewSummary": "3.4分，管理问题，维护问题，收费问题",
-      "fees": "停车费未写明，无水费，无垃圾费",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "3.4/5, management issues, maintenance issues, fee issues",
+      "fees": "parking fee not disclosed, no water fee, no trash fee",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
       "notes": "",
       "website": "https://www.live130cole.com/",
@@ -4832,9 +4724,9 @@
           "minutes": 30.0
         },
         "bus": {
-          "raw": "38，无shuttle",
+          "raw": "38, no shuttle",
           "minutes": 38.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -4879,22 +4771,22 @@
         "prices": "999 1199 650",
         "drive": "5.4/14",
         "bike": "5.0/30",
-        "bus": "38，无shuttle"
+        "bus": "38, no shuttle"
       }
     },
     {
       "id": "one-athens-apartments",
       "rowNumber": 63,
       "name": "One Athens Apartments",
-      "region": "雅典西北部",
+      "region": "Northwest Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.2,
-      "googleReviewSummary": "4.2分，管理联系问题",
-      "fees": "停车费未写明，无水费，无垃圾费，无下水费",
-      "amenitiesText": "无",
+      "googleReviewSummary": "4.2/5, management communication issues",
+      "fees": "parking fee not disclosed, no water fee, no trash fee, no sewer fee",
+      "amenitiesText": "None",
       "amenities": [
-        "无"
+        "None"
       ],
       "notes": "",
       "website": "https://oneathensapartments.com/",
@@ -4910,9 +4802,9 @@
           "minutes": 28.0
         },
         "bus": {
-          "raw": "32，无shuttle",
+          "raw": "32, no shuttle",
           "minutes": 32.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -4966,24 +4858,24 @@
         "prices": "910 598 550 385",
         "drive": "5.1/13",
         "bike": "4.7/28",
-        "bus": "32，无shuttle"
+        "bus": "32, no shuttle"
       }
     },
     {
       "id": "the-mill-district",
       "rowNumber": 64,
       "name": "The Mill District",
-      "region": "雅典西北部",
+      "region": "Northwest Athens",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 0.0,
-      "googleReviewSummary": "无评分",
-      "fees": "停车费未写明，无垃圾费",
-      "amenitiesText": "无",
+      "googleReviewSummary": "No rating",
+      "fees": "parking fee not disclosed, no trash fee",
+      "amenitiesText": "None",
       "amenities": [
-        "无"
+        "None"
       ],
-      "notes": "价格来自collegetownproperties",
+      "notes": "pricing from Collegetown Properties",
       "website": "https://milldistrictathens.com/",
       "commute": {
         "drive": {
@@ -4997,9 +4889,9 @@
           "minutes": 19.0
         },
         "bus": {
-          "raw": "37，无shuttle",
+          "raw": "37, no shuttle",
           "minutes": 37.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -5035,25 +4927,22 @@
         "prices": "1590 1295",
         "drive": "3.3/10",
         "bike": "2.8/19",
-        "bus": "37，无shuttle"
+        "bus": "37, no shuttle"
       }
     },
     {
       "id": "twenty35-at-timothy-woods",
       "rowNumber": 65,
       "name": "Twenty35 at Timothy Woods",
-      "region": "雅典西部，Georgia Mall附近",
+      "region": "West Athens, near Georgia Mall",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.8,
-      "googleReviewSummary": "3.8分，近期无差评",
-      "fees": "停车费未写明，垃圾费25，害虫费5，Other费5",
-      "amenitiesText": "游泳池，健身房，网球场，匹克球场",
+      "googleReviewSummary": "3.8/5, no recent major complaints",
+      "fees": "parking fee not disclosed, trash fee 25, pest-control fee 5, other fee 5",
+      "amenitiesText": "Pool, Gym, Tennis Court, Pickleball Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "网球场",
-        "匹克球场"
+        "Pool, Gym, Tennis Court, Pickleball Court"
       ],
       "notes": "",
       "website": "https://www.livetwenty35.com/",
@@ -5069,9 +4958,9 @@
           "minutes": 41.0
         },
         "bus": {
-          "raw": "43，无shuttle",
+          "raw": "43, no shuttle",
           "minutes": 43.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -5116,26 +5005,24 @@
         "prices": "1378 766 591",
         "drive": "6.2/12",
         "bike": "7.0/41",
-        "bus": "43，无shuttle"
+        "bus": "43, no shuttle"
       }
     },
     {
       "id": "high-ridge-apartments",
       "rowNumber": 66,
       "name": "High Ridge Apartments",
-      "region": "雅典西部，Georgia Mall附近",
+      "region": "West Athens, near Georgia Mall",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 4.1,
-      "googleReviewSummary": "4.1分，收费问题",
-      "fees": "停车费未写明",
-      "amenitiesText": "游泳池，健身房，网球场",
+      "googleReviewSummary": "4.1/5, fee issues",
+      "fees": "parking fee not disclosed",
+      "amenitiesText": "Pool, Gym, Tennis Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "网球场"
+        "Pool, Gym, Tennis Court"
       ],
-      "notes": "价格来自apartments.com",
+      "notes": "pricing from apartments.com",
       "website": "https://www.highridgeapt.com/",
       "commute": {
         "drive": {
@@ -5149,9 +5036,9 @@
           "minutes": 34.0
         },
         "bus": {
-          "raw": "59，无shuttle",
+          "raw": "59, no shuttle",
           "minutes": 59.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -5196,26 +5083,24 @@
         "prices": "1330 726 595",
         "drive": "6.8/14",
         "bike": "5.7/34",
-        "bus": "59，无shuttle"
+        "bus": "59, no shuttle"
       }
     },
     {
       "id": "legacy-mill",
       "rowNumber": 67,
       "name": "Legacy Mill",
-      "region": "雅典西部，Georgia Mall附近",
+      "region": "West Athens, near Georgia Mall",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.3,
-      "googleReviewSummary": "3.3分，维护问题，管理问题",
-      "fees": "停车费未写明，害虫费4，垃圾费10",
-      "amenitiesText": "游泳池，健身房，网球场",
+      "googleReviewSummary": "3.3/5, maintenance issues, management issues",
+      "fees": "parking fee not disclosed, pest-control fee 4, trash fee 10",
+      "amenitiesText": "Pool, Gym, Tennis Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "网球场"
+        "Pool, Gym, Tennis Court"
       ],
-      "notes": "价格租约为13个月",
+      "notes": "quoted price is for a 13-month",
       "website": "https://www.legacymillapts.com/",
       "commute": {
         "drive": {
@@ -5229,9 +5114,9 @@
           "minutes": 48.0
         },
         "bus": {
-          "raw": "85，无shuttle",
+          "raw": "85, no shuttle",
           "minutes": 85.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -5276,22 +5161,22 @@
         "prices": "1110 692 558",
         "drive": "7.4/15",
         "bike": "8.3/48",
-        "bus": "85，无shuttle"
+        "bus": "85, no shuttle"
       }
     },
     {
       "id": "the-preserve-townhome-apartments",
       "rowNumber": 68,
       "name": "The Preserve Townhome Apartments",
-      "region": "雅典西部，Georgia Mall附近",
+      "region": "West Athens, near Georgia Mall",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 2.3,
-      "googleReviewSummary": "2.3分（16条评价），管理问题，收费问题",
-      "fees": "停车费30，垃圾费25，害虫费5，保险费14",
-      "amenitiesText": "游泳池",
+      "googleReviewSummary": "2.3/5 (16 reviews), management issues, fee issues",
+      "fees": "parking 30, trash fee 25, pest-control fee 5, insurance fee 14",
+      "amenitiesText": "Pool",
       "amenities": [
-        "游泳池"
+        "Pool"
       ],
       "notes": "",
       "website": "https://preserveathens.com/",
@@ -5307,9 +5192,9 @@
           "minutes": 37.0
         },
         "bus": {
-          "raw": "43，无shuttle",
+          "raw": "43, no shuttle",
           "minutes": 43.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -5336,23 +5221,22 @@
         "prices": "1025",
         "drive": "5.6/12",
         "bike": "6.4/37",
-        "bus": "43，无shuttle"
+        "bus": "43, no shuttle"
       }
     },
     {
       "id": "serene-at-woodlake",
       "rowNumber": 69,
       "name": "Serene at Woodlake",
-      "region": "雅典西部，Georgia Mall附近",
+      "region": "West Athens, near Georgia Mall",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.9,
-      "googleReviewSummary": "3.9分，近期无差评",
-      "fees": "停车费未写明，垃圾费15，害虫费5",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "3.9/5, no recent major complaints",
+      "fees": "parking fee not disclosed, trash fee 15, pest-control fee 5",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
       "notes": "",
       "website": "https://www.sereneatwoodlake.com/",
@@ -5368,9 +5252,9 @@
           "minutes": 43.0
         },
         "bus": {
-          "raw": "51，无shuttle",
+          "raw": "51, no shuttle",
           "minutes": 51.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -5415,23 +5299,22 @@
         "prices": "725 763 1375",
         "drive": "6.1/14",
         "bike": "7.1/43",
-        "bus": "51，无shuttle"
+        "bus": "51, no shuttle"
       }
     },
     {
       "id": "the-fairways-at-jennings-mill",
       "rowNumber": 70,
       "name": "The Fairways at Jennings Mill",
-      "region": "雅典西部，Georgia Mall附近",
+      "region": "West Athens, near Georgia Mall",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.9,
-      "googleReviewSummary": "3.9分，霉菌问题，维护问题",
-      "fees": "无停车费，垃圾费25，害虫费3.75",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "3.9/5, mold issues, maintenance issues",
+      "fees": "no parking fee, trash fee 25, pest-control fee 3.75",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
       "notes": "",
       "website": "https://www.thefairwaysatjenningsmill.com/",
@@ -5447,9 +5330,9 @@
           "minutes": 47.0
         },
         "bus": {
-          "raw": "63，无shuttle",
+          "raw": "63, no shuttle",
           "minutes": 63.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -5503,27 +5386,24 @@
         "prices": "1224 680 815 588",
         "drive": "7.1/14",
         "bike": "8.1/47",
-        "bus": "63，无shuttle"
+        "bus": "63, no shuttle"
       }
     },
     {
       "id": "westpark-club",
       "rowNumber": 71,
       "name": "Westpark Club",
-      "region": "雅典西部，Georgia Mall附近",
+      "region": "West Athens, near Georgia Mall",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.9,
-      "googleReviewSummary": "3.9分，管理问题，霉菌问题",
-      "fees": "停车费未写明",
-      "amenitiesText": "游泳池，健身房，网球场，匹克球场",
+      "googleReviewSummary": "3.9/5, management issues, mold issues",
+      "fees": "parking fee not disclosed",
+      "amenitiesText": "Pool, Gym, Tennis Court, Pickleball Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "网球场",
-        "匹克球场"
+        "Pool, Gym, Tennis Court, Pickleball Court"
       ],
-      "notes": "价格租约为15个月",
+      "notes": "quoted price is for a 15-month",
       "website": "https://www.westparkathens.com/",
       "commute": {
         "drive": {
@@ -5537,9 +5417,9 @@
           "minutes": 43.0
         },
         "bus": {
-          "raw": "68，无shuttle",
+          "raw": "68, no shuttle",
           "minutes": 68.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -5575,26 +5455,24 @@
         "prices": "1339 725",
         "drive": "6.6/13",
         "bike": "7.6/43",
-        "bus": "68，无shuttle"
+        "bus": "68, no shuttle"
       }
     },
     {
       "id": "lullwater-at-jennings-mill",
       "rowNumber": 72,
       "name": "Lullwater at Jennings Mill",
-      "region": "雅典西部，Georgia Mall附近",
+      "region": "West Athens, near Georgia Mall",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.8,
-      "googleReviewSummary": "3.8分，搬出费用问题",
-      "fees": "停车费175（车库），害虫费10，垃圾费20，包裹柜费3，管理服务费7，设施费25",
-      "amenitiesText": "游泳池，健身房，台球桌",
+      "googleReviewSummary": "3.8/5, move-out fee issues",
+      "fees": "parking 175(garage), pest-control fee 10, trash fee 20, package locker fee3, management service fee 7, amenity fee 25",
+      "amenitiesText": "Pool, Gym, Pool Table",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "台球桌"
+        "Pool, Gym, Pool Table"
       ],
-      "notes": "价格租约为14个月",
+      "notes": "quoted price is for a 14-month",
       "website": "https://www.lullwateratjenningsmill.com/",
       "commute": {
         "drive": {
@@ -5608,9 +5486,9 @@
           "minutes": 48.0
         },
         "bus": {
-          "raw": "87，无shuttle",
+          "raw": "87, no shuttle",
           "minutes": 87.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -5655,23 +5533,22 @@
         "prices": "1504 835 617",
         "drive": "7.5/14",
         "bike": "8.4/48",
-        "bus": "87，无shuttle"
+        "bus": "87, no shuttle"
       }
     },
     {
       "id": "grand-preserve",
       "rowNumber": 73,
       "name": "Grand Preserve",
-      "region": "雅典西部，Georgia Mall附近",
+      "region": "West Athens, near Georgia Mall",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.9,
-      "googleReviewSummary": "3.9分（16条评价），近期无差评",
-      "fees": "停车费150（车库），垃圾/社区/害虫费39.05",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "3.9/5 (16 reviews), no recent major complaints",
+      "fees": "parking 150(garage), trash/community/pest-control fee 39.05",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
       "notes": "",
       "website": "https://www.grandpreserve.com/",
@@ -5687,9 +5564,9 @@
           "minutes": 40.0
         },
         "bus": {
-          "raw": "45，无shuttle",
+          "raw": "45, no shuttle",
           "minutes": 45.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -5734,26 +5611,24 @@
         "prices": "1605 885 657",
         "drive": "5.6/12",
         "bike": "6.8/40",
-        "bus": "45，无shuttle"
+        "bus": "45, no shuttle"
       }
     },
     {
       "id": "arbor-ridge-apartments",
       "rowNumber": 74,
       "name": "Arbor Ridge Apartments",
-      "region": "雅典西部，Georgia Mall附近",
+      "region": "West Athens, near Georgia Mall",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.4,
-      "googleReviewSummary": "3.4分，安保问题，管理问题，维护问题",
-      "fees": "停车费未写明，设施费10，害虫费5，垃圾费15，楼宇保险费19，utility billing费5",
-      "amenitiesText": "游泳池，健身房，网球场",
+      "googleReviewSummary": "3.4/5, security issues, management issues, maintenance issues",
+      "fees": "parking fee not disclosed, amenity fee 10, pest-control fee 5, trash fee 15, building insurance fee 19, utility billing fee5",
+      "amenitiesText": "Pool, Gym, Tennis Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "网球场"
+        "Pool, Gym, Tennis Court"
       ],
-      "notes": "价格租约为14个月",
+      "notes": "quoted price is for a 14-month",
       "website": "https://www.arborridgeapartmenthomes.com/",
       "commute": {
         "drive": {
@@ -5767,9 +5642,9 @@
           "minutes": 32.0
         },
         "bus": {
-          "raw": "36，无shuttle",
+          "raw": "36, no shuttle",
           "minutes": 36.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -5814,26 +5689,22 @@
         "prices": "1146 685 509",
         "drive": "4.7/11",
         "bike": "4.6/32",
-        "bus": "36，无shuttle"
+        "bus": "36, no shuttle"
       }
     },
     {
       "id": "the-connection-at-athens",
       "rowNumber": 75,
       "name": "The Connection at Athens",
-      "region": "雅典西部，Georgia Mall附近",
+      "region": "West Athens, near Georgia Mall",
       "location": "Athens, GA",
-      "furnished": "含",
+      "furnished": "Furnished",
       "googleRating": 3.7,
-      "googleReviewSummary": "3.7分，班车可靠性问题",
-      "fees": "无停车费，无水费，无垃圾费，无害虫费，无网络费",
-      "amenitiesText": "游泳池，健身房，台球桌，乒乓球桌，篮球场",
+      "googleReviewSummary": "3.7/5, shuttle reliability issues",
+      "fees": "no parking fee, no water fee, no trash fee, no pest-control fee, no internet fee",
+      "amenitiesText": "Pool, Gym, Pool Table, Ping Pong Table, Basketball Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "台球桌",
-        "乒乓球桌",
-        "篮球场"
+        "Pool, Gym, Pool Table, Ping Pong Table, Basketball Court"
       ],
       "notes": "",
       "website": "https://www.connectionatathensapts.com/",
@@ -5849,9 +5720,9 @@
           "minutes": 38.0
         },
         "bus": {
-          "raw": "39，无shuttle",
+          "raw": "39, no shuttle",
           "minutes": 39.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -5896,26 +5767,22 @@
         "prices": "799 749 699",
         "drive": "5.5/12",
         "bike": "6.6/38",
-        "bus": "39，无shuttle"
+        "bus": "39, no shuttle"
       }
     },
     {
       "id": "campus-crossings-at-abbey-west",
       "rowNumber": 76,
       "name": "Campus Crossings at Abbey West",
-      "region": "雅典西部，Georgia Mall附近",
+      "region": "West Athens, near Georgia Mall",
       "location": "Athens, GA",
-      "furnished": "含/不含",
+      "furnished": "Mixed Furnished / Unfurnished",
       "googleRating": 3.1,
-      "googleReviewSummary": "3.1分，霉菌问题，维护问题，管理问题",
-      "fees": "停车费25，无垃圾费，无害虫费，Utilities40",
-      "amenitiesText": "游泳池，健身房，网球场，匹克球场，篮球场",
+      "googleReviewSummary": "3.1/5, mold issues, maintenance issues, management issues",
+      "fees": "parking 25, no trash fee, no pest-control fee, utilities40",
+      "amenitiesText": "Pool, Gym, Tennis Court, Pickleball Court, Basketball Court",
       "amenities": [
-        "游泳池",
-        "健身房",
-        "网球场",
-        "匹克球场",
-        "篮球场"
+        "Pool, Gym, Tennis Court, Pickleball Court, Basketball Court"
       ],
       "notes": "",
       "website": "https://www.liveabbeywest.com/",
@@ -5931,9 +5798,9 @@
           "minutes": 35.0
         },
         "bus": {
-          "raw": "44，无shuttle",
+          "raw": "44, no shuttle",
           "minutes": 44.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -5960,25 +5827,24 @@
         "prices": "675",
         "drive": "5.1/10",
         "bike": "5.0/35",
-        "bus": "44，无shuttle"
+        "bus": "44, no shuttle"
       }
     },
     {
       "id": "the-bluffs-at-epps-bridge",
       "rowNumber": 77,
       "name": "The Bluffs at Epps Bridge",
-      "region": "雅典西部，Georgia Mall附近",
+      "region": "West Athens, near Georgia Mall",
       "location": "Athens, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.5,
-      "googleReviewSummary": "3.5分，近期无差评",
-      "fees": "停车费未写明，无水费，垃圾费12",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "3.5/5, no recent major complaints",
+      "fees": "parking fee not disclosed, no water fee, trash fee 12",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
-      "notes": "13个月起租，且暂不可租fall",
+      "notes": "minimum 13-month lease, and currently not available for fall",
       "website": "https://www.thebluffsateppsbridge.com/",
       "commute": {
         "drive": {
@@ -5992,9 +5858,9 @@
           "minutes": 32.0
         },
         "bus": {
-          "raw": "36，无shuttle",
+          "raw": "36, no shuttle",
           "minutes": 36.0,
-          "hasShuttle": false
+          "hasShuttle": true
         }
       },
       "units": [
@@ -6039,25 +5905,24 @@
         "prices": "1215 695 507",
         "drive": "4.6/10",
         "bike": "4.6/32",
-        "bus": "36，无shuttle"
+        "bus": "36, no shuttle"
       }
     },
     {
       "id": "wisteria-ridge-1062-wisteria-ridge-watkinsville-ga-30677",
       "rowNumber": 78,
       "name": "Wisteria Ridge (1062 Wisteria Ridge, Watkinsville, GA 30677)",
-      "region": "周边城市",
+      "region": "Nearby Cities",
       "location": "Watkinsville, GA",
-      "furnished": "不含",
+      "furnished": "Unfurnished",
       "googleRating": 3.7,
-      "googleReviewSummary": "3.7分，近期无差评",
-      "fees": "停车费未写明，垃圾费19",
-      "amenitiesText": "游泳池，健身房",
+      "googleReviewSummary": "3.7/5, no recent major complaints",
+      "fees": "parking fee not disclosed, trash fee 19",
+      "amenitiesText": "Pool, Gym",
       "amenities": [
-        "游泳池",
-        "健身房"
+        "Pool, Gym"
       ],
-      "notes": "价格租约为17个月",
+      "notes": "quoted price is for a 17-month",
       "website": "https://www.wisteriaridgeapartments.com/",
       "commute": {
         "drive": {

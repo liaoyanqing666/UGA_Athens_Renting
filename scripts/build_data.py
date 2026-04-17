@@ -12,11 +12,9 @@ from openpyxl import load_workbook
 
 
 ROOT = Path(__file__).resolve().parent.parent
-SOURCE_GLOB = "*.xlsx"
 OUTPUT_DIR = ROOT / "data"
-OUTPUT_FILE = OUTPUT_DIR / "apartments.json"
 
-HEADERS = [
+ZH_HEADERS = [
     "名称",
     "地理位置",
     "位置",
@@ -33,6 +31,74 @@ HEADERS = [
     "社区设施(运动)",
     "注意事项/备注",
     "网址",
+]
+
+EN_HEADERS = [
+    "Name",
+    "Region",
+    "Location",
+    "Layouts",
+    "Size",
+    "Min Price Per Person",
+    "Furnishing",
+    "Drive to Boyd (mile/min)",
+    "Bike (mile/min)",
+    "Bus/shuttle",
+    "Google Rating",
+    "Google Reviews",
+    "Fees (if disclosed, excluding application fee)",
+    "Community Amenities (Sports)",
+    "Notes",
+    "Website",
+]
+
+DATASETS = [
+    {
+        "source": ROOT / "26fall renting.xlsx",
+        "output": OUTPUT_DIR / "apartments.json",
+        "headers": ZH_HEADERS,
+        "fields": {
+            "name": "名称",
+            "region": "地理位置",
+            "location": "位置",
+            "layouts": "房型",
+            "sizes": "大小",
+            "prices": "人均价格(最低)",
+            "furnished": "家具",
+            "drive": "距离Boyd开车(mile/min)",
+            "bike": "骑车(mile/min)",
+            "bus": "公交/shuttle bus",
+            "rating": "谷歌评分",
+            "reviews": "谷歌评价",
+            "fees": "各种费用(如有写明)(不含申请费)",
+            "amenities": "社区设施(运动)",
+            "notes": "注意事项/备注",
+            "website": "网址",
+        },
+    },
+    {
+        "source": ROOT / "26fall renting EN.xlsx",
+        "output": OUTPUT_DIR / "apartments_EN.json",
+        "headers": EN_HEADERS,
+        "fields": {
+            "name": "Name",
+            "region": "Region",
+            "location": "Location",
+            "layouts": "Layouts",
+            "sizes": "Size",
+            "prices": "Min Price Per Person",
+            "furnished": "Furnishing",
+            "drive": "Drive to Boyd (mile/min)",
+            "bike": "Bike (mile/min)",
+            "bus": "Bus/shuttle",
+            "rating": "Google Rating",
+            "reviews": "Google Reviews",
+            "fees": "Fees (if disclosed, excluding application fee)",
+            "amenities": "Community Amenities (Sports)",
+            "notes": "Notes",
+            "website": "Website",
+        },
+    },
 ]
 
 
@@ -136,17 +202,20 @@ def build_units(layouts_raw: Any, sizes_raw: Any, prices_raw: Any) -> list[UnitO
     return units
 
 
-def main() -> None:
-    source_candidates = sorted(ROOT.glob(SOURCE_GLOB))
-    if not source_candidates:
-        raise SystemExit("No source Excel file found.")
+def build_dataset(config: dict[str, Any]) -> None:
+    source_file = config["source"]
+    output_file = config["output"]
+    headers = config["headers"]
+    fields = config["fields"]
 
-    source_file = source_candidates[0]
+    if not source_file.exists():
+        raise SystemExit(f"Missing source Excel file: {source_file.name}")
+
     workbook = load_workbook(source_file, data_only=True)
     worksheet = workbook[workbook.sheetnames[0]]
     rows = [list(row) for row in worksheet.iter_rows(values_only=True)]
 
-    notes = dict(zip(HEADERS, rows[1]))
+    notes = dict(zip(headers, rows[1]))
     apartments = []
     seen_slugs: dict[str, int] = {}
 
@@ -154,34 +223,34 @@ def main() -> None:
         if not any(value is not None for value in row):
             continue
 
-        record = dict(zip(HEADERS, row[: len(HEADERS)]))
-        name = normalize_space(record["名称"])
+        record = dict(zip(headers, row[: len(headers)]))
+        name = normalize_space(record[fields["name"]])
         base_slug = slugify(name)
         seen_slugs[base_slug] = seen_slugs.get(base_slug, 0) + 1
         slug = base_slug if seen_slugs[base_slug] == 1 else f"{base_slug}-{seen_slugs[base_slug]}"
 
-        units = build_units(record["房型"], record["大小"], record["人均价格(最低)"])
+        units = build_units(record[fields["layouts"]], record[fields["sizes"]], record[fields["prices"]])
         prices = [unit.min_price_per_person for unit in units if unit.min_price_per_person is not None]
         sizes = [unit.size_sqft for unit in units if unit.size_sqft is not None]
-        drive = parse_commute_pair(record["距离Boyd开车(mile/min)"])
-        bike = parse_commute_pair(record["骑车(mile/min)"])
-        bus = parse_bus(record["公交/shuttle bus"])
+        drive = parse_commute_pair(record[fields["drive"]])
+        bike = parse_commute_pair(record[fields["bike"]])
+        bus = parse_bus(record[fields["bus"]])
 
         apartments.append(
             {
                 "id": slug,
                 "rowNumber": row_index,
                 "name": name,
-                "region": normalize_space(record["地理位置"]),
-                "location": normalize_space(record["位置"]),
-                "furnished": normalize_space(record["家具"]),
-                "googleRating": parse_number(normalize_space(record["谷歌评分"])),
-                "googleReviewSummary": normalize_space(record["谷歌评价"]),
-                "fees": normalize_space(record["各种费用(如有写明)(不含申请费)"]),
-                "amenitiesText": normalize_space(record["社区设施(运动)"]),
-                "amenities": parse_amenities(record["社区设施(运动)"]),
-                "notes": normalize_space(record["注意事项/备注"]),
-                "website": normalize_space(record["网址"]),
+                "region": normalize_space(record[fields["region"]]),
+                "location": normalize_space(record[fields["location"]]),
+                "furnished": normalize_space(record[fields["furnished"]]),
+                "googleRating": parse_number(normalize_space(record[fields["rating"]])),
+                "googleReviewSummary": normalize_space(record[fields["reviews"]]),
+                "fees": normalize_space(record[fields["fees"]]),
+                "amenitiesText": normalize_space(record[fields["amenities"]]),
+                "amenities": parse_amenities(record[fields["amenities"]]),
+                "notes": normalize_space(record[fields["notes"]]),
+                "website": normalize_space(record[fields["website"]]),
                 "commute": {
                     "drive": drive,
                     "bike": bike,
@@ -196,12 +265,12 @@ def main() -> None:
                     "maxSizeSqft": max(sizes) if sizes else None,
                 },
                 "raw": {
-                    "layouts": normalize_space(record["房型"]),
-                    "sizes": normalize_space(record["大小"]),
-                    "prices": normalize_space(record["人均价格(最低)"]),
-                    "drive": normalize_space(record["距离Boyd开车(mile/min)"]),
-                    "bike": normalize_space(record["骑车(mile/min)"]),
-                    "bus": normalize_space(record["公交/shuttle bus"]),
+                    "layouts": normalize_space(record[fields["layouts"]]),
+                    "sizes": normalize_space(record[fields["sizes"]]),
+                    "prices": normalize_space(record[fields["prices"]]),
+                    "drive": normalize_space(record[fields["drive"]]),
+                    "bike": normalize_space(record[fields["bike"]]),
+                    "bus": normalize_space(record[fields["bus"]]),
                 },
             }
         )
@@ -210,15 +279,20 @@ def main() -> None:
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "sourceFile": source_file.name,
         "sheetName": worksheet.title,
-        "columns": HEADERS,
+        "columns": headers,
         "columnNotes": notes,
         "recordCount": len(apartments),
         "apartments": apartments,
     }
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    OUTPUT_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Wrote {OUTPUT_FILE}")
+    output_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Wrote {output_file}")
+
+
+def main() -> None:
+    for dataset in DATASETS:
+        build_dataset(dataset)
 
 
 if __name__ == "__main__":
